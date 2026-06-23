@@ -7,8 +7,8 @@
     "intervention_type": "DRUG or BIOLOGICAL",
     "condition": "disease/disorder (not healthy/education)",
     "has_eligibility_criteria": true,
-    "phase": "not NA, not EARLY_PHASE1",
-    "criteria_count": "7 <= total <= 35"
+      "phase": "not NA, not EARLY_PHASE1",
+      "quality_screening": "manual review for criteria completeness and metadata clarity"
   },
   "phase_distribution": {
     "PHASE1": 33,
