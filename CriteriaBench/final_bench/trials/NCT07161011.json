@@ -1,0 +1,58 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07161011",
+      "officialTitle": "Phase 2b, Proof-of-Concept, Single-center, Double-Masked, Randomized Study Comparing the Safety, Tolerability, and Efficacy of Three Different Ophthalmic Eyelid Wipe Dosing Techniques Using IVW-1001 in Subjects With Dry Eye Disease"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-03",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-09-08"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-11-03"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Dry Eye"
+      ],
+      "keywords": [
+        "Dry Eye"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "IVW-1001 Ophthalmic Eyelid Wipe 0.2%",
+          "description": "Low dose"
+        },
+        {
+          "type": "DRUG",
+          "name": "IVW-1001 Ophthalmic Eyelid Wipe 0.4%",
+          "description": "High dose"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Unanesthetized Schirmer test",
+          "description": "Tear production",
+          "timeFrame": "7 days"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion:\n\nSelf-reported diagnosis of DED in one or both eyes\n\n* BCVA +0.70 logarithm of minimum angle of refraction (Snellen equivalent 20/100) or better in each eye at the Screening Visit\n* For women of childbearing potential, confirmed negative pregnancy test at the Screening Visit, not nursing a child, and willing to comply with one of the acceptable methods of birth control described in the protocol\n* History (by subject recollection) of artificial tear use within 30 days prior to the Screening Visit\n* Unanesthetized Schirmer's test score 5-19 mm inclusive in at least 1 eye (same eye) at the Screening Visit and the Baseline Visit\n\nExclusion Criteria:\n\n* Corneal fluorescein staining score of 4 in either eye in any zone using the National Eye Institute grading system at either the Screening Visit or the Baseline Visit\n* IOP ≥23 mmHg in either eye at either the Screening Visit or the Baseline Visit\n* History of glaucoma or ocular hypertension in either eye requiring past or current medical or surgical intervention"
+    }
+  }
+}

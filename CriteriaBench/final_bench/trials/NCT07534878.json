@@ -1,0 +1,51 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07534878",
+      "officialTitle": "A Proof-of-concept Clinical Study to Evaluate the Impact of a Combination Nutraceutical Kit on Muscle Function, Cognitive Performance, and Immune Resilience in Older Adults."
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-04",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-12-24"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-01-31"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Age-related Functional Decline",
+        "Mild Cognitive Impairment"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Powder containing whey isolate and herbal extracts (30g sachet)",
+          "description": "Powder containing whey isolate and herbal extracts (30g sachet) Mix with water and consume twice daily before meals."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "6-minute walk test",
+          "description": "Distance walked in meters during the 6-minute walk test (6MWT) will be assessed as a measure of functional exercise capacity.",
+          "timeFrame": "pre-intervention and Week 8"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Generally healthy participants with a life expectancy ≥ 5 years\n* Male and female participants aged 50 to 80 years\n* Body Mass Index (BMI) between 25 to 35 kg/m²\n* Health not severely compromised (no life-threatening illness or disability)\n\nParticipants with:\n\n* Intrinsic Capacity score showing mild to moderate decline\n* Short Physical Performance Battery (SPPB) score between 9 to 11\n* Montreal Cognitive Assessment (MoCA) score \\> 20 and ≤ 25\n* Participants with or without comorbidities; if present, must be on a stable treatment regimen (same drug and dose) for at least 12 weeks prior to screening\n* Able and willing to:\n* Provide written informed consent\n* Comply with study protocol requirements\n* Read and write in English\n\nExclusion Criteria:\n\n* Severe or uncontrolled chronic diseases (e.g., severe osteoarthritis, advanced cardiovascular disease, kidney failure, uncontrolled diabetes, severe COPD, terminal cancer)\n* Physical disability requiring a walker or wheelchair\n* Diagnosed dementia or cognitive impairment preventing protocol compliance\n* Acute infection or illness within 3 months prior to enrollment\n* Unstable medical conditions (e.g., recent myocardial infarction, unstable angina, uncontrolled hypertension)\n* Major surgery within the past 6 months or planned during the study\n* Severe psychiatric disorders unless well controlled\n* Substance abuse within the past 6 months\n* Participation in another clinical trial within the last 6 months\n* Known allergy to any component of the nutraceutical kit\n* Sedentary individuals unable or not advised to undergo resistance training as per protocol\n* Clinically relevant macro- or micronutrient deficiency (as per investigator discretion)\n* Pregnant or lactating women\n* Women of childbearing potential not using adequate contraception or with a positive urine pregnancy test\n* Current use of herbal products, nutraceuticals, Ayurvedic formulations, dietary supplements, or vitamin/mineral supplements and unwilling to discontinue during the study\n* Any other condition or abnormal laboratory finding that, in the investigator's opinion, may interfere with study results or participant safety"
+    }
+  }
+}

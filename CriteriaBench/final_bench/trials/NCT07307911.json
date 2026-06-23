@@ -1,0 +1,70 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07307911",
+      "officialTitle": "Neuroprotective Effects of Coenzyme Q10 in Paclitaxel-Induced Peripheral Neuropathy"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-04",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-11-10"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-02-10"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DIETARY_SUPPLEMENT",
+          "name": "Coenzyme Q 10",
+          "description": "Coenzyme Q10 200 mg orally twice daily for twelve weeks, for CoQ 10 grpup only"
+        },
+        {
+          "type": "DRUG",
+          "name": "Paclitaxel",
+          "description": ": Paclitaxel 80 mg/m² administered weekly for twelve weeks to Control and CoQ groups"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change from Baseline in Serum Nerve Growth Factor (NGF) Levels",
+          "description": "Serum NGF levels will be quantified using a double-antibody sandwich ELISA kit to assess neurotrophic status.Unit of Measure: picograms per milliliter (pg/mL).Higher levels are generally associated with nerve repair/regeneration",
+          "timeFrame": "Baseline (1 hour before first cycle) and End of Treatment (1 hour after final cycle, approximately Week 12)."
+        },
+        {
+          "measure": "Change from Baseline in Serum Neurofilament Light Chain (NFL) Levels",
+          "description": "Serum NFL levels will be measured via ELISA as a biomarker of axonal injury and neurodegeneration.Unit of Measure: picograms per milliliter (pg/mL).Higher levels indicate greater degrees of neuronal damage",
+          "timeFrame": "Baseline (1 hour before first cycle) and End of Treatment (1 hour after final cycle, approximately Week 12)."
+        },
+        {
+          "measure": "Change from Baseline in Serum Osteopontin (OPN) Levels",
+          "description": "Serum OPN levels will be quantified using a double-antibody sandwich ELISA kit.Unit of Measure: nanograms per milliliter (ng/mL).low OPN is linked to worse neuropathy.",
+          "timeFrame": "Baseline (1 hour before first cycle) and End of Treatment (1 hour after final cycle, approximately Week 12)."
+        },
+        {
+          "measure": "Change from Baseline in Serum Malondialdehyde (MDA) Levels",
+          "description": "MDA will be measured as a marker of lipid peroxidation and oxidative stress using a colorimetric assay kit.Unit of Measure: nanomoles per milliliter (nmol/mL).Higher levels indicate increased oxidative stress",
+          "timeFrame": "Baseline (1 hour before first cycle) and End of Treatment (1 hour after final cycle, approximately Week 12)."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Women aged 18 years or older with newly diagnosed breast cancer.\n* Chemotherapy-naïve (have not received prior chemotherapy).\n* Eastern Cooperative Oncology Group (ECOG) performance status of 0-2.\n\nExclusion Criteria:\n\n* Pregnancy or breastfeeding.\n* Severe cardiovascular disease (left ventricular ejection fraction \\<55%).\n* Hereditary muscle disorders.\n* Diabetes mellitus or history of alcoholism.\n* Thyroid dysfunction.\n* History of allergy to Coenzyme Q10 or related compounds.\n* Advanced liver disease (liver enzyme elevation \\>3× upper limit of normal or cirrhosis).\n* Chronic kidney disease (CKD), defined as estimated glomerular filtration rate \\<60 mL/min/m²."
+    }
+  }
+}

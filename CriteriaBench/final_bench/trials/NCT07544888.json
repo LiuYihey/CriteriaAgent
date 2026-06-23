@@ -1,0 +1,51 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07544888",
+      "officialTitle": "Comparison of Effectiveness of Combination of Valsartan and Hydrochlorothiazide Versus Valsartan Alone in the Treatment of Hypertensive Heart Disease"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-04",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-11-01"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-03-01"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Diseases",
+        "Hypertension"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Valsartan + Hydrochlorothiazide",
+          "description": "Group A (Experimental Arm - Valsartan + Hydrochlorothiazide):\n\nParticipants receive Valsartan 80 mg plus Hydrochlorothiazide 25 mg orally once daily for 8 weeks. Hydrochlorothiazide starts at 6.5 mg/day and may be titrated to 13 mg/day based on response. Effectiveness is assessed via blood pressure reduction, ECG evidence of left ventricular hypertrophy, and symptom improvement. Adverse events such as headache, vertigo, nausea, dry cough, and edema are monitored and managed according to hospital protocol. This arm evaluates whether combination therapy provides superior outcomes compared to monotherapy.\n\nGroup B (Active Comparator Arm - Valsartan Alone):\n\nParticipants receive Valsartan 80 mg orally once daily for 8 weeks. Effectiveness and safety are monitored using the same criteria as Group A. This arm serves as the standard-of-care comparator to assess the added benefit of combination therapy."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Effectiveness",
+          "description": "It will be labelled as per Appendix-I as markedly effective, effective and ineffective. Both markedly effective and effective will be labelled as effective.",
+          "timeFrame": "At 8 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients of both the genders diagnosed with hypertensive heart disease as per operational definition.\n* Age18-70 years\n\nExclusion Criteria:\n\n* Patients with drug allergies or contraindications to the medications used in this study.\n* Patients attending emergency unit with hypertension, those with poor compatibility and compliance.\n* Patients with other endocrine diseases, those with coagulation dysfunction.\n* Patients with mental disorders, and patients whose health conditions will be complicated by infectious or immune diseases."
+    }
+  }
+}

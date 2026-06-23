@@ -1,0 +1,63 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07229404",
+      "officialTitle": "A Combined Single- and Multiple-dose, Open-label, Randomized, 6 x 3 Crossover Study to Investigate the Relative Bioavailability, Safety and Tolerability of Elinzanetant (BAY 3427080) in Healthy Female Participants"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-01",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-11-05"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-01-14"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Vasomotor Symptoms"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Treatment A",
+          "description": "Elinzanetant (BAY 3427080), dosage 1"
+        },
+        {
+          "type": "DRUG",
+          "name": "Treatment B",
+          "description": "Elinzanetant (BAY 3427080), dosage 2"
+        },
+        {
+          "type": "DRUG",
+          "name": "Treatment C",
+          "description": "Elinzanetant (BAY 3427080), dosage 3"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "AUC(0-24)md after multiple oral dosing 3 h after light dinner in the evening (treatments A, B, C)",
+          "timeFrame": "From Day 0 to Day 8"
+        },
+        {
+          "measure": "Cmax,md and Cmin,,md after multiple oral dosing 3 h after light dinner in the evening (treatments A, B, C)",
+          "timeFrame": "From Day 0 to Day 8"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria\n\n* Female participant between 18 to 65 years of age (inclusive), at the time of signing the informed consent form (ICF).\n* Participant is overtly healthy as determined by the investigator (including assessment of medical history, physical examination, blood pressure (BP), pulse rate, 12-lead electrocardiogram (ECG), body temperature, and clinical laboratory).\n* Body weight of at least 50 kg and body mass index (BMI) above or equal to 18.0 and below or equal to 32.0 kg/m² at screening.\n* Signed informed consent as described in Section 10.1.3 which includes compliance with the requirements and restrictions listed in the informed consent form (ICF) and in this protocol.\n\nExclusion Criteria\n\n* Diseases for which it can be assumed that the absorption, distribution, metabolism, elimination, and effects of the study intervention(s) will not be normal.\n* Known or suspected allergy or hypersensitivity to any study intervention (active substances or excipients of the preparations) to be used in the study - including e.g. non-investigational medicinal products, challenge agents, or rescue medication.\n* Febrile illness within 2 weeks before the start of the first study intervention.\n* History of clinically relevant seizures.\n* Alanine aminotransferase (ALT), aspartate aminotransferase (AST), alkaline phosphatase (ALP), Bilirubin, or gamma-glutamyl transferase (GGT) \\> 1.2 x upper limit of normal (ULN).\n* Previous (within 30 days before first administration of study intervention) or concomitant participation in another clinical study with study intervention(s)."
+    }
+  }
+}

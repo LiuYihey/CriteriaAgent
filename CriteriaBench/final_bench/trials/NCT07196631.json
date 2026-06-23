@@ -1,0 +1,62 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07196631",
+      "officialTitle": "A Comparison of Liposomal Bupivacaine Versus Ropivacaine for Interscalene Brachial Plexus Block in Alleviating Rebound Pain Following Shoulder Arthroscopy"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-09",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-09-20"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-01-01"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Rebound Pain",
+        "Liposomal Bupivacaine"
+      ],
+      "keywords": [
+        "rebound pain",
+        "Shoulder Arthroscopy",
+        "liposomal bupivacaine",
+        "ropivacaine"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Liposomal Bupivicaine",
+          "description": "patients randomized to the intervention arm received 133mg of liposomal bupivacaine"
+        },
+        {
+          "type": "DRUG",
+          "name": "ropivacaine",
+          "description": "those in the control group received 80mg of ropivacaine"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "incidence of rebound pain in two groups.",
+          "description": "Rebound pain (RP) was defined as the abrupt transition from well-controlled pain (Numerical Rating Scale, NRS ≤ 3) during the effective period of the block to severe pain (NRS ≥ 7) within 24 hours of block performance",
+          "timeFrame": "up to 24 hours"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* adults between 18 and 65 year-old\n* American Society of Anesthesiologist (ASA) grades 1 to 3 physical classification status\n* patients unilateral primary arthroscopic shoulder surgery lasting 1to 4 hours\n\nExclusion Criteria:\n\n* had an allergy or intolerance to amide-type local anesthetics\n* objective evidence of nerve damage in the affected upper limb\n* local infection\n* impaired renal function (defined as effective glomerular filtration rate \\< 30ml/min/1.73m2)\n* coagulation disorders\n* respiratory compromise（requires long term oxygen）\n* had participated in another research trial involving an investigational medicinal product in the 6 months before randomization"
+    }
+  }
+}

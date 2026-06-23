@@ -1,0 +1,84 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07225478",
+      "officialTitle": "Clinical Study to Evaluate the Tooth Whitening Efficacy of a New NextGen In-office Whitening System"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-01",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-10-31"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-12-21"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Health Adult Subjects"
+      ],
+      "keywords": [
+        "In-Office Whitening",
+        "Dental Whitening"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Beaming White",
+          "description": "25%HP gel for in office use only"
+        },
+        {
+          "type": "COMBINATION_PRODUCT",
+          "name": "Philips Zoom Professional Whitening Treatment",
+          "description": "Light-Activated Whitening - Contains 25% HP gel for in-office use only"
+        },
+        {
+          "type": "COMBINATION_PRODUCT",
+          "name": "Opalescence Boost PF",
+          "description": "Contains 40%HP whitening gel for in-office use only"
+        },
+        {
+          "type": "DRUG",
+          "name": "Fluoride Toothpaste",
+          "description": "Colgate Cavity Protection Toothpaste"
+        },
+        {
+          "type": "DEVICE",
+          "name": "Soft Manual Toothbrush",
+          "description": "Colgate Adult Extra Clean soft-bristle toothbrush"
+        },
+        {
+          "type": "DEVICE",
+          "name": "CP LED",
+          "description": "CP LED 20mA"
+        },
+        {
+          "type": "DEVICE",
+          "name": "Gingival Barrier",
+          "description": "Gingival Barrier"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Whitening Improvements",
+          "description": "The primary outcome variable of this study will be tooth shade whitening improvements via the Vita Extended BleachedGuide 3D-Master (29 tabs).",
+          "timeFrame": "Immediately after whitening and 1 week later."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Signed Informed Consent Form\n* Male and female subjects aged 18-70 years, inclusive;\n* Good general health and good oral health based on the opinion of the study investigator;\n* All maxillary natural anterior teeth (teeth #6 through #11) must be present;\n* Availability for the duration of the study;\n* Minimum average Vita Extended Bleachedguide 3D-Master shade score of 17 ≥ or darker.\n\nExclusion Criteria:\n\n* Presence of orthodontic appliances and/or any anterior tooth with a prosthetic crown, veneer, or deemed non-vital;\n* Obvious signs of periodontal disease, rampant caries, or any condition that the dental examiner considers exclusionary from the study.\n* Five or more carious lesions requiring immediate care.\n* Concurrent participation in another oral clinical study.\n* Self-reported pregnant and/or lactating women.\n* History of allergies or sensitivity to tooth whitening products, hydrogen peroxide, personal care consumer products, or their ingredients;\n* Restorations on the teeth to be scored which may interfere with scoring procedures.\n* Have used professional whitening products within one (1) year and/or had dental prophylaxis (professional dental cleaning) within thirty (30) days prior to the start of the study."
+    }
+  }
+}

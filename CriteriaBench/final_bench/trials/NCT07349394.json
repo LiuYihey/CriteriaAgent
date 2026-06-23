@@ -1,0 +1,58 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07349394",
+      "officialTitle": "A Phase 1, Open-label, Drug-Drug Interaction Study to Evaluate the Effect of Multiple Doses of Vanzacaftor/Tezacaftor/Deutivacaftor on the Pharmacokinetics of Rosuvastatin in Healthy Subjects"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-03",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2026-01-12"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-02-28"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cystic Fibrosis"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "VNZ/TEZ/D-IVA",
+          "description": "Fixed-dose combination (FDC) Tablet for oral administration."
+        },
+        {
+          "type": "DRUG",
+          "name": "Rosuvastatin",
+          "description": "Tablet for oral administration."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Maximum Observed Concentration (Cmax) of Rosuvastatin in the Absence and Presence of VNZ/TEZ/D-IVA",
+          "timeFrame": "Day 1 up to Day 23"
+        },
+        {
+          "measure": "Area Under the Concentration Time-curve (AUC) of Rosuvastatin in the Absence and Presence of VNZ/TEZ/D-IVA",
+          "timeFrame": "Day 1 up to Day 23"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Key Inclusion Criteria:\n\n* Body mass index (BMI) of 18.0 to 32.0 kilogram per meter square (Kg/m\\^2), both inclusive\n* A total body weight greater than (\\>)50 kg\n\nKey Exclusion Criteria:\n\n* History of febrile illness within 5 days before the first dose of study drug\n* Any condition possibly affecting drug absorption\n* Female participants who are pregnant, nursing, or planning to become pregnant during the study or within 90 days after the last dose of the study drug\n* Male participants with a female partner who is pregnant, nursing, or planning to become pregnant during the study or within 90 days after the last dose of the study drug\n\nOther protocol defined Inclusion/Exclusion criteria may apply."
+    }
+  }
+}

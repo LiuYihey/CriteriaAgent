@@ -1,0 +1,62 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07229560",
+      "officialTitle": "The Effect of Itraconazole on the Pharmacokinetics of Orally Administered HRS-8080 in Healthy Participants: A Single-Center, Single-Arm, Open-Label, Fixed-Sequence Study"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-01",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-11-26"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-12-31"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "HRS-8080 Tablet",
+          "description": "HRS-8080 tablet, specified dose on specified days."
+        },
+        {
+          "type": "DRUG",
+          "name": "Itraconazole Capsule",
+          "description": "Itraconazole capsule, specified dose on specified days."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Maximum concentration (Cmax) of HRS-8080.",
+          "timeFrame": "From Day 1 to Day 11."
+        },
+        {
+          "measure": "Area under the plasma concentration-time curve from time zero to time of last quantifiable concentration (AUClast) of HRS-8080.",
+          "timeFrame": "From Day 1 to Day 11."
+        },
+        {
+          "measure": "Area under the plasma concentration-time curve from time zero to infinity (AUCinf) of HRS-8080.",
+          "timeFrame": "From Day 1 to Day 11."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Aged 18-55 years;\n2. Male weight ≥ 50 kg, female weight ≥ 45 kg, and body mass index (BMI): 19-28 kg/m2;\n3. Normal or no clinically significant medical history, ECGs, vital signs and laboratory tests;\n4. Take contraception.\n\nExclusion Criteria:\n\n1. Any serious clinical diseases or medical history or diseases that affect the absorption, metabolism and/or excretion of the study drug;\n2. Severe infection, severe trauma or major surgery;\n3. Any medications in the two weeks before screening or baseline period;\n4. History of blood donation or severe blood loss;\n5. Have been vaccinated within 3 months before the screening or baseline period;\n6. History of smoking or excessive alcohol or drug abuse;\n7. History of excessive amounts of tea, coffee or caffeinated beverages, special foods; or have special dietary requirements;\n8. Other situations in which the researcher judges unsuitable."
+    }
+  }
+}

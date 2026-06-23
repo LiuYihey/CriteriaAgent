@@ -1,0 +1,64 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07268586",
+      "officialTitle": "Intravenous Atropine in Reducing Reperfusion Arrhythmias, Conduction Abnormalities and Hypotension in Inferior ST-elevation Myocardial Infarction Undergoing Primary Percutaneous Coronary Intervention"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-10",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-08-01"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-02-28"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Myocardial Infarction"
+      ],
+      "keywords": [
+        "Atropine",
+        "Inferior ST elevation myocardial infarction"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Intravenous atropine immediately before wire crossing during primary percutaneous coronary intervention",
+          "description": "Intravenous atropine 1 mg immediately before wire crossing during primary percutaneous coronary intervention"
+        },
+        {
+          "type": "DRUG",
+          "name": "Intravenous normal saline as placebo immediately before wire crossing during primary percutaneous coronary intervention",
+          "description": "Intravenous normal saline as placebo immediately before wire crossing during primary percutaneous coronary intervention"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Conduction abnormalities",
+          "description": "Occurrence of conduction abnormalities",
+          "timeFrame": "Periprocedurally"
+        },
+        {
+          "measure": "Reperfusion arrhythmias",
+          "description": "Occurrence of reperfusion arrhythmias",
+          "timeFrame": "Periprocedurally"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Acute inferior ST elevation myocardial infarction\n\nExclusion Criteria:\n\n* Execution of rescur percutaneous coronary intervention after thrombolysis\n* Mechanical complications or no reflow or spontaneous reperfusion.\n* Prior implantation of permanent or temporary pacemakers\n* History of bradycardia, hypotension or ventricular tachycardia with a definitive cause (unrelated to the disease under study)\n* Prior coronary artery bypass graft surgery\n* Atropine contraindications Unwillingness to participate in the"
+    }
+  }
+}

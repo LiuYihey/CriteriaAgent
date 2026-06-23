@@ -1,0 +1,50 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07222059",
+      "officialTitle": "A Phase 3, Single Arm, Open Study to Assess the Immunogenicity and Safety of vYF in Adults Aged 18 Years and Over"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-02",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-10-23"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-12-25"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Yellow Fever"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Yellow fever vaccine (live)",
+          "description": "Pharmaceutical form:Powder and diluent for suspension for injection-Route of administration:Subcutaneous"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percentage of participants with seroconversion to YF virus in YF-naive participants",
+          "description": "Seroconversion rates will be assessed using a YF MN assay Seroconversion is defined as a 4-fold increase in neutralizing Ab (NAb) titers as compared to the pre-vaccination value (Day 01)",
+          "timeFrame": "28 days after one dose of vYF vaccine"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Aged from 18 years on the day of inclusion\\*\n\n  \\* \"From 18 years\" means from the day of the 18th birthday\n* Participants who are healthy as determined by medical evaluation including medical history and physical examination.\n* Able to attend all scheduled visits and to comply with all study procedures\n* A female participant is eligible to participate if she is not pregnant or breastfeeding and one of the following conditions applies:\n\n  * Is of non-childbearing potential. To be considered of non-childbearing potential, a female must be postmenopausal for at least 1 year, or surgically sterile.\n\nOR\n\n. Is of childbearing potential and agrees to use an effective contraceptive method or abstinence from at least 4 weeks prior to study intervention administration until at least 4 weeks after study intervention administration.\n\nA female participant of childbearing potential must have a negative highly sensitive pregnancy test (urine or serum as required by local regulation) before any dose of study intervention on Day 01 and will be repeated on Day 29 to confirm the participant is still not pregnant within the 28 days of vaccine administration.\n\n\\- Informed consent form (ICF) has been signed and dated Exclusion Criteria:\n\nParticipants are excluded from the study if any of the following criteria apply:\n\n* Known or suspected congenital or acquired immunodeficiency; or receipt of immunosuppressive therapy, such as anti-cancer chemotherapy, or radiation therapy, within the preceding 6 months; or long-term systemic corticosteroid therapy (prednisone or equivalent for more than 2 consecutive weeks within the past 3 months).\n* Known history or laboratory evidence of HIV infection.\n* Known history of hepatitis B or hepatitis C seropositivity\n* Known history of FV infection, Japanese encephalitis (JE) excluded\n* Known systemic hypersensitivity to any of the vaccine components, or history of a life-threatening reaction to the vaccines used in the study or to a vaccine containing any of the same substances\n* Personal or family history of thymic pathology (thymoma, thymectomy, or myasthenia).\n* Chronic illness\\* that, in the opinion of the investigator, is at a stage where it might interfere with trial conduct or completion, including malignancy, such as leukemia, or lymphoma\n\n  \\* Chronic illness may include, but is not limited to cardiac disorders, renal disorders, auto-immune disorders, diabetes, psychiatric disorders or chronic infection\n* Moderate or severe acute illness/infection (according to Investigator judgment) on the day of vaccination or febrile illness (temperature ≥ 37.5°C \\[or ≥ 99.5°F\\]). A prospective participant should not be included in the study until the condition has resolved or the febrile event has subsided.\n* Alcohol, prescription drug, or substance abuse that, in the opinion of the Investigator, might interfere with the study conduct or completion.\n* Receipt of any vaccine in the 4 weeks preceding the study vaccination or planned receipt of any vaccine in the 4 weeks following the study vaccination (prior to Visit 2 on Day 29), except for influenza vaccination, which may be received at least 2 weeks before study vaccines. This exception includes pandemic influenza vaccines including monovalent pandemic influenza vaccines.\n* Previous vaccination against YF.\n* Receipt of immune globulins, blood, or blood-derived products in the past 6 months.\n* Administration of any anti-viral within 2 months preceding the vaccination and up to the 6 weeks following the vaccination.\n* Participation at the time of study enrollment (or in the 4 weeks preceding the study vaccination) or planned participation during the course of the study in another clinical study investigating a vaccine, drug, medical device, or medical procedure.\n* Deprived of freedom by an administrative or court order, or in an emergency setting, or hospitalized involuntarily.\n* Identified as an Investigator or employee of the Investigator or study center with direct involvement in the proposed study, or identified as an immediate family member (ie, parent, spouse, natural or adopted child) of the Investigator or employee with direct involvement in the proposed study.\n* Planned travel in a YF endemic country within 28 days of investigational vaccine administration.\n* For participants greater than 60 years at the time of enrolment: any underlying medical condition (eg, cardiovascular disorders, organ failure) which could increase risk of a serious viscerotropic event or serious neurologic events."
+    }
+  }
+}

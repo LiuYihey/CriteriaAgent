@@ -1,0 +1,58 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07067775",
+      "officialTitle": "Pharmacokinetic/Pharmacodynamic Study of Vicagrel Capsules and Clopidogrel Tablets in Healthy CYP2C19 Normal Metabolizers"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-07",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-08-05"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-08-22"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Coronary Syndrome"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Vicagrel Capsules",
+          "description": "Vicagrel Capsules qd per period, for two periods"
+        },
+        {
+          "type": "DRUG",
+          "name": "Clopidogrel Tablets",
+          "description": "Clopidogrel Tablets qd per period, for two periods"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Area Under the Curve From Time Zero to Last Quantifiable Concentration(AUC）",
+          "timeFrame": "Day1-Day10"
+        },
+        {
+          "measure": "maximum plasma concentration (Cmax)",
+          "timeFrame": "Day1-Day10"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Able and willing to give written informed consent before study, and fully understand the study content, process and possible adverse reactions;\n* Able to complete the study in compliance with the protocol;\n* Subject (including partner) is willing to voluntarily take effective contraceptive measures from screening through 90 days after the last dose of study drug；\n* Male and female subjects between the ages of 18 and 65 years, inclusive;\n* At least 50 kg for male subjects, 45 kg for female subjects, with a Body Mass Index (BMI= Weight/Height2) between 18-28 kg/m2, inclusive;\n* With normal or clinically insignificant abnormal results of physical examination and vital signs test;\n\nExclusion Criteria:\n\n* More than 5 cigarettes per day on average within 3 months before the study;\n* History of sensitivity to drugs similar to the study drug or have high sensitivity to clopidogrel, allergic constitution (e.g. allergy to various drugs and foods);\n* History of drug abuse, drug use, alcohol abuse (14 units of alcohol per week: 1 units = 285 mL beer, 25 mL spirit or 100 mL wines);\n* Donation or loss of a significant volume of blood (\\> 450 mL) within 56 days prior to screening;\n* Intake of any prescription drugs, over-the-counter drugs, vitamin or herbal medicine within 14 days prior to receiving study drug;\n* Consumption of any special diet (such as grapefruit, pitaya, mango, pomelo, etc.) or subjects have engaged strenuous exercise or any other factors affecting drug absorption, distribution, metabolism and excretion within 14 days prior to receiving study drug;\n* Intake of any drug which Have taken strong inhibitors and/or inducers of liver metabolic enzymes (CYP1A2, 2A6, 2C8, 2C19, 3A4 and 3A5) within 28 days before the first medication, and strong inhibitors of liver metabolic enzymes such as: ciprofloxacin, clopidogrel, Itraconazole, ketoconazole, ritonavir, troleandomycin, etc., strong inducers of liver metabolism enzymes such as: rifampicin, carbamazepine, phenytoin sodium, St. John's wort, etc.(For details see Appendix 6);\n* Recent major changes in diet or exercise habits;\n* Subjects who have taken other investigational drugs within 3 months prior to taking the investigational drug, or who have participated in clinical trials of other drugs and received the investigational drug within 3 months prior to taking the investigational drug;\n* History of difficulties in swallowing, or any gastrointestinal disease which could affect the drug absorption;\n* Suffering from any diseases that may increase the risk of bleeding, such as hemorrhoids, acute gastritis, stomach and duodenal ulcers, Thrombocytopenic Purpura and hemophilia, etc;\n* Family history of coagulation or bleeding disorders (e.g., hemophilia)/symptoms (e.g., vomiting blood, black stools, severe or recurrent nosebleeds, coughing up blood, significant hematuria, or intracranial hemorrhage) or suspected vascular malformations, such as aneurysms or early onset strokes, in the individual or in their immediate family;\n* A clinically significant 12-lead ECG abnormality;\n* Positive test results of blood pregnancy or subject is lactating for female subjects;\n* Any clinically significant abnormalities/findings in laboratory tests, or any clinically significant disease including but not limited to gastrointestinal, renal, hepatic, neurological system, blood, endocrine, tumor, lung, immune, mental, or cardiovascular and cerebrovascular diseases;\n* Positive test results for viral hepatitis (including hepatitis B and C), HIV antibody or syphilis antibody;\n* Acute illness or concomitant medication from screening to the first dosing of study medication;\n* Consumption of chocolate or any food or beverages containing caffeine or (rich containing) xanthine within 48 h prior to receiving the first dosing of study medication;\n* Consumption of any product containing alcohol within 24 h prior to receiving the first dosing of study medication, or positive results from a screen for alcohol;\n* Positive results from a screen for urine drug test (Morphine, marijuana);\n* Subjects were vaccinated within 4 weeks prior to screening, or planned to be vaccinated during the trial;\n* Any condition which in the opinion of Investigator is not suitable for subjects to participate in the study (For ultra-rapid metabolizers and rapid metabolizers, investigators may consider at their discretion)."
+    }
+  }
+}

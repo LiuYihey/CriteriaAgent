@@ -1,0 +1,72 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07134231",
+      "officialTitle": "In Situ Evaluation of the Anti-cavity Efficacy of Three Dentifrices Using an Intra-oral Enamel Demineralization-Remineralization Model"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-08",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-10-09"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-12-11"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Demineralization",
+        "Remineralization",
+        "Dental Cavity",
+        "Enamel Lesions"
+      ],
+      "keywords": [
+        "enamel mircrohardness",
+        "enamel demineralization-remineralization"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Fluoride free toothpaste in a chalk base",
+          "description": "Fluoride free toothpaste in a chalk base with herbal ingredients"
+        },
+        {
+          "type": "DRUG",
+          "name": "Fluoride Toothpaste",
+          "description": "Fluoride toothpaste containing 1000 ppm MFP and 1.5% arginine in a PCC/RNCC base"
+        },
+        {
+          "type": "DRUG",
+          "name": "Fluoride free toothpaste in a PCC/RNCC base",
+          "description": "Fluoride free toothpaste in a PCC/RNCC base"
+        },
+        {
+          "type": "DEVICE",
+          "name": "Toothbrush",
+          "description": "A commercially available adult soft bristle toothbrush"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Microhardness change",
+          "description": "The primary outcome of this study will be the change in the hardness of an intra-oral appliance before and after treatment. It will be determined by measuring the length of an indentation made on the appliance, which in turn allows for the calculation of its hardness value. The effectiveness of the treatment in reducing enamel demineralization by quantifying the percentage of mineral loss relative to the baseline will also be assessed.",
+          "timeFrame": "6 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria: Potential subjects must meet ALL of the following criteria:\n\n* Males and females, between 18-70 years of age (inclusive);\n* Informed Consent Form signed and availability for the duration of the study;\n* Good general health (absence of any condition that, in the opinion of the Principal Investigator, might constitute a risk to the subject while participating in the study. Examples include heart problems, valve/hip replacements, etc);\n* Willingness to provide information related to their medical history;\n* Minimum of 20 uncrowned permanent natural teeth (excluding third molars); Normal salivary flow;\n* Willingness to wear an intra-oral appliance all day as instructed except when eating and drinking.\n\nExclusion Criteria: Potential subjects must NOT HAVE ANY of the following conditions:\n\n* Oral pathology, chronic disease, or a history of allergy to testing products;\n* Subject using anticonvulsants, antihistamines, antidepressants, sedatives, tranquilizers, anti-inflammatory medication or daily analgesics within one month prior to the start of the study or scheduled to start such intake during the course of the study;\n* Subject participating in any other clinical study;\n* Subject pregnant or breastfeeding;\n* Subject allergic to oral care products, personal care consumer products, or their ingredients;\n* Extended use of antibiotics or therapeutic mouthwash any time during the three months prior to entry into the study;\n* A medical history reporting that the subject has a current systemic or autoimmune disease, such as diabetes, lupus, etc.;\n* Ongoing use of medications known to affect the gingival tissues (i.e. calcium channel blockers, phenytoin, cyclosporine);\n* Advanced periodontal disease (purulent exudate, tooth mobility, and/or extensive loss of periodontal attachment or alveolar bone). Pocket depth equal or greater than 4 mm;\n* Five or more decayed, untreated dental sites (cavities);\n* Current smokers and subjects with a history of alcohol or drug abuse;\n* Dental work prevents wearing of the appliance or a reported need to wear a night guard."
+    }
+  }
+}

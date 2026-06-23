@@ -1,0 +1,60 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07406555",
+      "officialTitle": "Differences in C-Reactive Protein Levels Between Traumatic Brain Injury Patients Receiving Dexmedetomidine and Those Not Receiving Dexmedetomidine Undergoing Craniotomy at Prof. Dr. Margono Soekarjo Regional General Hospital, Purwokerto"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-02",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-10-27"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-10-28"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Traumatic Brain Injury"
+      ],
+      "keywords": [
+        "Dexmedetomidine",
+        "C-Reactive Protein",
+        "Craniotomy"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Dexmedetomidine",
+          "description": "Intravenous administration of Dexmedetomidine to evaluate its effect on inflammatory markers (CRP)"
+        },
+        {
+          "type": "DRUG",
+          "name": "Sufentanyl",
+          "description": "Intravenous administration of Sufentanyl as an active comparator in the control group"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in C-Reactive Protein (CRP) Levels",
+          "description": "Serum CRP levels measured to assess the inflammatory response",
+          "timeFrame": "Baseline (Pre-operative), 6 hours and 24 hours post-operative"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients aged ≥ 18 years to ≤ 60 years\n* Patients with secondary brain injury with onset ≥ 6 hours\n* Patients with a GCS score \\> 6 undergoing emergency and elective craniotomy\n* American Society of Anesthesiologists (ASA) physical status ≥ II\n* Body mass index \\> 17 kg/m² and \\< 30 kg/m²\n\nExclusion Criteria:\n\n* Patients with head injury onset \\< 6 hours\n* Patients with signs of systemic shock\n* Patients or family members who refuse to participate\n* Patients with a history of allergy to dexmedetomidine, sevoflurane, and/or sufentanil\n* Patients with a history of active infection or sepsis\n* Patients who have received massive blood transfusion prior to surgery\n* Patients with autoimmune diseases\n* Patients with active malignancy\n* Patients with a history of chemotherapy\n* Patients with a history of hepatic dysfunction, indicated by elevated alanine aminotransferase (ALT/SGPT) levels above the normal reference range (7-56 U/L)\n* Patients with a history of long-term corticosteroid therapy\n* Patients with a history of neuropsychiatric disorders and cognitive impairment\n* Patients with a history of pre-existing cardiovascular disease\n* Patients with a history of coagulation disorders"
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07245277",
+      "officialTitle": "The Effect of Vitamin D Administration on Sepsis Score and C-Reactive Protein Levels in Preterm Infants With Neonatal Sepsis"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-01",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-08-02"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-12-01"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Neonatal Sepsis",
+        "Preterm Infants"
+      ],
+      "keywords": [
+        "adjuvant therapy",
+        "neonatal sepsis",
+        "preterm infants",
+        "vitamin D"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Vitamin D",
+          "description": "Vitamin D 400 IU for 7 days"
+        },
+        {
+          "type": "DRUG",
+          "name": "Vitamin D",
+          "description": "Vitamin D 800 IU for 7 days"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change From Baseline in the Modified Töllner Sepsis Scoring System After 7 Days",
+          "description": "Modified Töllner sepsis scoring system consists of clinical parameters including appearance, microcirculation, hypotonia, bradycardia/tachycardia, apnea of prematurity, respiratory distress, hepatomegaly, gastrointestinal symptoms, leucocyte count, Immature to Total Neutrophil (I/T) ratio, thrombocytopenia, C-reactive protein.\n\nMinimum value: 0 Maximum value: 26 Higher scores mean a worse outcome for neonatal sepsis",
+          "timeFrame": "Baseline (day-0) and at day-7"
+        },
+        {
+          "measure": "Change From Baseline in the Sepsis Prediction Score After 7 Days",
+          "description": "Sepsis Prediction Score consists of clinical parameters including body temperature, decrease feeding volume/residuals, platelet counts, blood glucose changes, C-reactive protein, circulatory changes, increase of oxygen requirement, deterioration of respiratory function.\n\nMinimum value: 0 Maximum value: 8 Higher scores mean a worse outcome for neonatal sepsis",
+          "timeFrame": "Baseline (day-0) and at day-7"
+        },
+        {
+          "measure": "Change From Baseline in the C-Reactive Protein Levels After 7 Days",
+          "description": "The blood sample was taken from the neonate to test for C-reactive protein (CRP) on day 0 and day 7.\n\nMinimum value: 0 Higher scores mean a worse outcome for neonatal sepsis",
+          "timeFrame": "Baseline (day-0) and at day-7"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nInclusion criteria for the case group used in this study are neonates (aged 0-28 days or with a maximum postmenstrual age of 42 weeks) with a gestational age of 28-36 weeks who are treated in the Neonatal High Care Unit (NHCU) and Neonatal Intensive Care Unit (NICU) at Dr. Hasan Sadikin General Hospital, Bandung, and Bandung Kiwari Hospital, Bandung and who meet the following inclusion criteria:\n\n1. Patients diagnosed with neonatal sepsis based on positive blood or cerebrospinal fluid cultures, or who meet the criteria for suspected sepsis with a Rodwell hematologic scoring system result of ≥3.\n2. Parents or legal guardians are willing to participate in the study and sign the informed consent form.\n\nExclusion Criteria:\n\n1. Patients with major congenital malformations such as anencephaly, encephalocele, holoprosencephaly, hydrocephalus, meningomyelocele, spina bifida, omphalocele, gastroschisis, or congenital heart disease.\n2. If during the 7-day monitoring period, a patient who was initially able to feed develops a medical condition requiring fasting (NPO).\n3. If during the 7-day monitoring period, a patient who initially had a medical condition requiring fasting is later able to feed again."
+    }
+  }
+}

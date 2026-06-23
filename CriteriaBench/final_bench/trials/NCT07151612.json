@@ -1,0 +1,55 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07151612",
+      "officialTitle": "The Development of New Functions of Esculin and Digitalis Glycosides Eye Drops: A Study on the Treatment of Presbyopia"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-03",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-09-04"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-10-08"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Presbyopia"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Esculin and Digitalisglycosides Eye Drops",
+          "description": "Interventions were performed using esculin and digitalis glycosides eye drops (Pharma Stulln GmbH). The carer instructed the patient to apply 1 drop to the affected eye three times a day and to strictly follow aseptic techniques to prevent contact of the dropper with the ocular surface. The treatment lasted for 1 month."
+        },
+        {
+          "type": "DRUG",
+          "name": "Normal saline solution",
+          "description": "Sterile, preservative-free, and non-irritating dropper saline was used. The carer instructed the patient to apply 1 drop to the affected eye three times a day and to strictly follow aseptic techniques to prevent contact of the dropper with the ocular surface."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "DCNVA",
+          "description": "The proportion of participants gaining ≥3 lines from baseline in DCNVA without losing more than one line of CDVA under both photopic and mesopic conditions at 1.5 hours post-dose 1 on day 30.",
+          "timeFrame": "at 1.5 hours post-dose 1 on day 30"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age is within the range of 40 - 55 years old.\n* After mydriasis, for one eye, the refractive power is within -0.5D - 2.0D and the astigmatism is ≤ 1.0D.\n* When measuring uncorrected visual acuity with a standard logarithmic visual acuity chart, the uncorrected distance visual acuity (UDVA) of both eyes is ≥ 1.25, and the uncorrected near visual acuity (UNVA) is ≤ 0.8.\n* When using a slit lamp to detect cataract development according to the LOCS Ⅲ grading standard, no NO3 - NC3 or more severe lens opacity is detected; and no ocular surface diseases, visual fatigue, or any corneal diseases (such as dry eye, corneal injury, corneal opacity, keratoconus, or having undergone corneal refractive surgery, etc.) are detected.\n* The subject has not used Ginkgo biloba extract dichloride eye drops within 2 weeks; has no known or suspected allergy to digitalis - like drugs; and has not used insulin, anti - anxiety drugs, antidepressants, antipsychotics, antihistamines, antispasmodics, diuretics, etc.\n\nExclusion Criteria:\n\n* Age is not in the range of 40 - 55 years old.\n* After mydriasis, for one eye, the refractive power is higher than 2.0D or lower than -0.5D, or the astigmatism is higher than 1.0D.\n* When measuring the uncorrected distance visual acuity (UDVA) of both eyes with a standard logarithmic visual acuity chart, if the UDVA is lower than 1.25, or the uncorrected near visual acuity (UNVA) is higher than 0.8.\n* When using a slit lamp to detect cataract development according to the LOCS Ⅲ grading standard, NO3 - NC3 or more severe lens opacity is detected in the lens; or ocular surface diseases, visual fatigue, or any corneal diseases (such as dry eye, corneal injury, corneal opacity, keratoconus, or having undergone corneal refractive surgery, etc.) are detected.\n* The subject has used Ginkgo biloba extract dichloride eye drops within 2 weeks; has known or suspected allergy to digitalis - like drugs; or has used insulin, anti - anxiety drugs, antidepressants, antipsychotics, antihistamines, antispasmodics, diuretics, etc."
+    }
+  }
+}

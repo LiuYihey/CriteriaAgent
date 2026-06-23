@@ -1,0 +1,66 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07172321",
+      "officialTitle": "A Phase 1, Open-Label, Randomized, 5-Period, 6-Sequence, Crossover Study to Compare the Single-Dose Pharmacokinetics of One Immediate-Release and Two Modified-Release Formulations of PF-08049820 Administered Orally to Healthy Adult Participants Under Fasted and Fed Conditions"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-11",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-09-05"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-10-04"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Atopic Dermatitis"
+      ],
+      "keywords": [
+        "Healthy Volunteer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "PF-08049820 MR1",
+          "description": "Administered orally"
+        },
+        {
+          "type": "DRUG",
+          "name": "PF-08049820 MR2",
+          "description": "Administered orally"
+        },
+        {
+          "type": "DRUG",
+          "name": "PF-08049820 IR",
+          "description": "Administered orally"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Pharmacokinetics (PK): Plasma Area Under the Concentration Versus Time Curve (AUC) of PF-08049820 in the fasted state",
+          "timeFrame": "Pre-dose until 72 hours post dose"
+        },
+        {
+          "measure": "PK: Plasma Maximum Concentration (Cmax) of PF-08049820 in the fasted state",
+          "timeFrame": "Pre-dose until 72 hours post dose"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Male and female participants of non-childbearing potential ≥18 years of age\n* BMI of 16-32 kg/m2; and a total body weight \\>45 kg (99 lbs)\n* Participants who are willing and able to comply with all scheduled visits, treatment plan, laboratory tests, and other study procedures.\n\nExclusion Criteria\n\n* Evidence or history of clinically significant hematological, renal, endocrine, pulmonary, gastrointestinal, cardiovascular, hepatic, psychiatric, neurological, or allergic disease (including drug allergies, but excluding untreated, asymptomatic, seasonal allergies at the time of dosing).\n\n  * Any condition possibly affecting drug absorption (eg, gastrectomy, cholecystectomy).\n  * History of HIV infection, hepatitis B, or hepatitis C; positive testing for HIV, HBsAg, HBsAb, HBcAb, or HCVAb. A positive HBsAb result and a history of Hepatitis B vaccination is allowed.\n* Use of certain prescription or nonprescription drugs and dietary (e.g. grapefruit) and herbal supplements within up to 14 days or 5 half-lives, whichever is longer, prior to the first dose of study intervention.\n* Recent exposure to live or attenuated vaccines within 28 days of the screening visit.\n* Previous administration of an investigational product (drug or vaccine) within 30 days or 5 half-lives preceding the first dose of study intervention used in this study (whichever is longer).\n* History of alcohol abuse or repeated binge drinking and/or any other illicit drug use or dependence within 6 months of screening."
+    }
+  }
+}

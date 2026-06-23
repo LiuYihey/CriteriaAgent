@@ -1,0 +1,145 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07543276",
+      "officialTitle": "A Phase 1, Open Label, Randomized, Single Dose, Three-Period Crossover Study in Healthy Subjects to Compare the Pharmacokinetic Profiles of Nalmefene Following Administration of Intravenous and Intramuscular Nalmefene 0.5 mg (0.94% MgCl2) and Intravenous Nalmefene Hydrochloride Injection 0.5 mg"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-04",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2026-02-06"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-04-03"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Opioid Overdose"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Nalmefene + 0.94% MgCl2",
+          "description": "Nalmefene 0.5 mg + 0.94% MgCl2 for IV (bolus) administration"
+        },
+        {
+          "type": "DRUG",
+          "name": "Nalmefene + 0.94% MgCl2",
+          "description": "Nalmefene 0.5 mg + 0.94% MgCl2 for IM administration"
+        },
+        {
+          "type": "DRUG",
+          "name": "Nalmefene Hydrochloride Injection",
+          "description": "Nalmefene Hydrochloride Injection 0.5 mg for IV (bolus) administration"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Area Under the Curve (AUC0-2.5)",
+          "description": "Partial area under the plasma concentration-time curve from time zero to 2.5 minutes following nalmefene 0.5 mg (0.94% MgCl2) IV bolus administration and nalmefene hydrochloride injection 0.5 mg IV bolus administration",
+          "timeFrame": "2.5 minutes post-dose"
+        },
+        {
+          "measure": "Area Under the Curve (AUC0-5)",
+          "description": "Partial area under the plasma concentration-time curve from time zero to 5 minutes following nalmefene 0.5 mg (0.94% MgCl2) IV bolus administration and nalmefene hydrochloride injection 0.5 mg IV bolus administration",
+          "timeFrame": "5 minutes post-dose"
+        },
+        {
+          "measure": "Area Under the Curve (AUC0-10)",
+          "description": "Partial area under the plasma concentration-time curve from time zero to 10 minutes following nalmefene 0.5 mg (0.94% MgCl2) IV bolus administration and nalmefene hydrochloride injection 0.5 mg IV bolus administration",
+          "timeFrame": "10 minutes post-dose"
+        },
+        {
+          "measure": "Area Under the Curve (AUC0-15)",
+          "description": "Partial area under the plasma concentration-time curve from time zero to 15 minutes following nalmefene 0.5 mg (0.94% MgCl2) IV bolus administration and nalmefene hydrochloride injection 0.5 mg IV bolus administration",
+          "timeFrame": "15 minutes post-dose"
+        },
+        {
+          "measure": "Area Under the Curve (AUC0-20)",
+          "description": "Partial area under the plasma concentration-time curve from time zero to 20 minutes following nalmefene 0.5 mg (0.94% MgCl2) IV bolus administration and nalmefene hydrochloride injection 0.5 mg IV bolus administration",
+          "timeFrame": "20 minutes post-dose"
+        },
+        {
+          "measure": "Area Under the Curve (AUC0-30)",
+          "description": "Partial area under the plasma concentration-time curve from time zero to 30 minutes following nalmefene 0.5 mg (0.94% MgCl2) IV bolus administration and nalmefene hydrochloride injection 0.5 mg IV bolus administration",
+          "timeFrame": "30 minutes post-dose"
+        },
+        {
+          "measure": "Area Under the Curve (AUCt)",
+          "description": "Area under the plasma concentration-time curve from time zero to the time of last measurable concentration following nalmefene 0.5 mg (0.94% MgCl2) IV bolus administration and nalmefene hydrochloride injection 0.5 mg IV bolus administration",
+          "timeFrame": "Up to 48 hours post-dose"
+        },
+        {
+          "measure": "Area Under the Curve (AUCinf)",
+          "description": "Area under the plasma concentration-time curve from time zero to infinity following nalmefene 0.5 mg (0.94% MgCl2) IV bolus administration and nalmefene hydrochloride injection 0.5 mg IV bolus administration",
+          "timeFrame": "Up to 48 hours post-dose"
+        },
+        {
+          "measure": "Maximum Plasma Concentration (Cmax)",
+          "description": "Maximum plasma concentration of nalmefene following nalmefene 0.5 mg (0.94% MgCl2) IV bolus administration and nalmefene hydrochloride injection 0.5 mg IV bolus administration",
+          "timeFrame": "Up to 48 hours post-dose"
+        },
+        {
+          "measure": "Area Under the Curve (AUC0-2.5)",
+          "description": "Partial area under the plasma concentration-time curve from time zero to 2.5 minutes following nalmefene 0.5 mg (0.94% MgCl2) IV bolus administration and nalmefene 0.5 mg (0.94% MgCl2) IM administration",
+          "timeFrame": "2.5 minutes post-dose"
+        },
+        {
+          "measure": "Area Under the Curve (AUC0-5)",
+          "description": "Partial area under the plasma concentration-time curve from time zero to 5 minutes following nalmefene 0.5 mg (0.94% MgCl2) IV bolus administration and nalmefene 0.5 mg (0.94% MgCl2) IM administration",
+          "timeFrame": "5 minutes post-dose"
+        },
+        {
+          "measure": "Area Under the Curve (AUC0-10)",
+          "description": "Partial area under the plasma concentration-time curve from time zero to 10 minutes following nalmefene 0.5 mg (0.94% MgCl2) IV bolus administration and nalmefene 0.5 mg (0.94% MgCl2) IM administration",
+          "timeFrame": "10 minutes post-dose"
+        },
+        {
+          "measure": "Area Under the Curve (AUC0-15)",
+          "description": "Partial area under the plasma concentration-time curve from time zero to 15 minutes following nalmefene 0.5 mg (0.94% MgCl2) IV bolus administration and nalmefene 0.5 mg (0.94% MgCl2) IM administration",
+          "timeFrame": "15 minutes post-dose"
+        },
+        {
+          "measure": "Area Under the Curve (AUC0-20)",
+          "description": "Partial area under the plasma concentration-time curve from time zero to 20 minutes following nalmefene 0.5 mg (0.94% MgCl2) IV bolus administration and nalmefene 0.5 mg (0.94% MgCl2) IM administration",
+          "timeFrame": "20 minutes post-dose"
+        },
+        {
+          "measure": "Area Under the Curve (AUC0-30)",
+          "description": "Partial area under the plasma concentration-time curve from time zero to 30 minutes following nalmefene 0.5 mg (0.94% MgCl2) IV bolus administration and nalmefene 0.5 mg (0.94% MgCl2) IM administration",
+          "timeFrame": "30 minutes post-dose"
+        },
+        {
+          "measure": "Area Under the Curve (AUCt)",
+          "description": "Area under the plasma concentration-time curve from time zero to the time of last measurable concentration following nalmefene 0.5 mg (0.94% MgCl2) IV bolus administration and nalmefene 0.5 mg (0.94% MgCl2) IM administration",
+          "timeFrame": "Up to 48 hours post-dose"
+        },
+        {
+          "measure": "Area Under the Curve (AUCinf)",
+          "description": "Area under the plasma concentration-time curve from time zero to infinity following nalmefene 0.5 mg (0.94% MgCl2) IV bolus administration and nalmefene 0.5 mg (0.94% MgCl2) IM administration",
+          "timeFrame": "Up to 48 hours post-dose"
+        },
+        {
+          "measure": "Maximum Plasma Concentration (Cmax)",
+          "description": "Maximum plasma concentration of nalmefene following nalmefene 0.5 mg (0.94% MgCl2) IV bolus administration and nalmefene 0.5 mg (0.94% MgCl2) IM administration",
+          "timeFrame": "Up to 48 hours post-dose"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Key Inclusion criteria:\n\n1. Participants who are overtly healthy as determined by medical evaluation including medical history, physical examination, laboratory tests, and cardiac monitoring.\n2. Body weight ranging from 50 to 100 kg (110-220 lbs) inclusive at screening and body mass index (BMI) within the range \\[18.0-30.0\\] kg/m2 (inclusive).\n3. Willing to be compliant with the protocol, are able to read, understand, and answer verbal questions.\n\nKey Exclusion criteria:\n\n1. Females who are pregnant or lactating.\n2. Current or recent (within 5 years) history of drug or alcohol abuse.\n3. History or any current conditions that might interfere with drug absorption, distribution, metabolism or excretion.\n4. Known allergy or hypersensitivity to nalmefene hydrochloride or any of the excipients or other drug product components of nalmefene hydrochloride.\n5. Dosing in a clinical drug study during the 30 days preceding the initial dose in this study.\n6. Any significant illness during the 30 days preceding the initial dose in this study\n\nOther inclusion/exclusion criteria may apply."
+    }
+  }
+}

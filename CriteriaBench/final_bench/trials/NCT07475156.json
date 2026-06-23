@@ -1,0 +1,62 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07475156",
+      "officialTitle": "The Effect of Dexmedetomidine Infusion Alone Versus the Combination of Dexmedetomidine and Melatonin on Reduction of Post-operative Delirium (POD) After Open Brain Surgeries"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-03",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-08-01"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-01-15"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Post Operative Delerium"
+      ],
+      "keywords": [
+        "Post operative delerium",
+        "Dexmedetomidine",
+        "Melatonin",
+        "Open brain surgery",
+        "Combination"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Dexmedetomidine (DEX)",
+          "description": "Dexmedetomidine IV Infusion at rate of (0.5 μg/kg/hr)"
+        },
+        {
+          "type": "DRUG",
+          "name": "Melatonin",
+          "description": "Orall Melatonin (3 mg/tablet)"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "The incidence of POD",
+          "description": "Through calculation of CAM-ICU Score \\& RASS score of patient",
+          "timeFrame": "Perioperatively"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age: 30 - 60 years\n* Sex: Both sexes\n* Patients with open space occupying lesions or hematoma.\n\nExclusion Criteria:\n\n* Refusal of the patient to give written informed consent.\n* History of allergy to the medications used in the study.\n* Psychiatric disorder.\n* Any form of drug addiction.\n* Patients receiving any anti-psychotic medications.\n* History of previous brain insult (Ischemic or haemorrhagic infarctions).\n* Pre-operative dementia.\n* History of malignant hyperthermia\n* Patient's suffering from bradycardia\n* Patient's suffering from hypotension"
+    }
+  }
+}

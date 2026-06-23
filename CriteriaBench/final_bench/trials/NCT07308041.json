@@ -1,0 +1,67 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07308041",
+      "officialTitle": "An Open, Single Arm, Single-center, Phase 1 Trial Investigating the Effect of 7-days-repeated Administration of Linaprazan Glurate on the Pharmacokinetics of Repeated Doses of Amoxicillin in Healthy Participants"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-12",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-11-11"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-12-22"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Drug Interaction",
+        "GERD (Gastroesophageal Reflux Disease)",
+        "Safety, and Tolerability"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Drug Drug Interaction",
+          "description": "The intervention phase consists of 2 periods: in period 1, the pharmacokinetics (PK) of amoxicillin will be evaluated in the absence of linaprazan glurate, in period 2, a potential effect of linaprazan glurate on the PK of amoxicillin will be evaluated as well as the PK of linaprazan glurate following co-administration of amoxicillin."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Characterization of the PK of amoxicillin following a repeated dose before and after repeated administration of linaprazan glurate (AUC)",
+          "description": "Geometric mean ratio Day 8/Day 1 for amoxicillin Area Under the Plasma Concentration vs. Time Curve (AUC)",
+          "timeFrame": "Day 1 and Day 8"
+        },
+        {
+          "measure": "Characterization of the PK of amoxicillin following a repeated dose before and after repeated administration of linaprazan glurate (Cmax)",
+          "description": "Geometric mean ratio Day 8/Day 1 for amoxicillin Cmax",
+          "timeFrame": "Day 1 and Day 8"
+        },
+        {
+          "measure": "Characterization of the PK of amoxicillin following a repeated dose before and after repeated administration of linaprazan glurate (Tmax)",
+          "description": "Amoxicillin Tmax",
+          "timeFrame": "Day 1 and Day 8"
+        },
+        {
+          "measure": "Characterization of the PK of amoxicillin following a repeated dose before and after repeated administration of linaprazan glurate (CL/F)",
+          "description": "Amoxicillin apparent oral clearance (CL/F)",
+          "timeFrame": "Day 1 and Day 8"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Willing and able to give written informed consent for participation in the trial.\n* Healthy male or female participant aged 18 to 64 years, inclusive.\n* Body mass index (BMI) ≥ 18.5 and ≤ 30.0 kg/m2 at the time of the screening visit.\n* Medically healthy participant without abnormal clinically significant medical history, physical findings, vital signs, ECG and laboratory values at the time of the screening visit, as judged by the Investigator.\n* Prospective participants, as well as their partners, must agree to the contraception requirements described in exclusion criteria 1 and 2.\n\nExclusion Criteria:\n\n* Female participants of childbearing potential (defined as all participants physiologically capable of becoming pregnant) unless they agree to use one of the following highly effective methods of contraception (failure rate of \\<1%) from 2 weeks prior to the first dose until the end-of-trial visit:\n\n  * Sterilization of a male partner, defined as vasectomy, at least six months prior to screening.\n  * Intra-uterine device (non-hormonal or copper IUD).\n  * Double-barrier methods of contraception, i.e., condoms in combination with occlusive cap with contraceptive gel.\n* Male participants with a partner of childbearing potential, unless they agree to use one of the following methods of contraception from two weeks prior to the first dose until the end-of-trial visit:\n\n  * Vasectomy at least six months prior to screening.\n  * Condoms. Female partners of childbearing potential must then agree to concurrently use a highly effective method of contraception.\n* History of any clinically significant disease or disorder which, in the opinion of the Investigator, may either put the participant at risk because of participation in the trial, or influence the results or the participant's ability to participate in the trial.\n* Any clinically significant illness, medical/surgical procedure or trauma within four weeks of the first administration of IMP.\n* Positive result for H.pylori antibodies at the time of the screening visit."
+    }
+  }
+}

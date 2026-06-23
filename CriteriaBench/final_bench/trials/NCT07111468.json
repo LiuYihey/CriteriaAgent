@@ -1,0 +1,59 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07111468",
+      "officialTitle": "A Multicenter, Randomized, Double-blind, Parallel, Active-controlled, Superiority, Phase III Clinical Trial to Evaluate the Efficacy and Safety of YHP2401 Compared to YHR2402 and YHR2403 for Acute Bronchitis"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-02",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-08-19"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-01-15"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Bronchitis"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "YHP2401",
+          "description": "Total 7 days of treatment and The daily dose is tid.(YHP2401 + Placebo of YHR2402 + Placebo of YHR2403)"
+        },
+        {
+          "type": "DRUG",
+          "name": "YHR2402",
+          "description": "Total 7 days of treatment and The daily dose is tid.(Placebo of YHP2401 + YHR2402 + Placebo of YHR2403)"
+        },
+        {
+          "type": "DRUG",
+          "name": "YHR2403",
+          "description": "Total 7 days of treatment and The daily dose is tid.(Placebo of YHP2401 + Placebo of YHR2402 + YHR2403)"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Bronchitis Severity Score(BSS)",
+          "timeFrame": "Day 4"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Male and female participants 19 years ≤ age ≤ 80 years\n* Patients with acute bronchitis presenting with productive cough symptoms within 48 hours prior to Visit 2 (Baseline)\n* BSS total score ≥ 5 at Visit 2, including Cough score ≥ 2, Sputum score ≥ 1\n* Patients who voluntarily signed the consent form\n\nExclusion Criteria:\n\n* Severe lung disease as determined by the investigator\n* Clinically significant abnormal findings or signs on chest X-ray suggesting diagnoses other than acute bronchitis\n* Active infection requiring systemic antibiotic treatment\n* Patients who need to take contraindicated concomitant medications"
+    }
+  }
+}

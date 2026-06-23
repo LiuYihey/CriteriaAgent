@@ -1,0 +1,67 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07314333",
+      "officialTitle": "A Phase 1, Single Blind, Parallel-arm Trial to Assess the Potential for Pharmacodynamic Interaction of Centanafadine When Co-administered With Stimulants in Healthy Adults"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-04",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2026-02-05"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-03-30"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "ADHD"
+      ],
+      "keywords": [
+        "Attention-deficit/hyperactivity disorder",
+        "Healthy Adults"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Centanafadine",
+          "description": "Oral, QD XR capsules."
+        },
+        {
+          "type": "DRUG",
+          "name": "Methylphenidate",
+          "description": "Oral tablets."
+        },
+        {
+          "type": "DRUG",
+          "name": "Lisdexamfetamine",
+          "description": "Oral capsules"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change from Baseline in Blood Pressure (BP) at Day 12 or Early Termination (ET)",
+          "timeFrame": "Baseline, Day 12 or ET"
+        },
+        {
+          "measure": "Change from Baseline in Heart Rate (HR) at Day 12 or ET",
+          "timeFrame": "Baseline, Day 12 or ET"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Body mass index (BMI) between 18.0 to 32.0 kilogram per square meter (kg/m2).\n* Must be in good health, based on:\n\n  * Medical history\n  * Physical examination\n  * Heart test (Electrocardiogram \\[ECG\\])\n  * Lab tests (blood, urine and other routine checks)\n* Willing to stay in the clinic for the required time and agree to a follow-up phone call for safety.\n* Able to sign informed consent and, in the investigator's opinion, follow all trial requirements.\n\nExclusion Criteria:\n\n* History of drug and/or alcohol abuse in past 2 years.\n* History of or current hepatitis or acquired immune deficiency syndrome (AIDS) or carriers of hepatitis B surface antigen (HBsAg) and/or anti-hepatitis C virus (HCV), or human immunodeficiency virus (HIV) antibodies.\n* Known drug allergy or hypersensitivity.\n* Any history of significant bleeding problems.\n* Difficulty donating blood in the past.\n* Use of tobacco or exposure to second-hand smoke in the past 2 months, or high cotinine levels in blood/urine.\n* Uncontrolled high blood pressure (BP) (systolic blood pressure \\[SBP\\] \\> 140 millimeters of mercury (mmHg) or diastolic blood pressure \\[DBP\\] \\> 90 mmHg) or symptomatic low blood pressure, or orthostatic hypotension (large BP drop when standing).\n* History of unexplained fainting (syncope).\n* Serious mental health disorders that could interfere with participation."
+    }
+  }
+}

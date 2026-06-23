@@ -1,0 +1,64 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07292324",
+      "officialTitle": "Effectiveness of Continuous Epidural With Dexmedetomidine Adjuvant Compared to Without Adjuvant in Gynecologic Laparotomy"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-03",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-08-21"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-10-15"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Post Operative Pain, Acute",
+        "Chronic Post Surgical Pain",
+        "Gynecologic Disease"
+      ],
+      "keywords": [
+        "Dexmedetomidine",
+        "Bupivacaine",
+        "Epidural Analgesia",
+        "Gynecologic Laparotomy",
+        "NF-kappa B"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Dexmedetomidine & Bupivacaine.",
+          "description": "Epidural administration of Bupivacaine 0.1% combined with Dexmedetomidine 0.5 mcg/ml. Subjects receive a loading dose of 10 ml before incision. This is followed by a continuous infusion using Patient-Controlled Epidural Analgesia (PCEA) with a background rate of 3 ml/hour, a demand dose of 5 ml, and a lockout interval of 30 minutes for 24 hours post-operation."
+        },
+        {
+          "type": "DRUG",
+          "name": "Bupivacain",
+          "description": "Epidural administration of Bupivacaine 0.1% without adjuvant. Subjects receive a loading dose of 10 ml before incision. This is followed by a continuous infusion using Patient-Controlled Epidural Analgesia (PCEA) with a background rate of 3 ml/hour, a demand dose of 5 ml, and a lockout interval of 30 minutes for 24 hours post-operation."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Postoperative Pain Intensity (VAS)",
+          "description": "Pain intensity is assessed using the Visual Analogue Scale (VAS). The VAS consists of a 100 mm straight line where the left end indicates \"no pain\" and the right end indicates \"very severe pain\" (0-100 mm). Participants mark the line to indicate their pain level. Higher scores indicate worse pain",
+          "timeFrame": "6, 12, and 24 hours post-operation"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients aged 30-55 years\n* ASA physical status I-III\n* Body Mass Index (BMI) 18 - 29.9 kg/m2\n* Patients undergoing gynecologic laparotomy\n\nExclusion Criteria:\n\n* Contraindications for regional anesthesia\n* Allergy or contraindication to dexmedetomidine\n* Routine use of antidepressants or anticonvulsants\n* Chronic opioid consumption (equivalent to \\>30 mg oral morphine per day for \\>1 month)\n* History of Chemotherapy-Induced Peripheral Neuropathy (CIPN)\n* Active systemic autoimmune disease or receiving immunosuppressant therapy (e.g., Systemic Lupus Erythematosus, Rheumatoid Arthritis, Multiple Sclerosis)\n* Inability to use the Visual Analogue Scale (VAS) or operate the Patient-Controlled Epidural Analgesia (PCEA) device\n* Coagulation disorders (prolonged hemostasis)\n* Refusal to participate"
+    }
+  }
+}

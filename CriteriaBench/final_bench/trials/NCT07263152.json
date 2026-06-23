@@ -1,0 +1,58 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07263152",
+      "officialTitle": "A Phase I, Single-Center, Randomized, Double-Blind, Placebo-Controlled Clinical Study to Evaluate the Effect of Single-Dose Hydronidone Capsules on QTc Interval in Chinese Healthy Subjects"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-03",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-12-31"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-02-09"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Hepatic Fibrosis"
+      ],
+      "keywords": [
+        "Hydronidone",
+        "QTc"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Hydronidone",
+          "description": "Experimental group"
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Placebo group"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "The relationship between plasma drug concentration and placebo-corrected change from baseline in QTc interval (ΔΔQTc) following single-dose administration of Hydroxynidone Capsules",
+          "timeFrame": "24 hours after administration"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* 1\\) Participants who were fully informed about this trial before the experiment, understood the content, process and possible adverse events related to the experimental drug, and voluntarily signed the written informed consent form.\n* 2\\) Male or female participants aged 18 to 50 years (including the upper and lower limits) at the time of signing the informed consent form.\n* 3\\) Male participants with a weight of ≥50.0 kg and female participants with a weight of ≥45.0 kg at the time of screening, and a body mass index (BMI) of 19.0 to 26.0 kg/m2, including the boundary values.\n* 4\\) Participants whose medical history inquiries, laboratory tests and related examinations (vital signs, physical examination, 12-lead ECG, chest X-ray, abdominal color Doppler ultrasound, etc.) were all normal or whose abnormalities were judged by the researcher to have no clinical significance at the time of screening.\n\nExclusion Criteria:\n\n* 1\\) The researcher determines that there are other diseases or medical histories that have clinical significance or may prevent participants from following the research protocol and completing the study, including but not limited to abnormalities in the central nervous system, cardiovascular system, digestive system, respiratory system, urinary system, blood system, immune system, nervous system, endocrine and metabolic system, etc.\n* 2\\) There is a history of cardiovascular system diseases or risk factors for torsade de pointes (TdP) such as: unexplained syncope; heart failure; myocardial infarction; angina pectoris; atrial fibrillation, atrial flutter, premature ventricular contractions, non-continuous or continuous ventricular tachycardia; severe bradycardia or sick sinus syndrome; hypokalemia or hypomagnesemia; history of interstitial lung disease, pulmonary embolism; history of venous thromboembolism; any personal or family history of cardiac conduction abnormalities; personal or family history of long QT syndrome (LQTS); or family history of sudden death.\n* 3\\) During the screening period or baseline period, the 12-lead electrocardiogram exceeds the standard: PR \\> 220ms, QRS \\> 110ms, HR \\< 50 bpm, QTcF ≥ 450 ms; or an abnormal electrocardiogram and the researcher considers it abnormal and of clinical significance (such as, second-degree or higher atrioventricular block, potential bundle branch block, torsade de pointes (TdP), other types of ventricular tachycardia, ventricular fibrillation and ventricular flutter, any clinically significant T wave changes or any 12-lead electrocardiogram (ECG) results abnormal that affects the QTc interval).\n* 4）Those whose test results for any of the following infectious disease indicators are positive during the screening period: hepatitis B surface antigen, hepatitis C antibody, human immunodeficiency virus antigen and antibody, or syphilis spirochete antibody;\n* 5\\) Those with a history of drug or food allergies, or specific allergies (such as asthma, urticaria, eczema, etc.); or those allergic to hydroxynitone capsules or to the excipient ingredients contained therein;\n* 6\\) Those who have suffered from a major clinically significant disease within 3 months before the screening or have undergone surgeries that affect drug absorption, distribution, metabolism, excretion (such as gastrointestinal digestive tract, liver and kidney-related surgeries) or other major surgeries, or those who plan to undergo surgery during the study period;\n* 7\\) Those who have donated blood or lost blood ≥ 400 mL within 3 months before administration, or have received blood transfusion or used blood products within 4 weeks before administration, or those who plan to donate blood during this study period;\n* 8\\) Those who have participated in any clinical trials as participants and received treatment with trial drugs or devices within 3 months before administration;\n* 9\\) Those who have taken any prescription drugs, over-the-counter drugs, any vitamin products or herbal medicines within 14 days before administration, or within 5 half-lives (whichever is longer) before administration (based on the longer time period); those who have taken CYP3A4 strong inhibitors or strong inducers within 4 weeks before administration, or any drugs known to cause QT/QTc interval prolongation or have a risk of causing torsades de pointes (TdP) (refer to Appendix 10.2); or those who plan to use some chemical drugs, biological products, traditional Chinese medicine or natural medicines that the investigators consider not suitable for taking during the study period;\n* 10\\) Those who received vaccinations within the past 4 weeks, or those who plan to receive vaccinations during the study period up to 1 month after administration;\n* 11\\) Those with a history of drug abuse in the past 5 years or within 3 months before screening, or those with positive urine drug abuse screening results at baseline;\n* 12\\) Those who frequently drink alcohol within 6 months before administration, that is, consuming more than 14 units of alcohol per week (1 unit = 360 mL of beer or 45 mL of 40% alcohol spirits or 150 mL of wine), or those who refuse to stop drinking or consuming any alcoholic products during the trial, or those with positive alcohol breath test results at baseline;\n* 13\\) Those who smoke more than 5 cigarettes per day 3 months before administration, or those who cannot stop using tobacco products during the trial;\n* 14\\) Those with a history of motion sickness or needle phobia, or those who cannot tolerate venous catheter puncture;\n* 15\\) Those with special dietary requirements, those who cannot follow a uniform diet or those who have difficulty swallowing;\n* 16\\) Those who cannot control their special diet during the trial (including dragon fruit, mango, grapefruit or grapefruit-related citrus fruits (such as lime, pomelo), rambutan, papaya, pomegranate or their products, and/or xanthine diet, caffeinated food or beverages, strong tea, etc.);\n* 17\\) Those who have taken grapefruit-related citrus fruits (such as lime, pomelo) or their products within 2 weeks before administration, or those who have taken special diets (including dragon fruit, mango or xanthine diet, caffeinated food or beverages, strong tea, etc.) within 48 hours before administration, or those who have engaged in intense exercise, or have other factors affecting drug absorption, distribution, metabolism, and excretion;\n* 18\\) Pregnant or lactating women, or participants with positive blood pregnancy screening results during the trial;\n* 19\\) Participants with reproductive capacity who do not agree to use effective contraceptive methods from the time of signing the informed consent form until the end of the trial (see Appendix 3); or those who do not agree to avoid cryopreservation or donation of eggs or sperm during this period;\n* 20\\) Those who, in the judgment of the investigator, have other reasons that make them unsuitable to participate in this study."
+    }
+  }
+}

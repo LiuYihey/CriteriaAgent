@@ -1,0 +1,100 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07341152",
+      "officialTitle": "A Study to Assess the Pharmacokinetics and Relative Bioavailability of Crystalline LTG-001 Immediate Release Tablets Compared to LTG-001 SDD Formulation in Healthy Participants"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-12",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-10-06"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-11-17"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Pain Management"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "LTG-001 SDD",
+          "description": "LTG-001"
+        },
+        {
+          "type": "DRUG",
+          "name": "LTG-001 Formulation A Prototype 1",
+          "description": "LTG-001"
+        },
+        {
+          "type": "DRUG",
+          "name": "LTG-001 Formulation B Prototype 2",
+          "description": "LTG-001"
+        },
+        {
+          "type": "DRUG",
+          "name": "LTG-001 Formulation B prototype 2",
+          "description": "LTG-001 High Dose"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Determine the relative bioavailability of two different LTG-001 crystalline formulations (test) compared to the LTG-001 SDD formulation (reference) in the fasted state.",
+          "description": "results of LTG001 peak plasma concentration (Cmax)",
+          "timeFrame": "From enrollment to Period 4, Day 3 Discharge"
+        },
+        {
+          "measure": "Determine the relative bioavailability of two different LTG-001 crystalline formulations (test) compared to the LTG-001 SDD formulation (reference) in the fasted state",
+          "description": "Results of LTG001 Area under the plasma concentration versus time curve, (AUC (0-last))",
+          "timeFrame": "from enrollment to Period 4, Day 3 discharge"
+        },
+        {
+          "measure": "Determine the relative bioavailability of two different LTG-001 crystalline formulations (test) compared to the LTG-001 SDD formulation (reference) in the fasted state.",
+          "description": "Results of LTG001 Area under the plasma concentration versus time curve, (AUC (0-inf))",
+          "timeFrame": "from enrollment to Period 4, Day 3 discharge"
+        },
+        {
+          "measure": "To characterize the PK of LTG-001 and metabolites LTGO-4247 and LTGO-4449, following single administrations of up to two dose levels of two different LTG-001 IR tablet formulations in the fasted state.",
+          "description": "Results of Cmax",
+          "timeFrame": "From Enrollment to Period 4, Day 3 discharge"
+        },
+        {
+          "measure": "To characterize the PK of LTG-001 and metabolites LTGO-4247 and LTGO-4449, following single administrations of up to two dose levels of two different LTG-001 IR tablet formulations in the fasted state",
+          "description": "Results of Tmax",
+          "timeFrame": "From enrollment to period 4, Day 3 Discharge"
+        },
+        {
+          "measure": "To characterize the PK of LTG-001 and metabolites LTGO-4247 and LTGO-4449, following single administrations of up to two dose levels of two different LTG-001 IR tablet formulations in the fasted state.",
+          "description": "Results of AUC(0-last)",
+          "timeFrame": "enrollment to Period 4, Day 3 discharge"
+        },
+        {
+          "measure": "To characterize the PK of LTG-001 and metabolites LTGO-4247 and LTGO-4449, following single administrations of up to two dose levels of two different LTG-001 IR tablet formulations in the fasted state.",
+          "description": "Results of AUC (0-inf)",
+          "timeFrame": "from enrollment to Period 4, Day 3 discharge"
+        },
+        {
+          "measure": "To characterize the PK of LTG-001 and metabolites LTGO-4247 and LTGO-4449, following single administrations of up to two dose levels of two different LTG-001 IR tablet formulations in the fasted state.",
+          "description": "Results of T1/2",
+          "timeFrame": "from enrollment to Period 4, Day 3 discharge"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Must be able to understand a written informed consent, which must be obtained prior to initiation of study procedures.\n* Must be willing and able to comply with all study requirements Aged 18 to 55 years inclusive at the time of signing informed consent.\n* Must agree to use an adequate method of contraception (as defined in Section 9.4.\n* Healthy males or non-pregnant, non-lactating, healthy females.\n* Body mass index of 18.0 to 32.0 kg/m2 as measured at screening.\n* Weight ≥50 kg at screening.\n\nExclusion Criteria:\n\n* Serious adverse reaction or serious hypersensitivity to any drug or formulation excipients.\n* Presence or history of clinically significant allergy requiring treatment, as judged by the investigator. Hay fever is allowed unless it is active.\n* Significant serious skin disease, including rash, food allergy, eczema, psoriasis, or urticaria.\n* History of clinically significant cardiovascular, renal, hepatic, chronic respiratory or gastrointestinal disease (except cholecystectomy), neurological or psychiatric disorder, as judged by the investigator.\n* Have poor venous access that limits phlebotomy.\n* Clinically significant abnormal clinical chemistry, hematology or urinalysis as judged by the investigator (laboratory parameters are listed in Appendix 1). Participants with Gilbert's Syndrome are allowed.\n* Has ALT or AST \\>1.5 × ULN; Total bilirubin \\>1.5 × ULN (for participants with known Gilbert's syndrome these criteria only apply if the total bilirubin \\>1.5 × ULN as long as direct bilirubin is ≤1.5 × ULN) at screening.\n* Evidence of renal impairment at screening, as indicated by an estimated creatinine clearance (CLcr) of \\<90 mL/min using the Cockcroft-Gault equation\n* Positive HBsAg, HCV Ab or HIV antibody results at screening.\n* Positive serum pregnancy test at screening or positive urine pregnancy test at first\n* Participants who have received any IMP in a clinical research study within 5 half-lives or within 30 days prior to first dose. However, in no event shall the time between last receipt of IMP and first dose be less than 30 days.\n* Participants who report to have previously received LTG-001. admission. Those who are pregnant or lactating will be excluded.\n* Personal or family history of long QT syndrome or a QTcF interval \\> 450 msec for men or \\> 470 for women on screening or first admission ECG. Participants who are taking, or have taken, any prescribed or over-the-counter drug or herbal remedies (other than up to 4 g per day acetaminophen, HRT or oral contraception) in the 14 days before IMP administration (see Section 11.4). Exceptions may apply on a case-by-case basis, if considered not to interfere with the objectives of the study, as determined by the investigator.\n* Participants who have had any vaccine within 15 days before first IMP administration History of any drug or alcohol abuse in the past 2 years.\n* Regular alcohol consumption in males \\>21 units per week and females \\>14 units per week (1 unit = 12 oz 1 bottle/can of beer, 1 oz 40% spirit, or 5 oz glass of wine).\n* A confirmed positive alcohol urine test at screening or first admission.\n* Current smokers and those who have smoked within the last 12 months.\n* Current users of e-cigarettes and nicotine replacement products and those who have used these products within the last 12 months.\n* A confirmed positive urine cotinine test at screening or first admission.\n* Positive drug screen test result at screening or first admission (drug of abuse tests are listed in Appendix 1) Donation of blood within 2 months or donation of plasma within 7 days prior to first dose of study medication.\n* Participants who are, or are immediate family members of, a study site or sponsor employee.\n* Failure to satisfy the investigator of fitness to participate for any other reason."
+    }
+  }
+}

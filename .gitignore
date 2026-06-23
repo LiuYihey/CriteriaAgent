@@ -1,0 +1,57 @@
+# Analysis / one-off scripts
+Analyze/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / editor
+.idea/
+.vscode/
+.qoder/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets & local config
+.env
+**/api_key.md
+**/*_key.md
+
+# Paper (not released with code)
+CriteriaAgent_EMNLP2026/
+
+# Large / local-only raw data
+bench超集.json
+bench*.json
+data/
+models/
+outputs/
+bench_profiles_archived/
+Heart_disease_emulation/
+
+# CriteriaBench run artifacts (benchmark JSONs in final_bench/ are kept)
+CriteriaBench/outputs/
+CriteriaBench/final_bench/*.bak
+CriteriaBench/final_bench/trials_archived/
+
+# Internal maintenance scripts (underscore-prefixed)
+scripts/_*
+
+# Logs
+*.log

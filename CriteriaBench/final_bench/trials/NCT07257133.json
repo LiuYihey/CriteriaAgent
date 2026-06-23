@@ -1,0 +1,58 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07257133",
+      "officialTitle": "Opioid Avoidance In Surgery Through Integrating Suzetrigine: Post-Operative Care Phase Pilot"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-04",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-10-20"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-03-01"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Post Operative Pain"
+      ],
+      "keywords": [
+        "Facial plastic surgery"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Suzetrigine",
+          "description": "Patients will receive suzetrigine instead of the standard of care opioids.\n\nThe dosing schedule will be: a single oral loading dose of 100 mg suzetrigine, followed by 50 mg every 12 hours starting 12 hours after the first dose. Treatment will begin right after surgery and continue for up to 7 days.\n\nAll patients will also receive acetaminophen (650 mg every 6 hours) and celecoxib (200 mg every 24 hours) as part of the standard multimodal pain management regimen.\n\nPatients experiencing breakthrough pain will be prescribed rescue opioid medication (oxycodone 5 mg every 6 hours as needed) and use will be recorded."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Total opioid consumption",
+          "description": "Number of opioid pills used during the first 7 postoperative days",
+          "timeFrame": "7 days post-operation"
+        },
+        {
+          "measure": "Number of patients with no rescue use",
+          "description": "Total number of patients who do not use any rescue opioids postoperatively",
+          "timeFrame": "7 days post-operation"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Adults (≥18 years) undergoing elective outpatient facial plastic surgery.\n* Able to consent and comply with study procedures.\n* Planned postoperative use of suzetrigine per provider discretion.\n\nExclusion Criteria:\n\n* Age \\<18.\n* Pregnant or breastfeeding.\n* Women on hormonal birth control who decline suzetrigine-related counseling.\n* Patients using strong CYP3A4 inhibitor medications (i.e. itraconazole, ketoconazole, clarithromycin, ritonavir, and grapefruit juice).\n* Known allergy to suzetrigine.\n* Vulnerable or protected research populations."
+    }
+  }
+}

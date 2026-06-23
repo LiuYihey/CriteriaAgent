@@ -1,0 +1,61 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07486544",
+      "officialTitle": "Comparative Evaluation of Soaked Pharyngeal Packing Agents in Septoplasty Procedure: Impact on Postoperative Outcomes"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-05",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2026-03-20"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-04-25"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Sore Throat"
+      ],
+      "keywords": [
+        "Pharyngitis",
+        "Pharynx",
+        "Nasal Surgical Procedures",
+        "Dexamethasone"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Saline (NaCl 0,9 %) (placebo)",
+          "description": "The anesthetist, unaware of group allocation, will place the saline soaked pharyngeal pack under direct visualization following intubation. The pharyngeal pack will be situated in the oropharynx, positioned posterior to the soft palate and in contact with the posterior pharyngeal wall. Placement will be executed with forceps under direct observation, adhering to a standardized protocol to guarantee uniformity across all patients."
+        },
+        {
+          "type": "DRUG",
+          "name": "dexamethasone 8mg",
+          "description": "The anesthetist, unaware of group allocation, will place the dexamethasone soaked pharyngeal pack under direct visualization following intubation. The pharyngeal pack will be situated in the oropharynx, positioned posterior to the soft palate and in contact with the posterior pharyngeal wall. Placement will be executed with forceps under direct observation, adhering to a standardized protocol to guarantee uniformity across all patients."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Postoperative sore throat (POST) score: 4-point scale as 0 for no sore throat (better outcome), and 3 for severe sore throat associated with hoarseness (worse outcome).",
+          "description": "The incidence of postoperative sore throat (POST) at 1-hour post-surgery and assessment will be done at Post Anesthesia Care Unit (PACU) every 30 minutes for 1 hour (at Post Anesthesia Care Unit (PACU) admission, 30, and 60 minutes).",
+          "timeFrame": "1 hour"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Adults aged 18 to 65 years,\n* Both male and female,\n* Classified as American Society of Anesthesiologists (ASA) physical status I to III, and\n* Scheduled for elective septoplasty.\n\nExclusion Criteria:\n\n* Preoperative sore throat,\n* Recent upper respiratory infections,\n* Anticipated difficult airway,\n* Existing digestive, respiratory, or cervical conditions,\n* Regular smoking,\n* Steroid use within 48 hours prior to surgery, and\n* Pregnancy.\n* Patients on chronic corticosteroid therapy, antitussives, or antihypertensive medications\n* With known effects on airway reactivity or bleeding risk,\n* Those with uncontrolled hypertension, or\n* With known allergies to any of the study medications or their components"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+# Multidimensional trial graph (see API.md)
+anthropic>=0.40.0
+numpy>=1.24
+
+# Optional offline embeddings:
+# sentence-transformers>=2.6
+# torch
+
+# Optional graph HTML viz (visualize_trial_graph.py):
+# pyvis>=0.3
+# networkx>=3.0

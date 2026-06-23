@@ -1,0 +1,66 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07224828",
+      "officialTitle": "Clinical Investigation to Assess the Efficacy of a Battery Toothbrush in the Reduction of Established Plaque and Gingivitis: a 12-week Clinical Study."
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-02",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-10-14"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-01-28"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Plaque",
+        "Gingivitis"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Total Active Prevention Fresh Toothpaste + Colgate Total Active Prevention Battery Toothbrush",
+          "description": "0.454 Stannous Fluoride toothpaste with battery toothbrush"
+        },
+        {
+          "type": "DRUG",
+          "name": "Colgate Great Regular + Total Active Prevention Battery Toothbrush",
+          "description": "regular fluoride toothpaste with battery toothbrush"
+        },
+        {
+          "type": "DRUG",
+          "name": "Colgate Great Regular + standard reference flat trim toothpaste",
+          "description": "regular fluoride toothpaste with manual toothbrush"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Löe and Silness Gingival Index",
+          "description": "score from 0 to 3 will be assigned by the examining dentist to all scorable surfaces of the maxillary and mandibular teeth using a dental light and dental mirror. A whole mouth mean score for each subject will be determined by adding the values given by the examining dentist to each scorable surface and dividing that number by the total number of surfaces scored.",
+          "timeFrame": "baseline,6 week, 12 week"
+        },
+        {
+          "measure": "Rustogi Mod. Navy Plaque Index",
+          "description": "An expanded form of the Rustogi Modified Navy Plaque Index, used to measure plaque on different surfaces of teeth. Plaque disclosing solution used",
+          "timeFrame": "baseline, 6 week, 12 week"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Male and Female, age 18-70, inclusive.\n* Availability for the 12-week duration of the clinical research study.\n* Good general health at the discretion of the dental examiner or study investigators.\n* Minimum of 20 permanent natural teeth (excluding third molars).\n* Initial gingivitis index of at least 1.0 as determined by the use of the Loe and Silness Gingival Index.\n* Initial mean plaque index of at least 0.6 as determined by Rustogi Modification of the Navy plaque index.\n* Signed Informed Consent Form\n\nExclusion Criteria:\n\n* Presence of orthodontic appliances.\n* Presence of partial removable dentures.\n* Oral pathology, chronic disease or tumor(s) of the soft or hard tissues of the oral cavity.\n* Advanced periodontal disease (purulent exudate, tooth mobility, and/or extensive loss of periodontal attachment or alveolar bone).\n* Five or more carious lesions requiring immediate restorative treatment.\n* Use of anticonvulsants, sedatives, tranquilizers, anti-inflammatory or daily analgesics within one month prior to the start of the study or scheduled to start such intake during the course of the study.\n* Use of antibiotics any time during the one-month period prior to entry into the study.\n* Ongoing use of medications known to affect gingival tissues (i.e. calcium channel blockers, phenytoin, cyclosporine) and/or on any prescription medicines that might interfere with the study outcome.\n* Participation in any other clinical study.\n* Self-reported pregnancy and/or breastfeeding.\n* Dental prophylaxis within the past three weeks prior to baseline examinations.\n* Current allergies and/or history of allergic reactions to oral care products, personal care consumer products, or any of their ingredients."
+    }
+  }
+}

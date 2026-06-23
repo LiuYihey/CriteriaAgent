@@ -1,0 +1,60 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07194694",
+      "officialTitle": "Dexmedetomidine vs Ketamine as Adjuvants to Bupivacaine in Transversus Abdominus Plane Block in Inguinal Hernioplasty: A Randomized Clincal Controlled Trial"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-01",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-10-22"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-01-15"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Postoperative Pain Relief"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Dexmedetomidine & Bupivacaine.",
+          "description": "Group A (Dexmedetomidine Group): patients will receive 20 ml solution containing 1 mg/kg bupivacaine + 1mcg/kg dexmedetomidine +normal saline."
+        },
+        {
+          "type": "DRUG",
+          "name": "ketamine and bupivacaine injection",
+          "description": "Group B (ketamine Group): patients will receive 20 ml solution containing 1 mg/kg bupivacaine+0.5 mg/kg ketamine + normal saline."
+        },
+        {
+          "type": "DRUG",
+          "name": "Bupivacaine",
+          "description": "Group C (Control Group): Patients will receive 20 ml solution containing 1 mg/kg bupivacaine + normal saline."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in Numeric Pain Rating Scale",
+          "description": "The Numeric Pain Rating Scale (NRS) is an effective method for measuring pain intensity. It consists of an 11-point scale where:\n\n0 represents no pain - 10 represents the worst pain imaginable. Patients are asked to select a whole number that best reflects their pain intensity or average pain level.",
+          "timeFrame": "Immediately postoperative - 2 hours postoperatively - 4 hours postoperatively - 6 hours postoperatively - 12 hours postoperatively"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients undergoing unilateral inguinal hernioplasty of ASA I or II.\n* Age group: 18-60 years old.\n\nExclusion Criteria:\n\n* Patient refusal.\n* known allergy to any of the used drugs\n* ASA III or above\n* Coagulation disorders and thrombocytopenia\n* Body mass index (BMI) \\>30\n* Infection at needle insertion site\n* Patients undergoing bilateral inguinal hernioplasty"
+    }
+  }
+}

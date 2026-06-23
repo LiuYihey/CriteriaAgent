@@ -1,0 +1,60 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07252921",
+      "officialTitle": "A Phase II, Multicenter, Randomized, Double-Blind, Active-Controlled Study to Evaluate the Efficacy and Safety of HRS-9190 for Injection as a Neuromuscular Blocking Agent for Tracheal Intubation During General Anesthesia Induction in Adult Patients Undergoing Elective Surgery"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-10",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-10-30"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-12-30"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Neuromuscular Blockade"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "HRS-9190",
+          "description": "HRS-9190; low dose"
+        },
+        {
+          "type": "DRUG",
+          "name": "HRS-9190",
+          "description": "HRS-9190; high dose"
+        },
+        {
+          "type": "DRUG",
+          "name": "HRS-9190",
+          "description": "Rocuronium Bromide Injection"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Intubation conditions",
+          "description": "Proportion of subjects with excellent or good intubation conditions as assessed by the Cooper score",
+          "timeFrame": "Within 5 minutes after administration of the study drug"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Able and willing to provide a written informed consent\n2. Subjects requiring elective general anesthesia surgery\n3. Meet specified age and body mass index (BMI) criteria\n4. Conform to the ASA Physical Status Classification\n5. Use of highly effective contraception for a specified period if applicable\n\nExclusion Criteria:\n\n1. Scheduled for specific high-risk surgical procedures\n2. History of significant neuromuscular, cardiovascular, respiratory, or neurological disorders\n3. History of conditions affecting drug metabolism or anesthesia risk\n4. Abnormal laboratory values indicating significant clinical abnormalities\n5. Positive serology for specified infectious diseases\n6. Known hypersensitivity to related medications\n7. Recent use of medications interfering with neuromuscular function\n8. History of mental illness, cognitive impairment, or epilepsy\n9. Participation in another clinical trial within a specified period\n10. Any other condition deemed unsuitable by the investigator\n11. Pregnant or nursing women\n12. Unwilling to use birth control during the specified period"
+    }
+  }
+}

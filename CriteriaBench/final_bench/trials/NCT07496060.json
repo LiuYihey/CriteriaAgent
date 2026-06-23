@@ -1,0 +1,58 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07496060",
+      "officialTitle": "Loteprednol Etabonate Versus Prednisolone Acetate for Anterior Chamber Granulomas: A Randomized Study"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-02",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-08-10"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-01-13"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Anterior Chamber Granulomatous Uveitis"
+      ],
+      "keywords": [
+        "anterior chamber granuloma, anterior uveitis, loteprednol etabonate, prednisolone acetate"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "loteprednol etabonate 1% arm 1",
+          "description": "Topical corticosteroid eye drops administered four times daily. The treatment includes a clinician-guided tapering schedule based on the improvement of SUN anterior chamber activity and the reduction or clearance of the anterior chamber lesion."
+        },
+        {
+          "type": "DRUG",
+          "name": "prednisolone acete 1%",
+          "description": "Topical corticosteroid eye drops administered six times daily. Patients are instructed to shake the bottle before each instillation to ensure dose uniformity. The treatment includes a clinician-guided tapering schedule based on clinical response."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "resolution of the anterior chamber inflammation and granulomas.",
+          "description": "The percentage of patients achieving a \"clear anterior chamber,\" defined as the complete resolution of the inflammatory nodule (granuloma) and the absence of anterior chamber cells (SUN grade 0).",
+          "timeFrame": "4 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Any patient presenting with an active anterior chamber granuloma.\n* Patients must be treatment-naïve, having received no previous medical treatment for the current condition.\n* Willingness of the parent or legal guardian to provide written informed consent.\n\nExclusion Criteria:\n\n* History of recurrent uveitis.\n* Pre-existing glaucoma or a baseline intraocular pressure greater than 21 mmHg.\n* Presence of a cataract.\n* Active corneal infection or corneal ulcer.\n* Active inflammation clearly attributed to trauma, lens-induced causes, or underlying rheumatologic disease.\n* Evidence of active posterior uveitis."
+    }
+  }
+}

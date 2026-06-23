@@ -1,0 +1,62 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07018492",
+      "officialTitle": "A Phase 1, Open-label, Parallel-group Study to Assess the Pharmacokinetics, Safety, and Tolerability of BPN14770 in Participants With Mild, Moderate, and Severe Hepatic Impairment and Healthy Control Participants"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-02",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-08-30"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-11-26"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Hepatic Impairment"
+      ],
+      "keywords": [
+        "Mild Hepatic Impairment (HI)",
+        "Moderate HI",
+        "Severe HI"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "BPN14770",
+          "description": "Administered as specified in the treatment arm."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Area Under the Plasma Concentration Time Curve Extrapolated from Time 0 to Infinity (AUCinf) of BPN14770",
+          "timeFrame": "Predose up to 240 hours postdose"
+        },
+        {
+          "measure": "Maximum Observed Plasma Concentration (Cmax) of BPN14770",
+          "timeFrame": "Predose up to 240 hours postdose"
+        },
+        {
+          "measure": "Time Maximum Observed Plasma Concentration (Tmax) of BPN14770",
+          "timeFrame": "Predose up to 240 hours postdose"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Key Inclusion Criteria:\n\n* Considered to be healthy (for healthy participants) or medically stable (for participants with hepatic impairment), as determined by medical evaluation.\n* Body weight ≥ 50 kilograms (kg) and body mass index (BMI) within the range ≥ 18.5 to \\< 40.0 kilograms per square meter (kg/m\\^2).\n* A diagnosis of clinically stable hepatic disease for at least 1 month prior to the screening visit, confirmed by medical history or previous confirmation of hepatic cirrhosis by liver biopsy or medical imaging technique.\n* Mild, moderate, and severe hepatic impairment based on the Child-Pugh classification score at the screening visit and Day ˗1 to determine eligibility:\n\n  * Mild (Class A) hepatic impairment (Child-Pugh classification score 5 to 6)\n  * Moderate (Class B) hepatic impairment (Child-Pugh classification score 7 to 9)\n  * Severe (Class C) hepatic impairment (Child-Pugh classification score 10 to 15)\n* Healthy Participants matched to each participant with moderate hepatic impairment with respect to sex, age (± 10 years), and BMI (± 10%)\n\nKey Exclusion Criteria:\n\n* History or presence of/significant history of or current cardiovascular, respiratory, hepatic, gastrointestinal, endocrinological, hematological, or neurological disorders capable of significantly altering the absorption, metabolism, or elimination of drugs; constituting a risk when taking the study intervention; or interfering with the interpretation of data, in the judgment of the investigator.\n* Blood loss or blood donation that exceeds 500 milliliters (mL) within 56 days prior to or at the screening visit or donation of any amount of blood from the screening visit until admission to the clinical research unit (CRU).\n* Healthy participants:\n\n  * Clinical laboratory values outside the reference range during the screening period or on Day ˗1 and considered clinically significant by the investigator\n  * Alanine aminotransferase or aspartate aminotransferase \\> 1.5 \\* the upper limit of normal (ULN) or bilirubin ≥ 1.0 \\* the ULN.\n* Participants with hepatic impairment:\n\n  * Participant with clinically significant laboratory values in the opinion of the investigator or outside the acceptable ranges or limits during the screening period.\n\nNote: Other protocol defined Inclusion/Exclusion criteria may apply."
+    }
+  }
+}

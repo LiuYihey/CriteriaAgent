@@ -1,0 +1,77 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07083362",
+      "officialTitle": "Safety, Tolerability and Pharmacokinetic Studies of Single and Multiple Administrations of HRS-8829 in Healthy Subjects"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-07",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-08-06"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-01-12"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Ischemia Stroke"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "HRS-8829;Placebo",
+          "description": "Subject will receive HRS-8829 at dose level 1.\n\nSubject will receive placebo at dose level 1."
+        },
+        {
+          "type": "DRUG",
+          "name": "HRS-8829;Placebo",
+          "description": "Subject will receive HRS-8829 at dose level 2.\n\nSubject will receive placebo at dose level 2."
+        },
+        {
+          "type": "DRUG",
+          "name": "HRS-8829;Placebo",
+          "description": "Subject will receive HRS-8829 at dose level 3.\n\nSubject will receive placebo at dose level 3."
+        },
+        {
+          "type": "DRUG",
+          "name": "HRS-8829;Placebo",
+          "description": "Subject will receive HRS-8829 at dose level 4.\n\nSubject will receive placebo at dose level 4."
+        },
+        {
+          "type": "DRUG",
+          "name": "HRS-8829;Edaravone injection",
+          "description": "Subject will receive HRS-8829 at dose level 2.\n\nSubject will receive edaravone injection at dose level 5."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "The incidence and severity of adverse events",
+          "timeFrame": "From ICF signing date to Day8 after single administration"
+        },
+        {
+          "measure": "The incidence and severity of adverse events",
+          "timeFrame": "From ICF signing date to Day15 after multiple administrations"
+        },
+        {
+          "measure": "The Incidence and severity of adverse events",
+          "timeFrame": "from the date of ICF signing to the 21st day after DDI administration"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Male and female subjects aged 18 to 55 years old\n2. The weight of female subjects was ≥45 kg, that of male subjects was ≥50 kg, and the body mass index (BMI) was within the range of 19.0-28.0 kg/m2\n3. The female subjects were not in the pregnancy or lactation period, and the pregnancy examination results before the test were negative; Male or female subjects agreed to take the investigator-approved effective contraceptive measures during the trial as required by the investigator.\n4. Voluntarily participate in this clinical trial\n\nExclusion Criteria:\n\n1. Have any history of allergies\n2. Have had or are currently suffering from diseases of the heart, liver, kidneys, endocrine system, digestive tract, immune system, respiratory system, musculoskeletal system and nervous system, etc\n3. The electrocardiogram at lead 12 was abnormal and was judged by the researcher as unsuitable to participate in this study\n4. Those who test positive for any one of hepatitis B surface antigen, hepatitis C antibody, syphilis specific antibody or human immunodeficiency virus antigen-antibody during the screening period\n5. Those whose screening period examination results are judged by the research doctor as abnormal and of clinical significance\n6. Those who have used any drugs that inhibit or induce liver enzymes within one month before administration\n7. Those who have used or are currently using any medication within two weeks prior to administration\n8. Those who have received a vaccine within one month prior to screening (except for the influenza vaccine) or plan to receive a vaccine during the trial period\n9. Those who have undergone major surgical operations within the six months prior to screening\n10. Blood donation or loss of more than 400 mL within 3 months prior to screening\n11. Participate in the clinical trial of the drug as a subject and take the trial drug\n12. Consumed more than 14 units of alcohol per week on average within the 3 months prior to screening\n13. Those who smoked more than 5 cigarettes or an equivalent amount of tobacco per day\n14. Those who consumed excessive amounts of tea, coffee, grapefruit/grapefruit juice and/or caffeinated beverages daily\n15. Consume special food within 48 hours before administration\n16. Those with a history of drug abuse\n17. Those who cannot tolerate venipuncture\n18. Those who have special dietary requirements\n19. The researchers believe that the subjects have any other factors that make them unsuitable for participating in this trial"
+    }
+  }
+}

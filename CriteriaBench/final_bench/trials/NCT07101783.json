@@ -1,0 +1,51 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07101783",
+      "officialTitle": "Investigation of Pharmacokinetic Properties of Single Doses of NNC0662-0419 in Japanese, Chinese and Non-Asian Participants Living With Overweight or Obesity"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-12",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-08-01"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-10-31"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Overweight",
+        "Obesity"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "NNC0662-0419",
+          "description": "Participants will receive NNC0662-0419 subcutaneously."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "AUC; The area under the NNC0662-0419 plasma concentration-time curve",
+          "description": "Measured in hours\\*nanomoles per liter (h\\*nmol/L).",
+          "timeFrame": "From pre-dose on Day 1 until completion of the end of study visit (Day 29)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Male or female (sex at birth) Japanese, Chinese or non-Asian participants (all self-reported).\n\n  * For Japanese participants: both parents of Japanese descent.\n  * For Chinese participants: both parents of Chinese descent.\n  * For non-Asian participants: both parents of non-Asian descent (non-Asian is defined as of countries outside of Asia).\n* Age 18-55 years (both inclusive) at the time of signing the informed consent.\n* Body mass index (BMI) between 24.0 and 34.9 kilogram per square meter (kg/m\\^2) (both inclusive) at screening. Overweight should be due to excess adipose tissue, as judged by the investigator.\n* Considered eligible based on the medical history, physical examination, and the results of vital signs, electrocardiogram and clinical laboratory tests performed during the screening visit, as judged by the investigator.\n\nExclusion Criteria:\n\n* Known a\\* or suspected hypersensitivity to study intervention(s) or related products.\n* Any disorder, unwillingness or inability which in the investigator's opinion, might jeopardise the participant's safety or compliance with the protocol.\n* 2nd or 3rd degree atrioventricular-block, prolongation of the QRS complex over 120 millisecond (msec), or of the corrected QT interval by Fridericia (QTcF) calculation over 450 msec (females) or 430 msec (males), or any other clinically significant abnormal electrocardiogram (ECG) results as judged by the investigator, at screening.\n* Glycated haemoglobin (HbA1c) greater than or equal to \\>= 6.5percent (%) (48 millimoles per liter \\[mmol/mol\\]) at screening.\n* Calcitonin \\>= 50 nanogram per liter (ng/L) at screening. a\\* - As declared by the participant or reported in the medical records."
+    }
+  }
+}

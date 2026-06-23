@@ -1,0 +1,53 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07329101",
+      "officialTitle": "Clinical Study to Evaluate the Safety, Pharmacokinetics and Efficacy of VC005 in Adolescent Subjects With Mild to Moderate Atopic Dermatitis"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-04",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-11-11"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-02-06"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Atopic Dermatitis (AD)"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "VC005",
+          "description": "VC005 with Local topical application"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Area Under the Curve From Time Zero to Last Quantifiable Concentration(AUC）",
+          "timeFrame": "Day1，Day28"
+        },
+        {
+          "measure": "Peak Plasma Concentration (Cmax）",
+          "timeFrame": "Day1，Day28"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* When giving informed consent, the age range is 12-18 years old (including 12 years old), with no gender restrictions;\n* The subjects and their guardians voluntarily sign an informed consent form (dated), indicating that the subjects have been informed of all relevant parts of the study;\n* All women and all men with the potential to conceive must be willing to use at least one highly effective method of contraception from the time of signing the informed consent form until 3 months after the last administration of the investigational drug\n\nExclusion Criteria:\n\n* Subjects suspected to be allergic to VC005 gel or to excipients in VC005 gel, or with ≥ 2 kinds of drug allergy history in the past;\n* The researchers believe that there may be skin injuries or abnormalities in the subjects that could affect the evaluation of the administration site of the investigational drug；\n* The researchers believe that the subjects have clinically relevant skin diseases that are contraindicated in the study or affect the evaluation of the administration site, including but not limited to psoriasis, acne, dysplastic nevi, and skin cancer;"
+    }
+  }
+}

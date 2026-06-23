@@ -1,0 +1,96 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06030193",
+      "officialTitle": "A Randomized, Active-controlled, Multi-site, Double-masked, Pilot Study to Evaluate the Safety and Tolerability of QLS-111 Versus Timolol Maleate Preservative Free 0.5% Ophthalmic Solution in Subjects With Normal Tension Glaucoma (NTG)"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-03",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-08-13"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-02-23"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Normal Tension Glaucoma (NTG)",
+        "Low-Tension Glaucoma, Bilateral",
+        "Low-Tension Glaucoma, Unspecified Eye",
+        "Glaucoma"
+      ],
+      "keywords": [
+        "NTG",
+        "Qlaris",
+        "intraocular pressure (IOP)",
+        "Glaucoma",
+        "Nightingale",
+        "low-tension glaucoma"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "QLS-111 ophthalmic solution (0.015%)",
+          "description": "QLS-111 ophthalmic solution 0.015% applied QPM OU for 7 days followed by BID dosing OU for 7 days, to constitute a 14-day study treatment period. All IP for this study will be supplied masked in PF single use vials."
+        },
+        {
+          "type": "DRUG",
+          "name": "Timolol Maleate PF 0.5% Ophthalmic Solution (Timolol)",
+          "description": "Timolol BID: Timolol Maleate PF 0.5% Ophthalmic Solution (Timolol) with BID dosing OU will be administered up to 14 days. All IP for this study will be supplied masked in PF single use vials."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Incidence of ocular symptoms and ocular treatment-emergent adverse events (TEAEs)",
+          "description": "Ocular safety and tolerability: (AEs)",
+          "timeFrame": "14 days"
+        },
+        {
+          "measure": "Clinically significant change in visual acuity",
+          "description": "Ocular safety and tolerability: visual acuity",
+          "timeFrame": "14 days"
+        },
+        {
+          "measure": "Clinically significant change in findings on slit lamp exam",
+          "description": "Ocular safety and tolerability: dilated biomicroscopy of eye to observe clinically significant changes from baseline",
+          "timeFrame": "14 days"
+        },
+        {
+          "measure": "Clinically significant change in findings on fundus exam",
+          "description": "Ocular safety and tolerability: dilated ophthalmoscopy to observe clinically significant changes from baseline in posterior segment of eye",
+          "timeFrame": "14 days"
+        },
+        {
+          "measure": "Incidence of systemic TEAEs",
+          "description": "Systemic safety and tolerability: AEs",
+          "timeFrame": "14 days"
+        },
+        {
+          "measure": "Clinically significant changes in blood pressure (BP)",
+          "description": "Systemic safety and tolerability: vital sign, measuring systolic and diastolic blood pressure",
+          "timeFrame": "14 days"
+        },
+        {
+          "measure": "Clinically significant changes in heart rate (HR)",
+          "description": "Systemic safety and tolerability: vital signs",
+          "timeFrame": "14 days"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* 30 years or older\n* Able to provide written acknowledgement of giving informed consent\n* Best corrected visual acuity (BCVA) 20/200 or better\n* NTG in both eyes with untreated IOP \\<21 mmHg at Visit 2 and morning assessment of Visit 3; IOP at morning assessment on Visits 2 and 3 doesn't differ more than 2 mmHg; has open iridocorneal angles, historic IOP \\<22 mmHg in either eye\n\nExclusion Criteria:\n\n* History of angle closure glaucoma, narrow or occludable angle on gonioscope\n* All secondary glaucomas\n* Severe glaucomatous damage that would preclude safe washout of prescribed ocular hypotensive medications\n* Previous glaucoma surgery, certain procedures (trabeculotomy, shunt/tubes, cyclodestructive procedure) (selective laser trabeculoplasty (SLT) allowed if done no earlier than 1 year from study, some minimally invasive glaucoma surgeries are allowed if done no earlier than 1.5 years from study)\n* Ocular trauma, ocular infections, ocular inflammation, herpes simplex keratitis of eye\n* Use of other ophthalmic concomitant medications during the study\n* Refractive surgery\n* Uncontrolled hypertension or hypotension\n* Significant systemic or psychiatric disease\n* Participation in other investigational trial 30 days prior to screening or previous enrollment and treatment with Qlaris investigational product\n* Pregnant or lactating"
+    }
+  }
+}

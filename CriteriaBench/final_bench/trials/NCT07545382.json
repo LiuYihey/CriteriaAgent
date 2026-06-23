@@ -1,0 +1,73 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07545382",
+      "officialTitle": "Efficacy of Rivastigmine in the Management of Toxic Anticholinergic Delirium: A Prospective Study at Alexandria Poison Center"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-05",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-12-08"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-04-15"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Anticholinergic Delirium",
+        "Clozapine Poisoning",
+        "Antipsychotic Toxicity",
+        "CNS Depression",
+        "Hypoactive Delirium",
+        "Tricyclic Antidepressant Poisoning",
+        "Procyclidine Induced Delirium"
+      ],
+      "keywords": [
+        "Rivastigmine",
+        "Clozapine",
+        "Quetiapine",
+        "Carbamazepine",
+        "Procyclidine",
+        "Cyproheptadine",
+        "Acetylcholinesterase Inhibitors",
+        "CNS depression",
+        "Hypoactive dilirium",
+        "Anticholinergic delirium"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Rivastigmine",
+          "description": "Initial Dose: A starting dose of 6 mg is administered either orally or via a Nasogastric Tube (NGT) for patients with impaired swallowing or depressed consciousness.\n\nTitration: Additional 6 mg doses are repeated every 2 hours based on clinical need until the resolution of delirium.\n\nAlternative Route: Transdermal patches (9.5 mg/24h) are applied in cases where enteral administration is not feasible or based on clinical judgment."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in Glasgow Coma Scale (GCS) Score.",
+          "description": "The Glasgow Coma Scale (GCS) is a clinical scale used to assess a patient's level of consciousness. The total score was recorded for all participants at baseline and subsequent intervals to evaluate the clinical response to rivastigmine. The GCS score ranges from a minimum of 3 to a maximum of 15, where higher scores indicate a better neurological outcome (improved consciousness). For the oral/NGT group, assessments were performed 2 hours after the initial dose and after each supplemental dose. For the transdermal group, monitoring included a 6 to 8-hour window and at 12 hours. Clinical resolution is defined as reaching a GCS score of 15 and a RASS score of 0.",
+          "timeFrame": "Baseline (0 hour), 2 hours post-administration (all patients), 6-8 hours, and 12 hours (transdermal group). For patients receiving additional oral/NGT doses, assessments were repeated 2 hours after each supplemental dose up to 6 hours after resolution."
+        },
+        {
+          "measure": "Change in Richmond Agitation-Sedation Scale (RASS) Score",
+          "description": "The Richmond Agitation-Sedation Scale (RASS) is used to evaluate the clinical response to rivastigmine. The RASS is a 10-point scale ranging from a minimum value of -5 (denoting unarousable/deep sedation) to a maximum value of +4 (denoting combative/extreme agitation). A score of 0 represents an alert and calm state, which indicates the best clinical outcome for this study. Scores were recorded for all participants at baseline and 2 hours to evaluate the initial response. For the oral/NGT group, additional assessments were performed 2 hours after each supplemental dose. For the transdermal group, monitoring focused on the 6 to 8-hour window and at 12 hours. Clinical resolution is defined as reaching a RASS score of 0 and a GCS score of 15.",
+          "timeFrame": "Baseline, 2h (all), 6-8h & 12h (patch group), and up to 6h post-resolution (both groups)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nExposure: acute exposure to anticholinergic agents (e.g., clozapine, tricyclic antidepressants).\n\nClinical Presentation: Presence of anticholinergic delirium either hyperactive/agitated or hypoactive/CNS depression/coma).\n\nExclusion Criteria:\n\n1. Non-Toxic Delirium: Delirium of multifactorial origin or other medical causes (e.g., sepsis, hepatic encephalopathy, alcohol withdrawal, or metabolic disturbances).\n2. Cardiac Contraindications: Baseline bradycardia, Atrioventricular (AV) block, or significant QTc prolongation.\n3. Patients who experienced pulmonary aspiration as a complication of overdose, necessitating endotracheal intubation and mechanical ventilation\n4. Severe Organ Impairment: Known severe renal or hepatic impairment.\n5. Neurological Conditions: History of pre-existing seizure disorders or epilepsy.\n6. Respiratory Conditions: Severe asthma or Chronic Obstructive Pulmonary Disease (COPD) due to the risk of bronchoconstriction.\n7. Obstructions: Mechanical bowel obstruction or urinary tract obstruction.\n8. Hypersensitivity: Known history of hypersensitivity to rivastigmine or other carbamates.\n9. Pregnancy/Lactation: Pregnant or lactating women."
+    }
+  }
+}

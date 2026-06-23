@@ -1,0 +1,68 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07395271",
+      "officialTitle": "Comparing Doses of Intrathecal Dexmedetomidine Along With Bupivacaine for Cesarean Section: A Double-Blind Randomized Clinical Trial"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-01",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-10-22"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-01-21"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Dexmedetomidine"
+      ],
+      "keywords": [
+        "Dexmedetomidine",
+        "spinal anesthesia",
+        "cesarean section",
+        "bupivacaine",
+        "sensory block",
+        "motor block"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Dexmedetomidine 5 mcg",
+          "description": "12.5 mg (2.5 mL) of 0.5% hyperbaric bupivacaine + 5 µg dexmedetomidine"
+        },
+        {
+          "type": "DRUG",
+          "name": "Dexmedetomidine 10 mcg",
+          "description": "12.5 mg (2.5 mL) of 0.5% hyperbaric bupivacaine + 10 µg dexmedetomidine"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Duration of sensory blockade",
+          "description": "Visual Analouge Scale (0 to 10)",
+          "timeFrame": "6 hrs"
+        },
+        {
+          "measure": "Duration of motor blockade",
+          "description": "Bromage Scale (1 to 5)",
+          "timeFrame": "6 hrs"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Parturients aged 20-40 years\n* ASA physical status II\n* Scheduled for elective cesarean section\n* Ability to provide informed written consent\n\nExclusion Criteria:\n\n* ASA physical status III or higher\n* Emergency cesarean section\n* Previous labor analgesia\n* History of cardiovascular, neurological, or systemic disease\n* Contraindications to spinal anesthesia\n* Surgery duration exceeding 60 minutes"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07012005",
+      "officialTitle": "A Phase 1, Open-label, Parallel-group Study to Assess the Pharmacokinetics, Safety, and Tolerability of BPN14770 in Participants With Severe Renal Impairment and Healthy Control Participants"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-02",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-08-25"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-12-15"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Renal Impairment"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "BPN14770",
+          "description": "BPN14770 will be administered per schedule specified in the arm description."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Maximum Plasma Concentration (Cmax) of BPN14770",
+          "timeFrame": "0 (predose) up to 240 hours postdose on Day 1 to Day 11"
+        },
+        {
+          "measure": "Time to Reach Cmax (Tmax) of BPN14770",
+          "timeFrame": "0 (predose) up to 240 hours postdose on Day 1 to Day 11"
+        },
+        {
+          "measure": "Area Under the Plasma Concentration-time Curve From Time Zero to the Time of the Last Quantifiable Concentration After Dosing (AUC0-last) of BPN14770",
+          "timeFrame": "0 (predose) up to 240 hours postdose on Day 1 to Day 11"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nAll Participants:\n\n* Considered to be healthy (for healthy participants) or medically stable (for participants with renal impairment), as determined by medical evaluation including medical/surgical history, physical examination, clinical laboratory tests, vital sign measurements, and 12-lead electrocardiogram (ECG) during the screening period and upon admission to the clinical research unit (CRU).\n* Body weight ≥ 50 kilograms (kg) and body mass index (BMI) within the range 18.5 to \\<40.0 kg/square meter (m\\^2) (inclusive)\n\nParticipants With Renal Impairment:\n\n* Participants that are not undergoing hemodialysis and have severe renal impairment based upon their 2021 chronic kidney disease epidemiology collaboration (CKD-EPI) creatinine formula creatinine clearance estimate (CLcr) estimated glomerular filtration rate (eGFR) estimate and the participant's body surface area (BSA) calculated at the screening visit\n\n  a. Severe renal impairment: eGFR \\<30 milliliters (mL)/minute (min)\n* A stable medication regimen is required, defined as not starting new drug(s) or changing dosage(s) within 14 days prior to administration of study intervention through the follow-up/early termination visit.\n\nHealthy Participants:\n\n* Participants with clinical laboratory tests within normal reference range for the laboratory, or abnormal but considered not clinically significant by the investigator. Renal function, calculated by 2021 CKD-EPI creatinine formula and the participant's BSA, must be normal (that is, eGFR ≥90 mL/min)\n* Matched to each participant with severe renal impairment with respect to sex, age (± 10 years), and BMI (± 10%)\n\nExclusion Criteria:\n\nAll Participants:\n\n* History or presence of/significant history of or current cardiovascular, respiratory, renal, gastrointestinal (GI), endocrinological, hematological, or neurological disorders capable of significantly altering the absorption, metabolism, or elimination of drugs; constituting a risk when taking the study intervention; or interfering with the interpretation of data in the judgement of the investigator\n* Current or chronic history of liver disease or biliary abnormalities (except for Gilbert's syndrome or asymptomatic gallstones)\n* History of GI surgery including but not limited to gastric resection and/or intestinal resection that resulted in a clinically significant abnormality in GI function\n* Lymphoma, leukemia, or any malignancy within the past 5 years except for basal cell or squamous epithelial carcinomas of the skin that have been resected with no evidence of metastatic disease for 3 years\n* Participants with fluctuating or rapidly deteriorating renal function. Assessment of the stability of the participant's renal function will be determined by the investigator.\n* Any condition requiring medication and/or other treatment other than protocol-specified medication for participants with renal impairment, such as dietary restriction and physical therapy\n* Participant with poor venous access\n* History of Coronavirus Disease 2019 (COVID-19) infection within 14 days prior to the screening visit or admission to the CRU, or close contact with a COVID-19 patient in the 14 days prior to the screening visit or admission to the CRU as reported by the participant and the participant's medical history.\n* Sensitivity to the study intervention, or components thereof, or a drug or other allergy, including food allergy, that in the opinion of the investigator or medical monitor contraindicates participation in the study.\n\nParticipants With Renal Impairment:\n\n* Participant with acute renal failure or a kidney transplant history or requiring renal dialysis during the study period\n* Current or anticipated need for hemodialysis during the study\n\nNOTE: Other protocol-specified inclusion and exclusion criteria may apply."
+    }
+  }
+}

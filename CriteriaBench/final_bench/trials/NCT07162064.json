@@ -1,0 +1,55 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07162064",
+      "officialTitle": "Effectiveness and Safety of Heparinization for Radial Artery Occlusion After Transradial Cerebral Angiography in Patients With Acute Ischemic Stroke - A Multicenter, Prospective, Double-blind, Randomized Trail"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-03",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-08-04"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-01-31"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Ischemic Stroke"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Heparin - Therapeutic dosage",
+          "description": "Intra-arterial sheath injection of heparin 2500 units before operation"
+        },
+        {
+          "type": "DRUG",
+          "name": "Saline (0.9% NaCl)",
+          "description": "Intra-arterial sheath injection of 2mL saline (0.9% sodium chloride)"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "24 hours radial artery occlusion rate after operation",
+          "description": "Radial artery occlusion rate was assessed by ultrasonography 24 hours±12hours after the procedure.",
+          "timeFrame": "24 hours±12hours"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age ≥18 years\n2. Acute ischemic stroke onset within 7 days (inclusive)\n3. Patients undergoing cerebral angiography via transradial approach\n4. Participant or legal representative capable of providing informed consent\n\nExclusion Criteria:\n\n1. Current anticoagulation therapy prior to procedure\n2. Positive modified Allen's test result\n3. History of coronary artery bypass grafting(CABG) with missing right radial artery graft\n4. Severe forearm deformities (skin/musculoskeletal) or failed radial artery sheath placement\n5. Suspected/confirmed pregnancy or lactation\n6. Acute ischemic stroke with hemorrhagic transformation\n7. Active systemic bleeding\n8. Renal insufficiency (eGFR \\<30 mL/min or serum creatinine \\>200 μmol/L)\n9. Investigator-determined ineligibility for trial participation"
+    }
+  }
+}

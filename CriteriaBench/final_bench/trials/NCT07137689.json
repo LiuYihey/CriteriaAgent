@@ -1,0 +1,57 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07137689",
+      "officialTitle": "Pharmacokinetics of LY3537982 Following a Single Dose in Participants With Renal Impairment Compared With Participants With Normal Renal Function"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-04",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-08-18"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-04-10"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Renal Insufficiency"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "LY3537982",
+          "description": "Administered orally"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Pharmacokinetics: Maximum Concentration (Cmax) of LY3537982",
+          "timeFrame": "Day 1, Predose up to Day 5 Postdose"
+        },
+        {
+          "measure": "Pharmacokinetics: Area Under the Concentration Verses Time Curve from Time Zero to Infinity (AUC[0-∞]) of LY3537982",
+          "timeFrame": "Day 1, Predose up to Day 5 Postdose"
+        },
+        {
+          "measure": "Pharmacokinetics: Area Under the Concentrations Verses Time Curve from Time Zero to Time t (AUC(0-tlast) of LY3537982",
+          "timeFrame": "Day 1, Predose up to Day 5 Postdose"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Have a body mass index (BMI) within the range 19.0 to 42.0 kilograms per square meter (kg/m²), inclusive.\n* Participants Assigned Male at Birth (AMAB) who agree to follow contraception guidance or participants AFAB who are individuals of childbearing potential (INOCBP).\n* Severe renal impairment: Have eGFR determined by CKD-EPI of less than 30 mL/min and not requiring dialysis.\n* Moderate renal impairment: Have eGFR determined by CKD-EPI of greater than or equal to 30 mL/min and less than 60 mL/min.\n* Are not currently or have not previously been on hemodialysis, including peritoneal dialysis.\n* Have acceptable blood pressure as defined by systolic blood pressure less than 160 mmHg and diastolic blood pressure less than 95 mmHg, as well as acceptable pulse rate as defined by no less than 50 bpm and no greater than 100 bpm\n\nExclusion Criteria:\n\n* Have history of chronic liver disease, or any evidence for hepatic impairments, or\n\n  \\* ALT or AST greater than 2.5 × ULN without any increase in TBL or \\* TBL greater than 1.5 × ULN without any increase in aminotransferase.\n* Have a current, functional renal transplant. Non-functional renal allografts may be allowed if failure has been greater than 1 year and no longer on immunosuppressive therapies.\n* Diagnosed and/or treated malignancy within 5 years prior to screening with the exception of curatively treated basal cell carcinoma of the skin, squamous cell carcinoma of the skin, and curatively resected in situ carcinoma of the cervix\n* Have known allergies to LY3537982, related compounds or any components of the formulation, or a history of significant atopy.\n* Have previously completed or withdrawn from this study or any other study investigating LY3537982.\n* Have participated, within the last 30 days, in a clinical study involving an investigational product. If the previous investigational product has a long half-life, 5 half-lives or 30 days, whichever is longer should have passed, prior to admission\n* Show evidence of HIV infection or positive human HIV antibodies.\n* Have evidence of hepatitis B at screening, that is, positive test for hepatitis B surface antigen, HBV DNA, or both.\n* Have a positive hepatitis C antibody test. Participants with a positive hepatitis C antibody test at screening can be included only if a confirmatory HCV RNA test is negative.\n* Are participants AFAB with a positive pregnancy test or who are lactating. ssion onward, up to 2 g per day of acetaminophen will be allowed at the discretion of the investigator."
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07193563",
+      "officialTitle": "The ENCalmSocial Trial: A Randomized, Double-Blind, Placebo-Controlled Monotherapy Trial to Evaluate the Efficacy and Safety of ENX-102 in Participants With Social Anxiety Disorder"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-04",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-09-05"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-03-19"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Social Anxiety Disorder (SAD)"
+      ],
+      "keywords": [
+        "Social Anxiety",
+        "ENX-102"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "ENX-102",
+          "description": "oral capsule"
+        },
+        {
+          "type": "OTHER",
+          "name": "Placebo",
+          "description": "oral capsule"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change From Baseline on the Clinician-administered Liebowitz Social Anxiety Scale (LSAS) - Total score",
+          "description": "The LSAS is a 24-item semi-structured interview measure of fear and avoidance experienced in a range of social and performance situations. The 24 items are divided into 2 subscales, 13 concerning performance anxiety \\& 11 pertaining to social situations. The 24 items are first rated on a Likert Scale from 0 to 3 on fear felt during the situations (0=none, 1=mild, 2=moderate, 3= severe), and then the same items are rated regarding avoidance of the situation (0=never, 1=occasionally, 2=often, 3=usually). An overall global score (0 to 144) is calculated by adding total fear/anxiety and total avoidance scores. Higher scores indicated higher probability of social anxiety disorder.",
+          "timeFrame": "Baseline (Day 1) and Week 6"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Key Inclusion Criteria:\n\n* Male or female at birth, aged 18-70 years, inclusive, at screening Diagnosed with SAD according to the Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition, Text Revision (DSM-5-TR), confirmed by a Mini-International Neuropsychiatric Interview (MINI) version 7.0.2\n* LSAS total score of ≥70\n* CGI-S score of ≥4\n\nKey Exclusion Criteria:\n\n* Clinically predominant psychiatric diagnosis other than SAD per the MINI\n* Any past/lifetime or current diagnosis of a neurocognitive disorder or psychotic disorder, or any current diagnosis of posttraumatic stress disorder, obsessive compulsive disorder, or bipolar disorder\n* Reports moderately severe to severe symptoms of depression\n* Frequent use of benzodiazepines within 90 days of screening\n* Used prohibited medication or prohibited herbal or other supplements within 5 half- lives or 21 days prior to Day 1 and unwillingness to refrain from their use for the duration of the trial\n* Recent suicidal ideation or behavior\n* Current or recent moderate or severe substance use disorder as assessed by the MINI\n* Is unwilling/unable to abstain from alcohol, marijuana, THC, CBD, and/or any other psychoactive substances (except for nicotine or caffeine) for the duration of the trial, per Investigator judgment, and/or has a positive alcohol test or drug test at Screening or Day 1\n* Clinically significant abnormal findings in safety assessments\n* Has significant progressive disorders or unstable medical conditions Unable to comply with the requirements of the study or, in the opinion of the Investigator or Sponsor, is unsuitable for the study"
+    }
+  }
+}

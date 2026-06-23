@@ -1,0 +1,55 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07340801",
+      "officialTitle": "Analgesic Efficacy of Ultrasound-guided Inter-semispinal Fascial Plane Block (ISPB) Versus Erector Spinae Plane Block (ESPB) in Posterior Cervical Spine Surgery: A Prospective Randomized Double-Blinded Study."
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-01",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-11-01"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-02-28"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Analgesia"
+      ],
+      "keywords": [
+        "the inter-semispinal fascial plane block (ISPB)",
+        "the erector spinae plane (ESPB) block",
+        "Posterior cervical surgeries"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Bupivacaine",
+          "description": "injection of 15 mL Bupivacaine 0.25% on each side"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "The total perioperative opioid consumption",
+          "description": "the total perioperative opioid consumption through two co-primary outcomes, i.e. total amount of fentanyl administered intraoperatively and total fentanyl consumption during the first 24 hours postoperatively.",
+          "timeFrame": "during the first 24 hours postoperatively"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients 18 years of age or older.\n* Patients Scheduled for Elective Posterior Cervical Spine Surgery.\n* American Society of Anesthesiologists (ASA) physical status I-III.\n\nExclusion criteria:\n\n* Patients with traumatic or emergency surgeries.\n* Renal or hepatic impairment\n* Allergy to drug used.\n* Re-do surgery.\n* Coagulopathy.\n* Neuromuscular disease.\n* Preoperative poor left ventricular function (EF \\< 35%).\n* Systemic infections or infections at site of injection.\n* Psychiatric illnesses (schizophrenia, bipolar, uncontrolled anxiety or depression).\n* Narcotic dependency.\n\nExclusion Criteria:\n\n\\-"
+    }
+  }
+}

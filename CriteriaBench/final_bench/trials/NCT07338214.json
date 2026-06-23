@@ -1,0 +1,63 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07338214",
+      "officialTitle": "Investigating the Pharmacokinetics of Petrelintide Using Different Drug Product Concentrations in Participants With a BMI ≥27.0 kg/m²"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-04",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-12-17"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-03-31"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Obesity & Overweight"
+      ],
+      "keywords": [
+        "Pharmacokinetic",
+        "Obesity",
+        "Overweight",
+        "ZP8396",
+        "Phase 1",
+        "Safety and tolerability"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Petrelintide",
+          "description": "Solution administered with a syringe"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "To investigate the Pharmacokinetics of a single dose administration of petrelintide administered subcutaneously using 4 different drug product concentrations in participants with overweight or obesity",
+          "description": "Area under the petrelintide plasma concentration time curve from time zero to infinity after a single dose of petrelintide (AUC0-inf)",
+          "timeFrame": "Day 1 - day 50 (+/- 2)"
+        },
+        {
+          "measure": "To investigate the Pharmacokinetics of a single dose administration of petrelintide administered subcutaneously using 4 different drug product concentrations in participants with overweight or obesity",
+          "description": "Maximum observed plasma concentration (Cmax) from time zero to infinity after a single dose of petrelintide",
+          "timeFrame": "Day 1 - day 50 (+/- 2)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Signed and dated informed consent obtained before any study-related activities. Study-related activities are any procedures that would not have been done during normal management of the participant\n* BMI: ≥27.0 kg/m2, at screening and Day -1\n* Have sufficient venous access to allow cannulation for blood sampling as required by the protocol.\n* Able and willing to comply with all study procedures\n\nExclusion Criteria:\n\n* HbA1c ≥48 mmol/mol (6.5%)\n* Systolic BP ≥160 mmHg or diastolic BP ≥110 mmHg at screening\n* History of type 1 or type 2 diabetes mellitus\n* Treatment with glucose-lowering agent(s) within 90 days prior to screening\n* Obesity induced by an endocrinologic disorder (eg, Cushing Syndrome) or diagnosed monogenetic or syndromic forms of obesity\n* Uncontrolled thyroid disease as judged clinically significant by the Investigator\n* Receipt of any medicinal product under clinical development within 30 days or at least 5 half-lives of the related substances and their metabolites (whichever is longer) before randomization in this study\n* Previous exposure to petrelintide (ZP8396) or exposure to other amylin analogs within the last 3 months\n* Evidence of significant neuropsychiatric disease\n* Any history or presence of a disorder or a disease, which, in the Investigator's opinion, might jeopardize the participant's safety, evaluation of results, or compliance with the protocol.\n* Known or suspected hypersensitivity to study product or related products.\n* Known cardiovascular disease (excluding hypertension), including arthrosclerosis, transient ischemic attack, stroke, angina pectoris, or a history of myocardial infarction or coronary arterial bypass graft/percutaneous coronary intervention\n* Presence or history of clinically significant arrhythmias or clinically significant conduction disorders\n* A marked baseline prolongation of QT/QTc interval (eg, repeated demonstration of a QTc interval \\>450 ms) at screening or Day -1\n* A history of additional risk factors for Torsades de pointes (eg, heart failure, hypokalemia, family history of Long QT syndrome)\n* The use of concomitant medications that prolong the QT/QTc interval\n* Presence or history of acute or chronic pancreatitis.\n* Known clinically significant gastric emptying abnormality (for example severe gastroparesis, gastric outlet obstruction, gastric bypass operations or sleeve gastrectomy) or chronic treatment that affects gastrointestinal motility\n* History or presence of malignant neoplasms (except basal or squamous cell skin cancer or cervical carcinoma in situ) within 5 years before the screening as judged by the Investigator\n* Planned surgery scheduled during the study period, except for minor surgical procedures, as judged by the Investigator\n* Anticipated change in lifestyle (eg, eating, exercise, or sleep pattern) during the study\n* Smoking more than 5 cigarettes or the equivalent nicotine consumption per day (including use of nicotine preparations)\n* Inability or unwillingness to refrain from smoking and use of nicotine substitute products 1 day before and during the inpatient period\n* Any use of chronic (\\>14 days) systemic glucocorticoid therapy (excluding topical, intraocular, intranasal, single intraarticular injection, or inhaled preparations) within 90 days of screening\n* Any medication (prescription and non-prescription drugs) except for stable treatment with antihypertensive and lipid-lowering drugs as well as thyroid replacement therapy, unless approved by the medical monitor in consultation with the Sponsor (Note: Stable treatment with antihypertensive and lipid lowering drugs (stable for ≥1 month prior to screening) as well as thyroid replacement therapy (≥2 months prior to screening) will be allowed. Use of routine vitamins, topical treatments (including local acting steroids/antihistamines for the treatment of mild hay fever), menopausal hormone replacement therapy, and contraceptives are allowed. In addition, occasional use of acetylsalicylic acid, paracetamol, and ibuprofen for acute pain treatment is allowed."
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07222878",
+      "officialTitle": "A Single-center, Open-label, Single-dose, Three-period, Fixed Sequence Study to Evaluate the Relative Bioavailability of a New Formulation of NPT 2042 Soft-Gelatin Capsules Compared to the Original Formulation of NPT 2042 Soft-Gelatin Capsules Administered Orally to Healthy Adult Participants With Co-administered Agent"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-04",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-09-29"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-11-04"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Epilepsy",
+        "Alzheimer Disease",
+        "Epilepsy Intractable"
+      ],
+      "keywords": [
+        "CNS Disorder",
+        "Seizure Disorder"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "NPT 2042 (Reference formula/Formulation 1)",
+          "description": "In Period 1 Day 1, participants will receive Formulation 1 in a fasted state (Treatment A)."
+        },
+        {
+          "type": "DRUG",
+          "name": "NPT 2042 (Test formula/Formulation 2)",
+          "description": "Following a 3-day wash out, in Period 2 Day 1, participants will receive Formulation 2 in a fasted state (Treatment B)."
+        },
+        {
+          "type": "DRUG",
+          "name": "NPT 2042 (Test formula/Formulation 2)",
+          "description": "Following a 4-day wash out, in Period 3 Day 1, participants will receive Formulation 2 in a fasted state with co-administered agent (Treatment C)."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "To estimate the single dose pharmacokinetic parameters for each NPT 2042 formulation in healthy participants following each treatment.",
+          "description": "Plasma NPT 2042 PK endpoints including the Cmax (NPT 2042 only).",
+          "timeFrame": "Baseline (Day -1) as compared to Tx. period 1 (Day 1), Tx. Period 2 (Day 4), and Tx. Period 3 (Day 7)"
+        },
+        {
+          "measure": "To estimate the single dose pharmacokinetic parameters for each NPT 2042 formulation in healthy participants following each treatment.",
+          "description": "Plasma NPT 2042 PK endpoints including the Tmax (NPT 2042 only).",
+          "timeFrame": "Baseline (Day -1) as compared to Tx. period 1 (Day 1), Tx. Period 2 (Day 4), and Tx. Period 3 (Day 7)"
+        },
+        {
+          "measure": "To estimate the single dose pharmacokinetic parameters for each NPT 2042 formulation in healthy participants following each treatment.",
+          "description": "Plasma NPT 2042 PK endpoints including the t½ (NPT 2042 only).",
+          "timeFrame": "Baseline (Day -1) as compared to Tx. period 1 (Day 1), Tx. Period 2 (Day 4), and Tx. Period 3 (Day 7)"
+        },
+        {
+          "measure": "To estimate the single dose pharmacokinetic parameters for each NPT 2042 formulation in healthy participants following each treatment.",
+          "description": "Plasma NPT 2042 PK endpoints including the AUClast (NPT 2042 only).",
+          "timeFrame": "Baseline (Day -1) as compared to Tx. period 1 (Day 1), Tx. Period 2 (Day 4), and Tx. Period 3 (Day 7)"
+        },
+        {
+          "measure": "To estimate the single dose pharmacokinetic parameters for each NPT 2042 formulation in healthy participants following each treatment.",
+          "description": "Plasma NPT 2042 PK endpoints including the AUCinf (NPT 2042 only).",
+          "timeFrame": "Baseline (Day -1) as compared to Tx. period 1 (Day 1), Tx. Period 2 (Day 4), and Tx. Period 3 (Day 7)"
+        },
+        {
+          "measure": "To estimate the single dose pharmacokinetic parameters for each NPT 2042 formulation in healthy participants following each treatment.",
+          "description": "Plasma NPT 2042 PK endpoints including the CL/F (NPT 2042 only).",
+          "timeFrame": "Baseline (Day -1) as compared to Tx. period 1 (Day 1), Tx. Period 2 (Day 4), and Tx. Period 3 (Day 7)"
+        },
+        {
+          "measure": "To calculate the Frel and 90% confidence intervals for Formulation 1 (Reference) vs Formulation 2 (Test) both administered in a fasted state.",
+          "description": "The Frel calculations will be based on Cmax and AUCinf values for NPT 2042.",
+          "timeFrame": "Baseline (Day -1) as compared to Tx. period 1 (Day 1) and Tx. Period 2 (Day 4)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Males and females between 19 and 65 years of age, inclusive.\n* Body mass index (BMI) of 18 to 35 kg/m2, inclusive, using the following formula: weight (kg)/\\[height (m)\\]\n* A minimum body weight of 50 kg for males and 45 kg for females.\n* All females must have a negative serum pregnancy test at Screening and a negative serum pregnancy test upon admission to the clinical research center.\n* Females must be of non-child-bearing potential.\n* Male participants with female partners of reproductive potential must agree to protocol specifications.\n\nExclusion Criteria:\n\n* Clinically significant acute illness within 2 weeks prior to Day -1.\n* Presence of active or recurring clinically significant cardiovascular, pulmonary, renal, endocrine, hepatic, neurologic, psychiatric, immunologic, hematologic, gastrointestinal, or metabolic disease requiring medical treatment.\n* Presence of an active malignancy or a malignancy of any type within the past 5 years, other than squamous cell or basal cell carcinoma of the skin.\n* Clinically significant acute or chronic infection or known inflammatory condition.\n* Personal or family history of long QT syndrome.\n* History or evidence of adverse symptoms associated with phlebotomy or blood donation\n* History of clinically significant orthostatic hypotension or any vasovagal syncope.\n* Plans for surgery or other medical procedures during the study.\n* Clinically significant past or current medical or surgical history that could interfere with treatment.\n* Participation in an investigational drug or device study within 30 days or five half-lives, whichever is longer \\[90 days for biologics\\], prior to dosing.\n* Presence of clinically significant illness or abnormality on physical examination.\n* Presence of clinically significant ECG abnormality at Screening, including any QT interval corrected for heart rate (QTc) using Fridericia formula (QTcF) ≥470 msec.\n* Ongoing liver disease or unexplained liver function test (LFT) elevations, defined as alanine aminotransferase (ALT), aspartate aminotransferase (AST), gamma glutamyl transferase (GGT), or alkaline phosphatase (ALP) greater than the upper limit of normal (ULN).\n* Any other clinically significant laboratory results, as judged by the investigator.\n* History or presence of clinically significant hypersensitivity (e.g. systemic or cutaneous) as judged by the investigator to NPT 2042.\n* History of substance abuse or current use of any drugs of abuse.\n* Blood donation of \\>500 mL or more within 56 days prior to Day -1.\n* Any other reason that, in the opinion of the investigator, would render the participant unsuitable for study enrollment."
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07475663",
+      "officialTitle": "Efficacy & Safety of Piroxicam Plus Counterirritant Gel Compared With Other Topical Non-Steroid Anti-Inflammatory Drugs in Managing Musculoskeletal Pain: A Randomized Clinical Study"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-03",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-11-04"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-02-12"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Ankle Sprain",
+        "Back Pain",
+        "Osteoarthritis (OA) of the Knee",
+        "Tennis Elbow",
+        "Runner's Knee"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Piroxicam plus Counterirritant (brand name Counterpain® PXM).",
+          "description": "Participants assigned to this intervention group will use Piroxicam plus Counterirritant gel (Counterpain® PXM) . Each application involves dispensing approximately 1 gram (3 cm) of gel onto a provided dosing card and applying it directly to the painful area. The gel contains 0.5% Piroxicam as the anti-inflammatory agent, combined with three counterirritants: Methyl Salicylate, Menthol, and Eugenol. These counterirritants produce distinct warming and cooling sensations upon application. Participants will apply the gel three times daily (morning, afternoon, evening) for 6 ± 1 days. The total number of applications and the timing of the perceived thermal sensation will be recorded in a participant diary. This intervention is distinct from the comparator arms (Piroxicam-only and Diclofenac gels) specifically due to the presence of these counterirritant ingredients, which are intended to provide additional symptomatic relief through sensory stimulation."
+        },
+        {
+          "type": "DRUG",
+          "name": "Diclofenac Sodium 10 mg (Brand Name Hotin® DCL)",
+          "description": "Dose : Refer to the product's leaflet : no occlusive dress should be employed. Apply the required amount of cream on the affected area three times a day and rub gently. The amount of cream needed depends on the extent of the painful area.\n\nThe affected area are :\n\n* In the arms: hand, wrist, elbow, shoulder sinistra or dextra\n* In the legs: feet, ankle, knee sinistra or dextra\n* Upper back or Lower back\n\n  3 times daily means :\n* application one time in morning (06.00 - 11.00), o one time in afternoon (11.01 - 17.00),\n* one time in evening (17.01 - 23.00).\n\nAplication of gel will use dosing card that provided in this clinical study.\n\n* Method of administration: external use only.\n* Every visit, participants will get 2 tubes and in total are 6 tubes for 6 + 1 days application"
+        },
+        {
+          "type": "DRUG",
+          "name": "Piroxicam 0.5% (Brand name Pirofel® gel)",
+          "description": "Dose: Apply gel to the affected area three times daily leaving no residual material on the skin. 1 gram of gel applied to the affected area.\n\nThe affected area are :\n\n* In the arms: hand, wrist, elbow, shoulder sinistra or dextra\n* In the legs: feet, ankle, knee sinistra or dextra\n* Upper back or Lower back\n\n  3 times daily means :\n* application one time in morning (06.00 - 11.00)\n* one time in afternoon (11.01 - 17.00),\n* one time in evening (17.01 - 23.00).\n\nAplication of gel will use dosing card that provided in this clinical study.\n\n* Method of administration: external use only.\n* Every visit, participants will get 2 tubes and in total are 6 tubes for 6 + 1 days application."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "The primary end-point is the difference of musculoskeletal pain reduction > 3 scores , of the response to treatment that can be seen through Brief Pain Inventory (BPI) scores.",
+          "description": "The Brief Pain Inventory (BPI) scores is a medical questionnaire that is used to assess pain. It has also been validated for pain assessment chronicle. There are 9 questions related to the pain experienced by the participants. The pain assessment will be given in the form of a score, namely a score of 0 - 10.\n\nThe difference BPI scale \\> 3 , from initial scale of pain to the end of treatment will be captured as the primary efficacy endpoint.\n\nThe selection of difference more than equal to 3 was chosen because if the participant has moderate pain at the beginning of the treatment, then at the end of the treatment there is a decrease in pain to mild pain. This can be seen that the treatment is effective in dealing with musculoskeletal pain",
+          "timeFrame": "From enrollment to the end of treatment at 4 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Outpatient in a health care setting.\n* Between the ages of 18 - 60 years of either sex.\n* Patients diagnosed with musculoskeletal pain as described in the target population.\n* Patient can read and understand how to fill out the assessment form and diary.\n* Patients gave written consent to participate in the study independently.\n\nExclusion Criteria:\n\n* Patient who has osteoarthritis with Grade IV Kellgren-Lawrence (KL) grading. - - Patients who underwent any of the following treatments:\n* Paracentesis and drainage of joint\n* Intraarticular injection (joint protection agents, local anesthetic, etc.)\n* Nerve block (including trigger points)\n* Patients are being treated with an analgesic opioids for their musculosceletal pain.\n* Patients being treated with anti coagulant therapy such as warfarin, clopidogrel.\n* Patients being treated with oral corticosteroids 3 days before and until signed the informed consent.\n* Patients being treated using rigid orthoses those requiring such treatment\n* Patients with neuropsychiatric disorders including depression, dementia, schizophrenia, and anxiety neurosis\n* Patients with Grade 3 hypertension (systolic blood pressure ≥ 180 mmHg and diastolic blood pressure ≥ 110 mmHg regardless of the use of an antihypertensive drugs)\n* Patients with acute peptic ulcer\n* Patients with bronchial asthma with current or previous aspirin-induced asthma (asthmatic attacks induced by NSAIDs and other relevant drugs)\n* Patients with a history of hypersensitivity or allergy to NSAIDs\n* Patients with serious hepatic disease, renal disease, cardiac disease, hematologic disease, or malignancy\n* Patients with a history of dermatitis requiring treatment with topical agents\n* Patients with dermatitis or wounds at the application site of the study drug\n* Pregnant women ,women who may be pregnant, women who wish to become pregnant during the study, or nursing women\n* Patients considered by the Investigator to be inappropriate as participants of this study"
+    }
+  }
+}

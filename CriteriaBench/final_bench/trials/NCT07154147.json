@@ -1,0 +1,74 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07154147",
+      "officialTitle": "Cataract Oral vs IV Sedation Pilot RCT: A Non-inferiority Assessment of Perioperative Safety and Cognitive Recovery in Older Adults"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-04",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-08-12"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-01-19"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cataract Surgery",
+        "Sedation",
+        "Cognition Function",
+        "Perioperative Care",
+        "Older Adults"
+      ],
+      "keywords": [
+        "oral sedation",
+        "intravenous sedation",
+        "alprazolam",
+        "midazolam",
+        "cataract surgery",
+        "older adults",
+        "cognitive recovery",
+        "postoperative recovery",
+        "patient satisfaction",
+        "non-inferiority trial",
+        "pilot study",
+        "randomized controlled trial",
+        "anesthesia"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Alprazolam",
+          "description": "Participants will take oral alprazolam 0.5 mg 15 to 90 minutes before surgery to promote relaxation and reduce anxiety. An IV placebo (normal saline) will be administered to maintain blinding."
+        },
+        {
+          "type": "DRUG",
+          "name": "Midazolam",
+          "description": "Participants will receive IV midazolam 1 mg immediately before surgery to promote relaxation and reduce anxiety. An oral placebo pill will be used to maintain blinding."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Feasibility and completeness of cognitive recovery assessment using the Postoperative Quality of Recovery Scale (PQRS)",
+          "description": "Feasibility, completeness, and distribution of cognitive recovery data will be assessed using the cognitive domain of the Postoperative Quality of Recovery Scale (PQRS), a validated questionnaire assessing recovery across multiple health domains. Feasibility outcomes include the proportion of participants with assessable PQRS cognitive data at each time point and the distribution of recovered versus not recovered classifications. Cognitive recovery is defined by meeting pre-specified criteria for return to baseline cognitive function compared to pre-surgery testing. The PQRS cognitive domain does not generate a numeric score; recovery is categorized as \"recovered\" or \"not recovered.\" These outcomes are descriptive and intended to inform the feasibility of measurement in a future fully powered trial.",
+          "timeFrame": "Before surgery; immediately after surgery; post-operative day 1; post-operative day 7"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. ≥ 65 years old\n2. Capable of providing informed consent and completing the study procedures in English\n3. Able to provide consent for oneself\n4. Able to follow directions\n5. Able to climb one flight of stairs without stopping to rest\n6. Have a new diagnosis of cataract disease\n7. Plan on having cataract surgery on their eye within the next 6 months\n\nExclusion Criteria:\n\n1. History of prior cataract surgery\n2. Admission to the hospital within the past 30 days\n3. Difficulty being sedated during other minor outpatient procedures or imaging studies\n4. Allergy or resistance to local anesthetic agents\n5. Cannot lay flat without having symptoms (i.e., difficulty breathing, severe back pain, etc.)\n6. History of severe anxiety requiring routine use of benzodiazepines\n7. Patient undergoing cataract surgery in combination with any other ophthalmologic procedure\n8. Patient requiring general anesthesia during cataract surgery due to the underlying characteristics of the existing cataract and/or anticipated complexity of the planned procedure"
+    }
+  }
+}

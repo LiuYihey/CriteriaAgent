@@ -1,0 +1,60 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07105540",
+      "officialTitle": "Comparison of Hydrodissection With 5% Dextrose and Perineural Corticosteroid Injection in Carpal Tunnel Syndrome: A Prospective Study"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-02",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-08-05"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-02-05"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Carpal Tunnel Syndrome"
+      ],
+      "keywords": [
+        "Hydrodissection",
+        "Perineural Injection",
+        "Median Nerve"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "5% Dextrose",
+          "description": "Ultrasound-guided hydrodissection is performed using a 12 MHz linear transducer (GE Logiq P9, GE Healthcare) via an in-plane ulnar approach under sterile conditions. 2.5 ml of 5% dextrose will be injected via an in-plane ulnar approach to mechanically separate the median nerve from the transverse carpal ligament. Subsequently, an additional 2.5 ml of 5% dextrose will be administered to separate the nerve from adjacent flexor tendons. The total injection volume will be 5 ml."
+        },
+        {
+          "type": "DRUG",
+          "name": "Betamethasone and local anesthetic",
+          "description": "Ultrasound-guided perineural injection is performed using a 12 MHz linear transducer (GE Logiq P9, GE Healthcare) via an in-plane ulnar approach under sterile conditions. A total of 2 ml solution (1 ml betamethasone and 1 ml 2% lidocaine) is injected perineurally around the median nerve under ultrasound guidance at the scaphoid-pisiform level."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Boston Carpal Tunnel Questionnaire",
+          "description": "The Boston Carpal Tunnel Questionnaire (BCTQ) is a validated disease-specific assessment tool developed in 1993 to provide standardized clinical evaluation of carpal tunnel syndrome (CTS). It comprises 19 items divided into two subscales: the Symptom Severity Scale (BCTQ-SSS) and the Functional Status Scale (BCTQ-FSS). Scores on both subscales range from 1 to 5, with higher scores reflecting increased symptom burden and functional impairment associated with CTS.",
+          "timeFrame": "At baseline, at Month 1,3,6 (Visit 1,2,3)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients diagnosed with unilateral moderate carpal tunnel syndrome (CTS) confirmed by an electrophysiological study within the last 6 months\n* Presence of at least one of the following symptoms lasting more than one month:\n\n  * Paresthesia/dysesthesia accompanied by weakness and clumsiness in the hand, worsened by repetitive wrist use or sleep, and relieved by postural correction or shaking of the hand\n  * Numbness due to sensory disturbance in the median nerve (MN) distribution\n  * Thenar muscle weakness with atrophy\n  * Positive Tinel's sign or Phalen's test\n* Pain intensity of ≥4 out of 10 on the Visual Analog Scale (VAS) prior to treatment\n\nExclusion Criteria:\n\n* History of previous wrist surgery, polyneuropathy, brachial plexopathy, or thoracic outlet syndrome\n* Presence of systemic infection\n* Pregnancy\n* Prior corticosteroid injection for CTS"
+    }
+  }
+}

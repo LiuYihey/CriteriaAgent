@@ -1,0 +1,65 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06877364",
+      "officialTitle": "Multicenter Phase I and II Clinical Study on Safety, Tolerability and Efficacy of GcMAF in Patients With Chronic Inflammatory Diseases"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-12",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-09-01"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-09-03"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Inflammation"
+      ],
+      "keywords": [
+        "macrophages",
+        "inflamation regulation"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "GcMAF",
+          "description": "GcMAF is an immunomodulatory protein derived from vitamin D-binding protein via enzymatic deglycosylation. In this study, GcMAF will be administered (e.g., subcutaneously) once or twice-weekly for 12-16 weeks, followed by a 4-8-week observation period. The primary objectives include assessing clinical efficacy in chronic inflammatory conditions and confirming safety. GcMAF activates macrophages and dendritic cells, modulates M1/M2 profiles, and may reduce inflammatory markers such as CRP and ESR."
+        },
+        {
+          "type": "OTHER",
+          "name": "Placebo Injection (Saline)",
+          "description": "Participants in the placebo arm will receive a visually matching injection of normal saline (placebo) on the same schedule as the GcMAF arm (e.g., once or twice-weekly for 12-16 weeks). This allows for double-blind comparison of safety and efficacy endpoints. The placebo is designed to be identical in appearance and administration route to maintain blinding for investigators and participants."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number of Participants with Treatment-Emergent Adverse Events (Safety Assessment)",
+          "description": "This outcome measures the incidence, severity, and type of treatment-emergent adverse events (AEs) associated with GcMAF administration, including any serious adverse events (SAEs). Adverse events will be graded using the Common Terminology Criteria for Adverse Events (CTCAE v5.0), which rates severity from Grade 1 (mild) to Grade 5 (death related to AE). A higher count of severe events indicates a worse safety profile.",
+          "timeFrame": "4 weeks"
+        },
+        {
+          "measure": "Change in DAS28 Score",
+          "description": "The Disease Activity Score 28 (DAS28) is used to evaluate rheumatoid arthritis disease activity, though it can be adapted for other chronic inflammatory conditions as applicable. DAS28 ranges from 0.0 to 9.4, where higher scores indicate greater disease activity. A decrease in DAS28 score from baseline represents clinical improvement. For example, a DAS28 score under 2.6 is considered remission, while above 5.1 indicates high disease activity.",
+          "timeFrame": "16 Week"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Inclusion criteria\n* Age ≥ 18 years, informed consent.\n* Confirmed diagnosis of a chronic inflammatory disease (e.g., moderate rheumatoid arthritis or chronic cystitis, or another validated nosology) according to recognized criteria.\n* Insufficient effect or intolerance of standard anti-inflammatory therapy (NSAIDs, GCS, etc.).\n* Ability to comply with the study protocol.\n\nExclusion Criteria:\n\n* Pregnancy, lactation (lack of safety data in this group).\n* Severe systemic diseases (liver/renal failure, severe cardiovascular diseases, uncontrolled arterial hypertension).\n* Active serious infections (HIV, tuberculosis, hepatitis B/C in the active phase).\n* Previous participation in other experimental studies \\< 3 months ago.\n* Severe allergy to protein components of the drug."
+    }
+  }
+}

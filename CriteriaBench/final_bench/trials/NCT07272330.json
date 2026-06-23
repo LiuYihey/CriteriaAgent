@@ -1,0 +1,62 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07272330",
+      "officialTitle": "A Phase I Study to Evaluate the Relative Bioavailability of Different HRS-1893 Formulations and the Effect of Food on the Pharmacokinetics of HRS-1893 Tablets in Healthy Subjects"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-04",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-12-11"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-03-21"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cardiomyopathy"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "HRS-1893 tablet A",
+          "description": "Specified dose on specified days."
+        },
+        {
+          "type": "DRUG",
+          "name": "HRS-1893 tablet B",
+          "description": "Specified dose on specified days."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Peak concentration (Cmax)",
+          "timeFrame": "From Day 1 to Day 25 in part 1, from Day 1 to Day 17 in part 2."
+        },
+        {
+          "measure": "Area under the plasma concentration-time curve from time zero to the last quantifiable time point (AUC0-t)",
+          "timeFrame": "From Day 1 to Day 25 in part 1, from Day 1 to Day 17 in part 2."
+        },
+        {
+          "measure": "Area under the plasma concentration-time curve from time zero extrapolated to infinity (AUC0-∞)",
+          "timeFrame": "From Day 1 to Day 25 in part 1, from Day 1 to Day 17 in part 2."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Subjects aged 18 to 55 years (inclusive), regardless of gender.\n2. Body mass index (BMI) between 19 and 28 kg/m² (inclusive), with body weight ≥50.0 kg and \\<90.0 kg for men, and ≥45.0 kg and \\<90.0 kg for women.\n3. No abnormalities of clinical significance are found upon comprehensive physical examination and laboratory tests, or only minor abnormalities that are deemed by the investigator not to affect the subject's eligibility for enrollment.\n4. No clinically significant abnormalities on the 12-lead ECG.\n5. The subject must understand the study procedures and methods, voluntarily agree to participate, and provide written informed consent.\n\nExclusion Criteria:\n\n1. Subjects with suspected hypersensitivity to the investigational drug or any excipient.\n2. The subject has a history of syncope.\n3. Exclusion due to blood pressure: Systolic Blood Pressure (SBP) \\>140 mmHg or \\<90 mmHg; OR Diastolic Blood Pressure (DBP) \\>90 mmHg or \\<60 mmHg, as determined by the investigator to be clinically significant.\n4. History of gastric or intestinal surgery that, in the investigator's judgment, may affect drug absorption.\n5. A positive result in any one of the following infectious disease screening tests during the screening period: hepatitis B surface antigen (HBsAg), hepatitis C virus antibody (HCV-Ab), treponema pallidum antibody (syphilis), or human immunodeficiency virus antibody/antigen (HIV-Ab/Ag).\n6. Subjects who meet any of the following criteria will be excluded: (1) Smoking: Average daily cigarette consumption of more than 5 cigarettes within the 4 weeks prior to screening. (2) Alcohol: Average daily alcohol intake exceeding 15 g within one week prior to screening (15 g of alcohol is equivalent to 450 mL of beer, 150 mL of wine, or 50 mL of low-alcohol spirits). (3) Non-compliance: Inability or unwillingness to abstain from smoking, alcohol, and caffeine-containing foods or beverages during the screening period and the entire study duration. (4) Diet: Have special dietary requirements, cannot comply with the standardized diet provided in the study, or have a history of substance abuse.\n7. History of substance abuse.\n8. Use of any prescription drugs, over-the-counter medications, or Chinese herbal medicines within 1 month prior to dosing, or the use of any drug within 5 half-lives prior to screening (whichever is longer). Additionally, subjects who plan to take any non-study medications during the trial period will be excluded.\n9. Any other circumstances that, in the investigator's judgment, make the subject unsuitable for participation in the trial. This includes physiological or psychological conditions that may increase the trial risk, affect the subject's protocol compliance, or impact the subject's ability to complete the study."
+    }
+  }
+}

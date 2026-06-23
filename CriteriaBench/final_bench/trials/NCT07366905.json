@@ -1,0 +1,56 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07366905",
+      "officialTitle": "Clinical Observation of Bupivacaine Liposome for Lower Extremity Femoral Nerve Block"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-05",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2026-02-01"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-03-31"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Patients Eligible for Elective Lower Extremity Femoral Nerve Surgery",
+        "Knee Arthroscopic Surgery"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Liposomal bupivacaine, 266mg",
+          "description": "Liposomal bupivacaine administered for ultrasound-guided femoral nerve block at varying concentrations using a modified up-and-down sequential dose-finding design."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "EC50 and EC95 for femoral nerve sensory block",
+          "description": "The median effective concentration (EC50) and the 95% effective concentration (EC95) of liposomal bupivacaine for ultrasound-guided femoral nerve sensory blockade are estimated using a modified up-and-down sequential dose-finding design.\n\nSensory block is assessed 30 minutes after block placement in the femoral nerve distribution on the blocked side, including the anterior thigh (anterior femoral cutaneous nerve territory) and the medial aspect of the lower leg (saphenous nerve territory). Sensory testing is performed using pinprick testing and/or cold stimulation with an ether-soaked cotton swab, with the contralateral non-blocked limb used as an internal control.\n\nSensory block is graded as follows: 0 = no block (sensation identical to the non-blocked limb); 1 = partial block (reduced sensation); 2 = complete block (absence of pain sensation). A positive sensory response is defined as a sensory block score of 2.",
+          "timeFrame": "30 minutes after femoral nerve block placement"
+        },
+        {
+          "measure": "EC50 and EC95 for femoral nerve motor block",
+          "description": "The median effective concentration (EC50) and the 95% effective concentration (EC95) of liposomal bupivacaine for ultrasound-guided femoral nerve motor blockade, estimated using a modified up-and-down sequential dose-finding design.\n\nMotor function is evaluated immediately by assessing quadriceps muscle strength. Patients are instructed to perform a straight leg raise in the supine position or actively extend the knee. Muscle strength is graded using the Medical Research Council (MRC) scale (0-5).\n\nThe successful (positive) quadriceps motor block is defined as a decrease of ≥1 grade in the muscle strength of the quadriceps compared with that before the block.",
+          "timeFrame": "30 minutes after femoral nerve block placement"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Adults aged 18 to 85 years\n* Scheduled for elective unilateral lower limb surgery\n* Unilateral ultrasound-guided femoral nerve block clinically indicated as part of routine perioperative anesthesia and analgesia management\n* Ability to clearly distinguish between the blocked (operated) limb and the contralateral (non-blocked) limb for sensory and pain assessments\n* Ability to understand the study procedures and provide written informed consent\n* Ability to cooperate with sensory and motor assessments, including visual analog scale (VAS) scoring and quadriceps muscle strength testing\n\nExclusion Criteria:\n\n* Known allergy or hypersensitivity to bupivacaine, amide-type local anesthetics, or any component of liposomal bupivacaine\n* Infection at or near the planned injection site\n* Coagulopathy or clinically significant bleeding disorder, or anticoagulant/antiplatelet therapy incompatible with peripheral nerve block\n* Pre-existing neurological deficits, neuropathy, or motor weakness affecting either lower limb that could interfere with sensory or motor assessments\n* Severe hepatic dysfunction or other conditions that increase the risk of local anesthetic systemic toxicity\n* Pregnancy or breastfeeding\n* Emergency surgery\n* Inability to complete study assessments or comply with study procedures"
+    }
+  }
+}

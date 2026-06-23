@@ -1,0 +1,58 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07212452",
+      "officialTitle": "Tranexamic Acid : Nebulization vs IV Route for Hemoptysis"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-09",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-08-01"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-10-31"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Hemoptysis",
+        "NEBULIZATION",
+        "Tranexamic Acid"
+      ],
+      "keywords": [
+        "Hemoptysis",
+        "Nebulization",
+        "tranexamic acid"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Tranexamic Acid (TXA)",
+          "description": "In this study we are comparing the effect of tranexamic acid on hemoptysis when given through IV route and nebulization"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Time to control hemoptysis",
+          "description": "In this study the time taken by tranexamic acid to acehive comolete control of hemoptysis will be compared when given through IV and nebulization.",
+          "timeFrame": "48 hours"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Patients with mild to moderate hemoptysis \\< 600ml/ 24 hours of age 12 to 80 years and both genders.\n2. Patients with hemoptysis due to infective pathology.\n3. Patients with hemoptysis due to malignant pathology.\n\nExclusion Criteria:\n\n1. Patients on antiplatelet therapy or aspirin\n2. Hemoptysis after penetrating lung injury e.g. firearm injury\n3. Patients with history of asthma"
+    }
+  }
+}

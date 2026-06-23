@@ -1,0 +1,64 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06921473",
+      "officialTitle": "Effect of Ephedrine and Norepinephrine on Fetal Acidosis During Cesarean Section Under Spinal Anesthesia: A Prospective, Randomized Controlled Trial"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-12",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-09-01"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-12-12"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cesarean Delivery Affecting Newborn",
+        "Acidosis",
+        "Maternal Hypotension",
+        "Spinal Aneshtesia"
+      ],
+      "keywords": [
+        "Fetal Acidosis",
+        "Maternal Hypotension",
+        "Ephedrine",
+        "Norepinephrine"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Norepinephrine",
+          "description": "Intravenous bolus of norepinephrine (5-10 µg) to treat spinal anesthesia-induced hypotension during cesarean section."
+        },
+        {
+          "type": "DRUG",
+          "name": "Ephedrine",
+          "description": "Intravenous bolus of 5-10 mg ephedrine administered as needed to treat maternal hypotension following spinal anesthesia during elective cesarean section. The drug is prepared in identical, unlabeled syringes to ensure blinding."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Incidence of fetal acidosis (umbilical artery pH < 7.20)",
+          "description": "Fetal acidosis is defined as an umbilical artery blood pH \\< 7.20. Arterial blood will be collected from a double-clamped segment of the umbilical cord immediately after delivery and analyzed using a validated blood gas analyzer.",
+          "timeFrame": "Within 5 minutes after birth"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Pregnant women aged between 18 and 45 years\n* Singleton pregnancy at ≥ 37 weeks of gestation\n* Scheduled for elective cesarean section under spinal anesthesia\n* ASA (American Society of Anesthesiologists) physical status classification I or II\n* Ability to understand and sign the informed consent form\n\nExclusion Criteria:\n\n* History of allergy or hypersensitivity to ephedrine or norepinephrine\n* Multiple gestation pregnancies\n* Diagnosis of pre-eclampsia, eclampsia, or other hypertensive disorders of pregnancy\n* Known cardiovascular disease or arrhythmia\n* Placental abnormalities (e.g., placenta previa, placental abruption)\n* Fetal structural or chromosomal anomalies\n* Morbid obesity (BMI \\> 40 kg/m²)\n* Refusal to participate or inability to provide informed consent"
+    }
+  }
+}

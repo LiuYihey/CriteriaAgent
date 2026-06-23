@@ -1,0 +1,65 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07317063",
+      "officialTitle": "An Open-label, Single-center Trial Evaluating the Safety, Tolerability, and Pharmacokinetics of a Single Dose of GRT6019, Including Food Effect, in Healthy Male Participants"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-02",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-11-21"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-01-06"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Duchenne Muscular Dystrophy (DMD)"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "GRT6019",
+          "description": "Single Dose"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number of participants with Adverse Events",
+          "description": "Assessment of safety and tolerability of GRT6019 after a single oral dose",
+          "timeFrame": "Through study completion, an average of 7 Weeks"
+        },
+        {
+          "measure": "Number of participants with serious Adverse Events",
+          "description": "Assessment of safety and tolerability of GRT6019 after a single oral dose",
+          "timeFrame": "Through study completion, an average of 7 Weeks"
+        },
+        {
+          "measure": "Number of participants with Adverse Events leading to discontinuation",
+          "description": "Assessment of safety and tolerability of GRT6019 after a single oral dose",
+          "timeFrame": "Through study completion, an average of 7 Weeks"
+        },
+        {
+          "measure": "Number of participants with Adverse Events related with GRT6019",
+          "description": "Assessment of safety and tolerability of GRT6019 after a single oral dose",
+          "timeFrame": "Through study completion, an average of 7 Weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Main inclusion Criteria:\n\n1. The participant must be able to give signed informed consent, including compliance with the requirements and restrictions listed in the informed consent form (ICF) and in this protocol.\n2. Participants must sign the ICF before any trial-related assessments.\n3. The participant is in good health as determined by the medical history, physical examination, 12-lead Electrocardiogram (ECG), vital signs (heart rate \\[HR\\], respiratory rate \\[RR\\], systolic and diastolic blood pressure \\[BP\\]), body temperature, and clinical laboratory parameters (clinical chemistry, hematology, coagulation, and urinalysis) without clinically relevant (per investigator judgement) deviations from reference ranges unless further specified in the exclusion criteria.\n\nMain exclusion Criteria:\n\n1. Any disease, metabolic dysfunction, physical examination finding, or clinical laboratory finding that contraindicates the use of an investigational drug, comparator, rescue medication, or any ingredients therein, or may affect the interpretation of the results, or may render the patient at high risk from treatment complications/ participation in the study unsafe.\n2. Major surgical procedure, within 3 months prior to ICF signing, or anticipation of need for a major surgical procedure during the trial.\n3. Clinically significant history or evidence of cardiovascular, respiratory, hepatic, renal, gastrointestinal, endocrine, neurological, or immunological disorder(s) as determined by the investigator.\n4. Any medication, including herbal remedies or over-the-counter medication within 2 weeks before screening into this trial and anticipated use during the trial.\n5. Concurrent enrollment in another clinical trial unless it is an observational (non-interventional) clinical trial or during the Follow-up Period of an interventional trial.\n6. Recent participation in another clinical trial with an IMP administered within 30 days before Day 1 OR within 5 times the elimination half-life of the IMP, whichever is longer."
+    }
+  }
+}

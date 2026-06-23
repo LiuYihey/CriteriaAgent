@@ -1,0 +1,63 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07566455",
+      "officialTitle": "Comparing the Effect of Intra-Umbilical Versus Intravenous Oxytocin During Third Stage of Labor on Mean Blood Loss"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-04",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-08-13"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-02-12"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Postpartum Bleeding",
+        "Oxytocin",
+        "Third Stage of Labour"
+      ],
+      "keywords": [
+        "Intravenous oxytocin",
+        "intra umbilical oxytocin",
+        "postpartum hemorrhage",
+        "third stage of labour"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Oxytocin after delivery",
+          "description": "10 IU oxytocin diluted in normal saline administered slowly via intravenous route at the time of delivery of the anterior shoulder to facilitate uterine contraction and reduce blood loss."
+        },
+        {
+          "type": "DRUG",
+          "name": "Intraumbilical oxytocin",
+          "description": "10 IU oxytocin diluted in 10 mL normal saline injected into the umbilical vein approximately 2 cm from the introitus after delivery of the baby, with the solution gently milked toward the placental insertion to promote placental separation and reduce blood loss."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Mean Blood Loss During the Third Stage of Labor and Within the First 24 Hours After Vaginal Delivery",
+          "description": "The average amount of blood lost after delivery will be measured in milliliters. Blood loss will be collected in a kidney tray immediately after delivery and quantified using a graduated cylinder. Additional blood loss during the first 24 hours postpartum will be measured using pre-weighed sanitary pads (1 gram weight increase = 1 mL blood loss).",
+          "timeFrame": "From delivery of the baby until 24 hours postpartum"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Gestational age 36 - 42 weeks (on LMP)\n* In spontaneous labour\n\nExclusion Criteria:\n\n* Chronic hypertension\n* Pre-eclampsia\n* Multiple pregnancies\n* Preterm or postdates pregnancy\n* Previous cesarean section\n* Diabetes (chronic and gestational)\n* Fetal macrosomia\n* History of bleeding / clotting disorder\n* History of anti-coagulation heparin / warfarin therapy\n* Non-reassuring cardiotocograph or poor progress of labour"
+    }
+  }
+}

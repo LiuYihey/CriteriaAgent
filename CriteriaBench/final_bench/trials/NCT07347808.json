@@ -1,0 +1,53 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07347808",
+      "officialTitle": "A Phase 1, Single-Dose, Open-Label, Parallel-Group Pharmacokinetic Study of VCT220 in Subjects With Moderate Renal Impairment and Matched Subjects With Normal Renal Function"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-03",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-12-25"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-01-18"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Obesity & Overweight"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "VCT220",
+          "description": "Single oral dose of VCT220 40 mg administered after a standardized breakfast."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Maximum Plasma Concentration (Cmax) of VCT220",
+          "timeFrame": "Day 1 at 0 h prior to dosing and at 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 8.0, 10.0, 12.0, 16.0, and 24.0 h (Day 2) ,36.0 h(Day 2) , 48.0 h (Day 3), and 72.0 h (Day 4) after dosing"
+        },
+        {
+          "measure": "Area Under the Plasma Concentration-Time Curve From Time 0 to Last Measurable Concentration (AUC₀-t) of VCT220",
+          "timeFrame": "Day 1 at 0 h prior to dosing and at 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 8.0, 10.0, 12.0, 16.0, and 24.0 h (Day 2) ,36.0 h(Day 2) , 48.0 h (Day 3), and 72.0 h (Day 4) after dosing"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Male or female subjects aged 18 to 75 years\n* Body mass index (BMI) between 18.5 and 32.0 kg/m²\n* Able and willing to provide written informed consent\n* Willing to comply with contraception requirements\n* Moderate renal impairment group\n* Absolute eGFR ≥30 and \\<60 mL/min\n* Diagnosis of chronic kidney disease for ≥3 months with stable renal function\n* Normal renal function group:\n\nAbsolute eGFR ≥90 and \\<130 mL/min Matched to moderate renal impairment subjects by sex, age (±10 years), and BMI (±10%)\n\nExclusion Criteria:\n\n* History of hypersensitivity to GLP-1 receptor agonists or study drug components\n* History of hypoglycemia\n* History or family history of medullary thyroid carcinoma or multiple endocrine neoplasia type 2\n* History of pancreatitis\n* Clinically significant cardiovascular, hepatic, gastrointestinal, neurological, hematologic, endocrine, or psychiatric disease\n* Use of prohibited medications affecting drug metabolism prior to dosing\n* Positive tests for hepatitis B, hepatitis C, HIV, or syphilis\n* Pregnant or breastfeeding women"
+    }
+  }
+}

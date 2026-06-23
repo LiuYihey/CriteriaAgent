@@ -1,0 +1,53 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07454863",
+      "officialTitle": "A Phase I, Single-center, Non-randomized, Open-label, Mass Balance Study of Orally Administered [14C]-DZD8586 in Healthy Adult Male Participants"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-05",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2026-03-16"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-03-27"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Lymphoma, Non-Hodgkin"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "DZD8586",
+          "description": "Carbon-14 labeled DZD8586"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Total amount and recovery of the radioactive dose in urine and feces: Ae, Cum Ae, fe and Cum fe",
+          "timeFrame": "All excreted urine and feces samples at specified time points during 0-504 hours after dosing will be collected"
+        },
+        {
+          "measure": "Metabolic profiling of relative abundance of [14C]-DZD8586 and metabolite identification of [14C]-DZD8586 in plasma, urine, and feces",
+          "timeFrame": "Conduct testing within 1 month after all subjects collect plasma, urine, and fecal samples at all time points required by the protocol"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nEach participant must meet all criteria below to be included in this study:\n\n1. Provision of signed and dated, written informed consent prior to any study-specific procedures.\n2. Healthy male volunteers aged 18 to 45 years (inclusive) with a body mass index (BMI) between 19 and 26 kg/m2(inclusive) and body weight \\> 50 kg.\n3. The results of physical examination, laboratory tests, chest X-ray (posteroanterior view), electrocardiogram, and/or other auxiliary examinations (including abdominal ultrasound of the liver, gallbladder, pancreas, spleen, and kidneys; ophthalmologic examination; and digital rectal examination) are within normal results during the screening period or abnormal results with no clinical significance judged by the investigator.\n4. Male volunteers must be willing to use reliable methods of contraception (condom) even if their partners are postmenopausal, surgically sterile, or using an effective hormonal method of contraception or intrauterine coil. In addition, volunteers must agree to continue to take similar contraceptive precautions through 12 months after the administration of DZD8586, and avoid procreative sex as well as sperm donation during this period.\n5. Be willing and able to comply with the study procedures, restrictions, and requirements.\n\nExclusion Criteria:\n\nEach participant who meets any of the criteria below will be excluded from this study:\n\n1. Abnormalities in vital signs assessment (including pulse, blood pressure, and tympanic temperature) that persist upon repeat measurement.\n2. History or current cardiovascular, respiratory, hepatic, renal, gastrointestinal, endocrine, hematological, or neurological disorders capable of significantly altering the absorption, metabolism, or elimination of drugs; constituting a risk when taking the study intervention; or interfering with the interpretation of data.\n\n   For gastrointestinal function, the patient who meets the criteria below should be excluded:\n   * History or clinical manifestation of gastritis, gastrointestinal tract disorder, metabolic disorder, hepatic disorder, or other clinical condition\n   * Nausea, vomiting, diarrhea, or malabsorption syndrome, or those with a history of severe vomiting or diarrhea within one week before the screening period.\n   * Abnormal bowel movements (ie, on average production of less than 1 stool per day) or other gastrointestinal disorder that might affect the intake and absorption of the drug, as judged by the investigator.\n   * Symptomatic hemorrhoids or perianal disease with regular/active rectal bleeding, irritable bowel syndrome, or inflammatory bowel disease during the screening period.\n3. History of other risk factors for TdP (such as heart failure, hypokalemia, and family history of long QT syndrome).\n4. During the screening period, the average resting corrected QTcF interval (QTC) on the ECG is \\> 450 msec.\n5. Major surgery or severe trauma within 4 weeks before the screening, or scheduled surgery during the study period.\n6. History of hemorrhagic disease (including hemophilia, von Willey-Brandland disease, etc), stroke, or intracranial hemorrhage within 6 months prior to the screening.\n7. Blood donation (including blood products) or blood loss ≥ 500 mL within 2 months prior to the screening, or receiving blood products within 4 weeks prior to the screening.\n8. Participants with any malignancy or neoplastic disease history, except those who have undergone excisional surgery of non-melanoma skin cancer over 5 years prior to the screening.\n9. History of latent or active tuberculosis, or positive screening result.\n10. Bacterial infection (including) within 30 days prior to the screening is considered inappropriate for participation by the investigator.\n11. Any infection on screening tests for Treponema pallidum, Hepatitis B Virus (HBsAg and HBcAb), Hepatitis C Virus (HCV), or human immunodeficiency virus (HIV-Ag/Ab).\n12. History of severe allergy/hypersensitivity or ongoing allergy/hypersensitivity, or those who are known or suspected to be allergic to the investigational product or any of its excipients, as judged by the investigator.\n13. Has smoked an average of more than 5 cigarettes per day within the 3 months prior to screening, is a habitual user of nicotine-containing products, is unable to abstain from smoking/nicotine use during the trial period, or has a positive urine cotinine test.\n14. Has a known or suspected history of significant drug abuse (including licit or illicit drugs, alcohol, etc.) within 12 months prior to screening as judged by the investigator, a positive alcohol breath test result (\\>0 mg/100 mL) at screening, or a positive urine drug abuse screening test.\n15. Use of any prescribed medication within 4 weeks prior to the screening and refuse to restrict the use of prescription drugs Use or intention to use any prescription or over-the-counter medications (including but not limited to moderate to strong CYP3A4/5P inhibitor or inducers \\[including herbal products such as St. John's wort\\], any ADH and ALDH inhibitor/inducers, proton pump inhibitors, antacids, H2 receptor antagonists, and drugs that prolong QT/QTc interval, herbal products, natural or herbal supplements) within 4 weeks prior to the screening and through the end of the study, unless deems acceptable by the Investigator (or designee) and Sponsor.\n16. Participants who received live or live-attenuated vaccine in the 4 weeks prior to the screening (or related AEs haven't disappeared).\n17. Has participated in other clinical trials and received any investigational product or device within 3 months prior to the screening, plans to participate in another clinical trial during this study, or is not the actual personnel participating in the trial.\n18. Participants monitored for radiation exposure as part of their occupation.\n19. Radioactive exposure (≥2 times chest/abdominal CT scans, or ≥3 times other types of X-ray examinations) or those who have participated in radiopharmaceutical labelling tests within one year before the screening period.\n20. Participants who had been administered any amount of a \\[14C\\]-labelled compound within 12 months prior to the screening.\n21. History of vasovagal response to needles or blood, difficult venous access, or intolerance to venipuncture.\n22. Judgment by the investigator that the volunteer is not suitable to participate in the study."
+    }
+  }
+}

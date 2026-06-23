@@ -1,0 +1,83 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07118878",
+      "officialTitle": "A Phase 1, Double-blind, Randomized, Placebo-controlled, Multiple Ascending Dose Study to Assess Safety, Tolerability, and Pharmacokinetics of AGMB-129 in Healthy Participants"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-10",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-08-06"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-09-15"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Fibrostenotic Crohn's Disease"
+      ],
+      "keywords": [
+        "FSCD"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "AGMB-129",
+          "description": "AGMB-129"
+        },
+        {
+          "type": "OTHER",
+          "name": "Placebo",
+          "description": "Placebo"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number of participant with Adverse Events",
+          "description": "To evaluate the safety and tolerability of AGMB-129 in terms of adverse events (AE) at every visit",
+          "timeFrame": "From enrollment to the end of treatment at 42 days"
+        },
+        {
+          "measure": "Number of participant with abnormal Physical examination",
+          "description": "To evaluate the safety and tolerability of AGMB-129 in terms of physical examination at every visit",
+          "timeFrame": "From enrollment to the end of treatment at 42 days"
+        },
+        {
+          "measure": "Number of participant with abnormal Vital signs",
+          "description": "To evaluate the safety and tolerability of AGMB-129 in terms of vital signs",
+          "timeFrame": "From enrollment to the end of treatment at 42 days"
+        },
+        {
+          "measure": "Number of participant with abnormal electrocardiograms (ECGs) parameters",
+          "description": "To evaluate the safety and tolerability of AGMB-129 in terms of abnormal electrocardiograms (ECGs) at every visit",
+          "timeFrame": "From enrollment to the end of treatment at 42 days"
+        },
+        {
+          "measure": "Number of participant with abnormal 2-dimensional (2-D) echocardiography",
+          "description": "To evaluate the safety and tolerability of AGMB-129 in terms of abnormal 2-dimensional (2-D) echocardiography at every visit",
+          "timeFrame": "From enrollment to the end of treatment at 42 days"
+        },
+        {
+          "measure": "Number of participant with abnormal clinical laboratory tests",
+          "description": "To evaluate the safety and tolerability of AGMB-129 in terms of abnormal clinical laboratory parameters at every visit",
+          "timeFrame": "From enrollment to the end of treatment at 42 days"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Between 18 and 55 years of age (extremes included), at the time of signing the informed consent.\n2. Body weight of at least 50.0 kg for men and 45.0 kg for women, and a BMI between 19.0 and 30.0 kg/m2 (extremes included) at screening.\n3. Male or female\n\nExclusion Criteria:\n\n1. Known hypersensitivity to AGMB-129 ingredients or history of a significant allergic reaction to AGMB-129 ingredients as determined by the investigator.\n2. Positive serology for HBsAg or anti-HCV antibodies at screening, or history of hepatitis from any cause except for hepatitis A that was resolved at least 3 months prior to the first administration of study treatment.\n3. History of or a current immunosuppressive condition, including a positive test for HIV-1 or HIV-2 antibodies at screening.\n4. Presence or sequelae of gastrointestinal, liver, kidney (eGFR ≤80 mL/min/1.73 m² using the CKD-EPI formula) or other conditions known to interfere with the absorption, distribution, metabolism, or excretion of drugs at screening. Note: Participants who have an eGFR of up to 10% below 80 mL/min/1.73 m2 may be enrolled in the study at the discretion of the investigator."
+    }
+  }
+}

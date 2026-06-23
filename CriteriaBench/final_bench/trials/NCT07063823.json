@@ -1,0 +1,57 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07063823",
+      "officialTitle": "A First-in-human Study to Evaluate the Safety and Tolerability of HB-2121 as a Diagnostic for Celiac Disease"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-06",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-08-26"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-04-07"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Celiac Disease",
+        "Healthy"
+      ],
+      "keywords": [
+        "Celiac Disease",
+        "HB-2121",
+        "Healthy Volunteers",
+        "Gluten Intolerance"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "HB-2121",
+          "description": "HB-2121 taken once orally."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Frequency and severity of adverse events during the study window",
+          "description": "Adverse events (AEs) will be recorded and assessed for severity using the Common Terminology Criteria for Adverse Events (CTCAE) v5.0.",
+          "timeFrame": "From dosing through 30 days post-dose"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "General Inclusion Criteria (applies to all participants):\n\n* Aged 18 years and older\n* Body Mass Index (BMI) between 18 and 45 kg/m2\n* Overall good health, as determined by medical history and a physical exam\n* No use of an investigational drug in the past 12 weeks\n* Able and willing to follow study procedures and provide written informed consent\n* If of childbearing potential, participants must agree to use highly effective birth control during the study period. The same applies to male participants with partners of childbearing potential\n\nAdditional Inclusion Criteria for Healthy Volunteers:\n\n* No diagnosis of celiac disease\n* No first-degree relatives (parent, sibling, child) with celiac disease\n* Able to eat gluten-containing foods without adverse effects\n* No history of autoimmune gastrointestinal disorders such as Crohn's disease, ulcerative colitis, or eosinophilic enteritis\n\nAdditional Inclusion Criteria for Participants with Celiac Disease:\n\n* Biopsy-confirmed diagnosis of celiac disease\n* No history of eosinophilic enteritis, autoimmune gastrointestinal disorders such as Crohn's disease or inflammatory bowel disease\n\nExclusion Criteria (applies to all participants):\n\n* Pregnant, breastfeeding, or planning to become pregnant during the study period\n* History of chemotherapy or pelvic radiation\n* History of congenital long QT syndrome or prolonged QTcF interval\n* Known HIV infection, or positive test for hepatitis B or C, or other clinically significant chronic liver disease\n* Current use of immunosuppressant medications\n* Known allergy or sensitivity to any ingredients in the study drug\n* Active cancer or history of cancer"
+    }
+  }
+}

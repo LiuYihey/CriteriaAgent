@@ -1,0 +1,61 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07326683",
+      "officialTitle": "Effect of Equivalent Dose of Oxycodone or Tegileridine on Patients Undergoing Gynecological Laparoscopic Hysterectomy"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-12",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-12-17"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-01-13"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Total Laparoscopic Hysterectomy"
+      ],
+      "keywords": [
+        "Tegileridine",
+        "Postoperative pain",
+        "Total Laparoscopic Hysterectomy",
+        "Oxycodone"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Tegileridine (tegileridine fumarate injection, IV)",
+          "description": "Tegileridine (tegileridine fumarate injection, IV) is a small-molecule μ-opioid receptor agonist with G-protein-biased signaling (relative to β-arrestin-2 recruitment), developed by Jiangsu Hengrui for postoperative analgesia. It is administered intravenously and was first approved in China in January 2024 for the treatment of moderate-to-severe pain after abdominal surgery; in this study, tegileridine is used as part of standardized multimodal analgesia according to protocol. In China it is regulated as a narcotic drug."
+        },
+        {
+          "type": "DRUG",
+          "name": "Oxycodone（Oxycodone Hydrochloride Injection，IV）",
+          "description": "Oxycodone bitartrate is a dual opioid receptor agonist that is used in clinical settings. Oxycodone bitartrate injection is indicated for the relief of moderate to severe cancer pain. It can be administered alone or in combination with non-steroidal anti-inflammatory drugs to provide acute combined analgesia. In January 2021, Jiangsu Enhua Pharmaceutical submitted a marketing authorisation application for Oxycodone bitartrate injection to the National Medical Products Administration.The application has been accepted and approved."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "The occurrence of postoperative nausea and vomiting",
+          "description": "Following surgery, a blinded evaluator assessed PONV using a 4-point ordinal scale (0 = none, 1 = nausea, 2 = retching, 3 = vomiting). Nausea was defined as a subjectively unpleasant sensation associated with awareness of the urge to vomit. Retching was defined as labored, spasmodic, rhythmic contraction of the respiratory muscles without expulsion of gastric contents. Vomiting was defined as the forceful expulsion of gastric contents from the mouth.",
+          "timeFrame": "Within 48 hours after surgery"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Patients undergoing laparoscopic total abdominal hysterectomy with single-lumen endotracheal tube placement under general anaesthesia.\n2. Females aged 18-65 years with a BMI of 18-28 kg/m²;\n3. Normal mouth opening and head/neck mobility;\n4. Preoperative American Society of Anesthesiologists (ASA) physical status classification of I-III and Mallampati airway classification of I or II;\n5. Patients must also be scheduled for postoperative analgesia and have signed an informed consent form.\n\nExclusion Criteria:\n\n1. Patients with allergies to the medications used in this study.\n2. Patients with severe diseases of major organs, such as the heart, lungs or brain, including a history of acute myocardial infarction, cerebral infarction, asthma or chronic obstructive pulmonary disease;\n3. Patients with severe liver or kidney dysfunction, or concomitant severe endocrine disorders such as poorly controlled hypertension, diabetes, hyperthyroidism or hypothyroidism.\n4. Patients with a difficult airway, oropharyngeal/cervical anomalies, or a history of prior tracheostomy;\n5. A history of prolonged sedative/analgesic use, substance abuse or opioid dependence;\n6. Patients with neuropsychiatric disorders or impaired communication/comprehension abilities."
+    }
+  }
+}

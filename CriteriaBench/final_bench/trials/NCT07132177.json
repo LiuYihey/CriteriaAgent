@@ -1,0 +1,70 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07132177",
+      "officialTitle": "Targeted Naltrexone to Support Individuals Participating in Dry January"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-04",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-11-03"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-04-01"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Alcohol Misuse"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Naltrexone (oral tablets)",
+          "description": "All participants will receive 31 pills of 50 mg Naltrexone to take as needed over the month of January 2026."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Recruitment feasibility",
+          "description": "Recruitment: Proportion of those screened who successfully enroll in the trial. Greater than 75% enrollment will be considered excellent, and greater than 50% enrollment will be considered good.",
+          "timeFrame": "Up to 3 business days following baseline visit"
+        },
+        {
+          "measure": "Retention feasibility",
+          "description": "Proportion of those enrolling who successfully complete all study visits. Greater than 80% retention will be considered excellent, and greater than 70% retention will be considered good.",
+          "timeFrame": "Up to 3 business days following baseline visit"
+        },
+        {
+          "measure": "Intervention acceptability",
+          "description": "The 4-item Acceptability of Intervention Measure (AIM) will be used, measured on a 5-point scale.",
+          "timeFrame": "Up to 3 business days following baseline visit"
+        },
+        {
+          "measure": "Naltrexone adherence",
+          "description": "The total number of naltrexone tablets taken will be assessed by pill count.",
+          "timeFrame": "1 month during the month of Januaray 2026"
+        },
+        {
+          "measure": "Safety Measure",
+          "description": "The incidence and severity of adverse events (AEs) will be documented using the Patient Rated Inventory of Side Effects (PRISE)6: A self-report tool to qualify side effects. For each domain, the patient rates whether the symptoms are tolerable or distressing.",
+          "timeFrame": "Up to 3 business days following baseline visit"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* English speaking adults aged 18 and above\n* Intending to participate in \"Dry January\" in January of 2026 by either completely stopping or moderating (reducing) their drinking\n* Available to travel to BWH CCI outpatient facilities for study visits\n\nExclusion Criteria:\n\n* DSM-5 diagnosis of moderate or severe AUD\n* Seeking treatment for AUD\n* Currently receiving medications for treating AUD (naltrexone, acamprosate, disulfiram)\n* CIWA score \\> 3 at the time of enrollment\n* Blood alcohol level (BAL) \\> 0 at enrollment\n* Current DSM-5 diagnosis of any other SUD except for tobacco use disorder\n* History of any inpatient alcohol withdrawal (i.e. \"detox\") admission\n* History of severe withdrawal syndrome including withdrawal seizure or delirium tremens\n* Active psychosis, mania, suicidality or homicidally or any psychiatric condition that impair ability to provide informed consent\n* Liver function test greater than 3 times upper normal limit or severe renal impairment\n* History of hypersensitivity or allergy to naltrexone\n* Currently or anticipating requiring opioid analgesics for pain during the trial\n* Pregnant or breastfeeding\n* Anticipated to permanently leave the Boston area during the duration of the trial.\n* Anticipated to be enrolled in another clinical drug trial during participation of this trial\n* Any other reason or clinical condition that the investigators judge may interfere with study participation and/or be unsafe for a participant"
+    }
+  }
+}

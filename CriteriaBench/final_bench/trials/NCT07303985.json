@@ -1,0 +1,60 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07303985",
+      "officialTitle": "The Effects of Remimazolam on Cerebral Blood Flow Following General Anesthesia Induction"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-04",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-12-29"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-02-28"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cerebral Blood Flow"
+      ],
+      "keywords": [
+        "Remimazolam",
+        "Propofol",
+        "Cerebral blood flow"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Remimazolam",
+          "description": "Remimazolam is used as the sedative agent during the anesthesia induction period (administer remimazolam as an intravenous bolus of 0.3 mg/kg for induction)."
+        },
+        {
+          "type": "DRUG",
+          "name": "Propofol (Group P)",
+          "description": "Propofol is used as the sedative agent during the anesthesia induction period (administer propofol at 2 mg/kg for induction)."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Peak systolic blood flow velocity (PS)",
+          "description": "Peak systolic blood flow velocity (PS) in the middle cerebral artery following general anesthesia induction (at 1, 3, 5, and 10 minutes after endotracheal intubation). Peak systolic blood flow velocity (PS) is the maximum speed of blood flow recorded during the systolic phase of the cardiac cycle, typically measured in centimeters per second (cm/s). Peak systolic blood flow velocity (PS) normal values are vessel-specific and age-dependent. In healthy adults, the commonly cited reference range for the middle cerebral artery (MCA) is approximately 80-120 cm/s. This value decreases with age. For other intracranial arteries, PS is generally lower (e.g., 40-80 cm/s for vertebrobasilar arteries). Physiological factors like hematocrit and gender also cause minor variations. Clinically, PS values above 140-200 cm/s in the MCA often indicate significant pathology such as vasospasm or stenosis.",
+          "timeFrame": "1, 3, 5, and 10 minutes after endotracheal intubation."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients who have signed the informed consent form and are willing to comply with the study protoco\n* Age greater than 18 years\n* ASA physical status classification I to II\n* Scheduled for elective surgery\n* Undergoing general anesthesia with endotracheal intubation\n* No history of cerebrovascular disease, carotid artery stenosis, or traumatic brain injury.\n\nExclusion Criteria:\n\n* History of intracranial lesions, carotid artery stenosis, or traumatic brain injury\n* Allergy or contraindications to remimazolam or propofol."
+    }
+  }
+}

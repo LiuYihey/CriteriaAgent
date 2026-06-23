@@ -1,0 +1,62 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07466940",
+      "officialTitle": "A Phase I Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Immunogenicity of SM17 Monoclonal Antibody Injection (Subcutaneous) in Chinese Healthy Participants"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-03",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-10-14"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-02-03"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Atopic Dermatitis",
+        "Asthma",
+        "Inflammatory Bowel Disease"
+      ],
+      "keywords": [
+        "AD",
+        "IL-17RB",
+        "IL-25 receptor"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "SM17",
+          "description": "SM17 monoclonal antibody"
+        },
+        {
+          "type": "DRUG",
+          "name": "SM17 placebo",
+          "description": "placebo to be compared with SM17, excipient solution of SM17 monoclonal antibody without protein"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Incidence of treatment emergent AEs",
+          "description": "To evaluate the safety and tolerability of SM17 in Chinese healthy volunteers administrated with single dose of SM17 or placebo intravenously. Treatment emergent AE was any unfavorable or unintended medical occurrence in each subject, including any abnormal changes in vital signs or lab testing with clinical significance judged by investigators, that happened during the period of receiving or after receiving the investigational product, categorized by type, severity, and causality with the study drug",
+          "timeFrame": "Day 0 to Day 85"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Be willing to sign the ICF, and be able to complete clinical visits and study-related procedures.\n2. Aged 18-55 years (both inclusive) at the time of signing the ICF, regardless of sex.\n3. Body mass index (BMI) ≥ 18.5 and \\< 28.0 kg/m2, and body weight ≥ 50 kg (for males) and ≥ 45 kg (for females) at screening.\n4. Normal or abnormal but clinically insignificant findings in medical history and inquiries, vital signs, physical examination, laboratory tests (hematology, clinical chemistry, urinalysis, and coagulation tests), immunoglobulins, 12-lead ECG, and non-contrast chest CT at screening.\n5. Fertile men and women of childbearing potential must consent to use one of the highly effective contraceptive methods specified in Appendix 1 of the protocol from signing the ICF to 6 months after dosing, and have no plan to donate sperm or egg cells during this period.\n\nExclusion Criteria:\n\n1. Frequent alcohol consumption within 6 months prior to the screening visit, defined as an average weekly intake of \\> 14 units of alcohol (1 unit of alcohol ≈ 360 mL of beer, 45 mL of spirit with the alcohol content of 40%, or 150 mL of wine), inability to abstain from alcohol from the screening visit or within 48 h pre-dose until the end of study (EOS), or a positive breath alcohol test at baseline.\n2. Current or history of clinically significant diseases deemed by the investigator to be clinically significant or likely to interfere with the study, including but not limited to diseases related to the neurological, cardiovascular, respiratory, hematological, endocrine, genitourinary, gastrointestinal, musculoskeletal systems, etc.\n3. Planned major surgery during the study, major surgery within 4 weeks prior to dosing, or surgical history deemed clinically significant by the investigator.\n4. Smoking history (\\> 5 cigarettes per day on average) within 3 months prior to the screening visit, or inability to abstain from any tobacco products during the study.\n5. PR interval \\> 210 ms on 12-lead ECG or QT interval corrected for heart rate using Fridericia's formula (QTcF; see Appendix 3): QTcF ≥ 450 ms for males and QTcF ≥ 470 ms for females.\n6. Abnormal laboratory parameter values as follows: a) total bilirubin \\> 1.5 × upper limit of normal (ULN); b) alanine aminotransferase or aspartate aminotransferase \\> 1.5 × ULN; c) serum creatinine \\> ULN; d) white blood cell count below the lower limit of normal (LLN); or other abnormalities deemed by the investigator to be clinically significant, rendering the participant ineligible for enrollment.\n7. Recent infections (including chronic or localized infections) within 7 days prior to the screening visit, or presence of recurrent infections that, as assessed by the investigator, may affect the interpretation of trial results.\n8. Received a vaccine within 1 month prior to dosing.\n9. History of any malignancy within 5 years prior to the screening visit.\n10. History of known primary or secondary immunodeficiency disorders.\n11. History of drug abuse prior to dosing, or positive urine drug abuse screening at baseline.\n12. Known allergic reactions to monoclonal antibody components or excipients, or a history of suspected hypersensitivity reactions to the study drug or any components thereof as judged by the investigator.\n13. Positive screen test for HIV-Ab, HBsAg, HCV-Ab, or TP-Ab at screening;\n14. Received any prescription drugs, over-the-counter (OTC) drugs, biological products, dietary supplements, or Chinese herbal medicines within 14 days prior to dosing or 5 half-lives (whichever is longer); participated in another clinical trial involving an investigational drug/device and received investigational treatment within 3 months prior to dosing or 5 half-lives (whichever is longer); or participated in 3 or more clinical trials of drugs/devices and received investigational treatment within the past year.\n15. Presence of tattoos, scars, or any other conditions at or near the injection site that, in the investigator's opinion, may interfere with injection site assessment.\n16. Blood (including blood products) donation or blood loss ≥ 500 mL due to surgery or trauma within 2 months prior to the screening visit; donation of hematopoietic stem cells or bone marrow within 3 months prior to dosing, or planned donation of blood, bone marrow, or hematopoietic stem cells during the study.\n17. History of trypanophobia or hemophobia, or cannot tolerate intravenous cannulation.\n18. Pregnant or lactating women, or a positive pregnancy test (for females).\n19. Any other conditions that, in the investigator's opinion, render the participant ineligible for the study.\n20. Participants who may be unable to complete the study for any other reason."
+    }
+  }
+}

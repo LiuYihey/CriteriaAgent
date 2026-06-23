@@ -1,0 +1,60 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07149376",
+      "officialTitle": "Clinical Investigation to Assess the Efficacy of a Toothpaste Containing 8% Arginine as Compared to Colgate Cavity Protection Toothpaste in the Reduction of Dentinal Hypersensitivity."
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-08",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-08-18"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-10-14"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Sensitivity, Tooth"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "TOMs of Maine Sensitive SLS Free Xtra Fresh",
+          "description": "Cover the entire length of bristled head with toothpaste. Brush your teeth twice daily (morning and evening) for one (1) minute each time.\n\nFor investigational use only by the study participant. Not for Sale."
+        },
+        {
+          "type": "DRUG",
+          "name": "Colgate Cavity protection toothpaste",
+          "description": "Cover the entire length of bristled head with toothpaste. Brush your teeth twice daily (morning and evening) for (2) two minutes each time.\n\nFor investigational use only by the study participant."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Tactile stimulation by the Yeaple Probe",
+          "description": "Hypersensitivity defined by a response score in the range of 10-50 grams of force.",
+          "timeFrame": "baseline, 3 day, 4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Air blast stimulation",
+          "description": "Jet of air delivered by a standard dental unit syringe at a measured temperature of 19-21°C (70°F \\[± 3°F\\]) \\[hypersensitivity defined by a response score of 2 or 3 on the Schiff Cold Air Sensitivity Scale",
+          "timeFrame": "baseline, 3 day, 4 weeks, 8 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Sign an Informed Consent Form;\n* Male or female 18 to 70 years of age, inclusive;\n* Be in good general health as determined by the study investigators;\n* Available for the eight (8) weeks duration of the study;\n* Must present two (2) sensitive teeth which must meet ALL of the following criteria:\n* Be anterior to the molars and demonstrating dentin exposure due to cervical erosion/abrasion and/or gingival recession;\n* Have a qualifying dentin hypersensitivity response to tactile stimuli applied to the cervical surface (gingivo-facial 1/3) as defined by a response score between 10-50grams of force (Yeaple Probe, XiniX Research Inc. Portsmouth, NH, USA);\n* Have a qualifying dentin hypersensitivity response to air blast stimuli applied for one second to the cervical surface (gingivo-facial 1/3) as defined by a score of 2 or 3 on the Schiff Cold Air Sensitivity Scale.\n\nExclusion Criteria:\n\n* Gross oral pathology, chronic disease, and/or history of allergies to any of the test products\n* Use of a desensitizing oral care product and/or recipient of any dental desensitizing treatment within the past three months prior to start of the study;\n* Advanced periodontal disease and/or treatment for periodontal disease (including surgery) within the past twelve months\n* Sensitive teeth with a mobility greater than one Teeth with extensive/defective restorations (including prosthetic crowns), suspected pulpitis, caries, cracked enamel, or used as abutments for removable partial dentures;\n* Current use of anticonvulsants, antihistamines, antidepressants, sedatives, tranquilizers, anti- inflammatory drugs, or daily use of analgesics\n* Participation in any other oral clinical study for the duration of this study\n* Self-reported pregnancy and/or currently breastfeeding;\n* Allergies to oral care products, personal care consumer products, and/or their ingredients\n* Medical condition which prohibits not eating/drinking for 4 hours"
+    }
+  }
+}

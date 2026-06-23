@@ -1,0 +1,58 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07276672",
+      "officialTitle": "Efficacy of a Toothpaste Containing Hydrogen Peroxide as Compared to a Regular Fluoride Toothpaste Without Hydrogen Peroxide in the Immediate Removal of Tooth Stains After a Single Brushing"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-11",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-11-20"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-11-24"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Whitening"
+      ],
+      "keywords": [
+        "Hydrogen Peroxide"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Optic White Adv Sparkling White (2%HP) Toothpaste",
+          "description": "0.243% NaF toothpaste"
+        },
+        {
+          "type": "DRUG",
+          "name": "Colgate Great Regular Flavor Toothpaste",
+          "description": "0.76% Na MFP"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Mod. Lobene Stain Index",
+          "description": "each tooth will be scored separately using a 4 point area and intensity scale",
+          "timeFrame": "one day"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Signed Informed Consent Form;\n* Male and female subjects, aged 18-70, inclusive;\n* Good general health and good oral health based on the opinion of the study investigator; - Presence of permanent natural anterior teeth (no veneers/crowns/restorations that may interfere with this study scoring procedures);\n* A minimum composite mean of ≥ 1.5 determined by the Mod. Lobene Tooth Stain Index;\n* Available for the duration of the study;\n* Clinical evidence of a tendency to form extrinsic stains on anterior teeth\n\nExclusion Criteria:\n\n* Presence of orthodontic appliances/retainers involving scorable teeth;\n* Presence of partial removable/fixed dentures and/or restorations involving scorable teeth; 3. Tumor(s) of the soft or hard tissues of the oral cavity;\n* Obvious signs of periodontal disease rampant caries, or any condition that the dental examiner considers exclusionary from the study;\n* Five or more carious lesions requiring immediate care;\n* Use of antibiotics, stain-inducing medications, and/or on any prescription that might interfere with the study outcome;\n* Concurrent participation in another clinical study;\n* Self-reported pregnancy and/or lactating women;\n* Have used professional whitening product within one (1) year or had a dental prophylaxis (professional dental cleaning) within thirty (30) days - prior to the start of the study\n* History of allergies or sensitivity to tooth whitening products, hydrogen peroxide, personal care consumer products, or their ingredients;\n* History of alcohol and/or drug abuse."
+    }
+  }
+}

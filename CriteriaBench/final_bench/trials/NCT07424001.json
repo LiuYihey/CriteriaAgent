@@ -1,0 +1,66 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07424001",
+      "officialTitle": "Effects of Preemptive Ibuprofen Administration on Delayed Neurocognitive Recovery in Geriatric Patients Undergoing Inguinal Hernia Surgery"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-03",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-09-27"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-01-22"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Inguinal Hernia Unilateral",
+        "Delayed Neurocognitive Recovery",
+        "Postoperative Pain",
+        "Neuroinflammation",
+        "Preemptive Analgesia"
+      ],
+      "keywords": [
+        "Ibuprofen",
+        "Preemptive Analgesia",
+        "Geriatric Patients",
+        "Quality of Recovery",
+        "Montreal Cognitive Assessment"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Ibuprofen (400 mg x 4)",
+          "description": "800 mg intravenous infusion, administered 30 minutes before anesthesia induction."
+        },
+        {
+          "type": "OTHER",
+          "name": "Placebo (NaCl 0.9 % solution)",
+          "description": "200 mL of 0.9% normal saline infusion, administered 30 minutes before anesthesia induction."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Montreal Cognitive Assessment (MoCA) Score.",
+          "description": "The MoCA is a 30-point tool used to evaluate cognitive domains such as memory, attention, and executive functions. A decline of ≥ 2 points from the preoperative baseline is defined as the occurrence of Delayed Neurocognitive Recovery (dNCR).",
+          "timeFrame": "Preoperative Day 1 (Baseline), Postoperative Day 1, and Postoperative Day 7."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Male patients between the ages of 65 and 84.\n* ASA (American Society of Anesthesiologists) physical status I - III.\n* Preoperative Mini-Mental State Examination (MMSE) score of \\\\ge24.\n* Undergoing elective (non-emergency) open inguinal hernia repair using the\n* Lichtenstein tension-free method with mesh.\n* Literate and able to communicate sufficiently to understand Turkish cognitive tests.\n\nExclusion Criteria:\n\n* Illiterate patients.\n* History of active alcoholism or substance abuse.\n* Neuro-psychiatric disorders such as Parkinson's, Alzheimer's, vascular dementia, advanced stroke sequelae, schizophrenia, or major depressive disorder.\n* Active metastatic cancer or terminal illness.\n* Known allergy to nonsteroidal anti-inflammatory drugs (especially ibuprofen), acetylsalicylic acid, or other drugs used in the study.\n* Advanced COPD or uncontrolled bronchial asthma (FEV1 \\<50%).\n* Uncontrolled hypertension, congestive heart failure (NYHA Class IV), recent myocardial infarction, or serious arrhythmias.\n* Thrombocytopenia (\\<50,000), coagulopathy, active peptic ulcer, or recent gastrointestinal bleeding history (within the last year).\n* Advanced liver failure (Child-Pugh C) or kidney failure (creatinine \\>2.5 mg/dL or dialysis requirement).\n* Body Mass Index (BMI) \\\\ge35 (morbid obesity) or body weight \\<40 kg."
+    }
+  }
+}

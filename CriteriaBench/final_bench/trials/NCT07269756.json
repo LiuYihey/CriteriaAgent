@@ -1,0 +1,78 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07269756",
+      "officialTitle": "An Open, Fixed-sequence, Self-controlled Pharmacokinetic Study to Evaluate the Drug Interactions of HRS-7535 With Acetaminophen, Digoxin, Rosuvastatin, and Omeprazole in Obese or Overweight Subjects"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-04",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-12-08"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-03-08"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Obesity",
+        "Overweight"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "HRS-7535 Tablets",
+          "description": "HRS-7535 tablet."
+        },
+        {
+          "type": "DRUG",
+          "name": "Paracetamol Tablets",
+          "description": "Paracetamol tablet."
+        },
+        {
+          "type": "DRUG",
+          "name": "Digoxin Tablets",
+          "description": "Digoxin tablet."
+        },
+        {
+          "type": "DRUG",
+          "name": "Rosuvastatin Calcium Tablets",
+          "description": "Rosuvastatin Calcium tablet."
+        },
+        {
+          "type": "DRUG",
+          "name": "Omeprazole Enteric-coated Capsules",
+          "description": "Omeprazole Enteric-coated capsule."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Maximum concentration (Cmax)",
+          "timeFrame": "63 days."
+        },
+        {
+          "measure": "Area under the concentration-time curve from time zero to the time of the last quantifiable concentration (AUC0-last)",
+          "timeFrame": "63 days."
+        },
+        {
+          "measure": "Area under the concentration-time curve from time zero to infinity (AUC0-inf)",
+          "timeFrame": "63 days."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Voluntarily sign the informed consent form prior to any study-related activities, understand the procedures and methods of the study, and agree to complete this study in strict accordance with the clinical study protocol;\n2. Males or females aged 18-50 years (inclusive);\n3. Weight ≥ 50.0 kg and \\<100.0 kg, and body mass index (BMI) ≥26.0 kg/m2;\n4. Male subjects who are female with fertility or whose partners are female with fertility must have no plans to have children or donate sperm/eggs from the date of signing the informed consent form until one month after the last medication use, and voluntarily take effective contraceptive measures (including for their partners).\n\nExclusion Criteria:\n\n1. Those with a history of drug or food allergies, or those with an allergic constitution;\n2. History of inability to swallow, chronic diarrhea and intestinal obstruction, or the presence of multiple other factors that affect drug administration and absorption;\n3. History of diabetes (except gestational diabetes);\n4. Those with a history of severe hypoglycemia;\n5. There is a history of clinical gastric emptying abnormalities (such as gastric outlet obstruction) and severe chronic gastrointestinal diseases (such as inflammatory bowel disease, active ulcers) in the past;\n6. Those with a history or family history of medullary thyroid carcinoma, multiple endocrine adenomatosis type 2, acute or chronic pancreatitis, symptomatic gallbladder diseases or cholestasis;\n7. Any malignant tumor of the organ system has occurred within 5 years, regardless of whether there is evidence of local recurrence or metastasis. Local basal cell carcinoma of the skin, cervical carcinoma in situ and prostate carcinoma in situ are excluded;\n8. Those who have undergone any surgery within the six months prior to screening;\n9. Severe cardiovascular and cerebrovascular diseases have occurred within 6 months prior to screening, including but not limited to: heart failure (NYHA grade II-IV), angina pectoris, stroke or transient ischemic attack, myocardial infarction, severe arrhythmia, or coronary artery bypass grafting or percutaneous coronary intervention, etc. And/or planned to undergo coronary, carotid or peripheral artery revascularization at the time of screening;\n10. Those who frequently consumed alcohol within the six months prior to the screening, that is, those who consumed more than 14 units of alcohol per week (1 unit = 360 mL of beer, or 45 mL of 40% alcohol spirits, or 100 mL of wine), and who could not stop using any alcoholic products during the trial period, and whose breath test for alcohol was positive;\n11. Those who have participated in any clinical trials of drugs or medical devices within the three months prior to screening (based on the intervention of the trial drugs or medical devices);\n12. Those who smoked more than five cigarettes per day in the three months prior to screening and were unable to stop using any tobacco products during the trial period;\n13. Those who have donated blood (or lost blood) within 3 months prior to screening with a blood donation (or blood loss) volume of ≥ 400 mL, or have received blood transfusion;\n14. Those who have experienced any acute disease that has been determined to have clinical significance by the researchers within one month prior to screening;\n15. Those who have received a vaccine within one month before screening or plan to receive a vaccine during the trial period;\n16. Those who have taken any prescription drugs, over-the-counter drugs, Chinese herbal medicines or health supplements within 14 days prior to screening and/or baseline, and plan to take drugs or health supplements other than those tested in this study during the trial period;\n17. Having undergone gastrointestinal surgery that may cause malabsorption before screening, or having taken drugs that directly affect gastrointestinal peristalsis for a long time. For example: having undergone bariatric surgery or procedures (such as gastric banding), or having used weight-reducing drugs (including but not limited to orlistat) within 3 months prior to administration, or reporting a weight change of more than 5kg within 3 months prior to administration;\n18. During screening, a 12-lead electrocardiogram (ECG) examination showed that the QTcF was ≥450 ms in males and ≥470 ms in females, or that the ECG had other abnormal conditions that the researcher judged to be of clinical significance;\n19. Those with a history of drug abuse, drug dependence (during consultation), or with a positive result in pre-administration urine drug abuse screening;\n20. Abnormal and clinically significant examination results such as laboratory tests, physical examinations, vital signs, abdominal ultrasound, chest X-rays, etc;\n21. The Investigators considered the subjects to have other factors that made them unsuitable for participating in this study."
+    }
+  }
+}

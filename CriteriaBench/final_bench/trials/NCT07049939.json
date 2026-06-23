@@ -1,0 +1,65 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07049939",
+      "officialTitle": "An Open-Label, Single-Dose Study to Evaluate the Effects of Hepatic Impairment on the Pharmacokinetics of MK-3543"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-02",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-08-20"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-02-17"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Hepatic Insufficiency"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Bomedemstat",
+          "description": "Capsule for oral administration"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Area Under the Concentration-Time Curve from Time 0 to Infinity (AUC0-Inf) of Bomedemstat in Participants with Mild Hepatic Impairment (HI)",
+          "description": "Blood samples collected to determine the AUC0-inf of bomedemstat.",
+          "timeFrame": "Up to 216 hours"
+        },
+        {
+          "measure": "Maximum Plasma Concentration (Cmax) of Bomedemstat in Participants with Mild HI",
+          "description": "Blood samples collected to determine the Cmax of bomedemstat.",
+          "timeFrame": "Up to 216 hours"
+        },
+        {
+          "measure": "AUC0-Inf of Bomedemstat in Participants with Moderate HI",
+          "description": "Blood samples collected to determine the AUC0-inf of bomedemstat.",
+          "timeFrame": "Up to 216 hours"
+        },
+        {
+          "measure": "Cmax of Bomedemstat in Participants with Moderate HI",
+          "description": "Blood samples collected to determine the Cmax of bomedemstat.",
+          "timeFrame": "Up to 216 hours"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria\n\nThe main inclusion criteria include but are not limited to the following:\n\n* Is a non-smoker or is a moderate smoker for at least 3 months prior to dosing\n\nParticipants with Mild and Moderate HI\n\n* Is classified as having either mild HI (Group 1) or moderate HI (Group 2) score on the Child-Pugh scale ranging from 5 to 6 (mild) or 7 to 9 (moderate)\n* Has a diagnosis of chronic (\\> 6 months), stable (no acute episodes of illness within the previous 2 months due to deterioration in hepatic function) hepatic insufficiency with features of cirrhosis due to any etiology\n\nHealthy Control Participants:\n\n* Must match the mean age (± 15 years) of participants with mild HI and moderate HI\n* Must match the mean body-mass index (BMI) (± 25%) of participants with mild HI (Group 1) and moderate HI\n* Must match the sex ratio (±2) of participants in each HI group, separately\n\nExclusion Criteria\n\nThe main exclusion criteria include but are not limited to the following:\n\nAll Participants\n\n* History of cancer (malignancy)\n* Female participants of childbearing potential\n* Is positive for Hepatitis C virus (HCV)\n* Is positive for Hepatitis B surface antigen (HBsAg)\n* Is positive for human immunodeficiency virus (HIV)\n\nParticipants with Mild and Moderate HI\n\n* Has any significant arrhythmia or conduction abnormality\n* Severe complications of liver disease within the preceding 3 months\n* Primary biliary cholangitis or biliary obstruction\n* Has a history of a recent variceal bleeds\n* Has evidence of hepatorenal syndrome\n* Has a history of liver or other solid organ transplantation\n* Has an active infection requiring systemic therapy\n* Requires paracentesis more often than 2 times per month\n* Has transjugular intrahepatic portosystemic shunt and/or has undergone portacaval shunting\n\nHealthy Control Participants\n\n* Has a history of clinically significant endocrine, gastrointestinal, cardiovascular, hematological, hepatic, immunological, renal, respiratory, genitourinary, or major neurological (including stroke and chronic seizures) abnormalities or diseases\n* Is a regular user of cannabis products within approximately 6 months of study"
+    }
+  }
+}

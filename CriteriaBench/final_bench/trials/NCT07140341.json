@@ -1,0 +1,52 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07140341",
+      "officialTitle": "A Multi-center, Open Label, Single Arm, Interventional Clinical Study to Assess the Efficacy of ENO Lime in Patients With Ajeerna Vyadhi (Acidity, Acid Indigestion, Indigestion, and Associated Nausea)"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-09",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-08-20"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-09-06"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Indigestion Acid",
+        "Indigestion",
+        "Nausea"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "ENO Lime",
+          "description": "A fruit salt (sachet of 5-gram powder) with lime flavor containing Svarjiksara (Shudh) 2220 milligram (mg) and Nimbu Rasa (Citrus limon, Fruit Juice Powder) 150 mg"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change from Baseline in Ajeerna Vyadhi (Acidity, Acid Indigestion, Indigestion, And Associated Nausea) Symptoms Using VAS Scoring After 15 Minutes of Taking ENO Lime",
+          "description": "The severity of symptoms of Ajeerna vyadhi will be recorded using VAS scoring. Participants will record a score with a mark at one point along the length of a 100-millimeter (mm) line, where the lowest score 0-mm indicates 'no discomfort' and highest score 100-mm indicates 'worst possible discomfort'. Higher the score, more severe will be the symptoms. Change from baseline will be calculated by subtracting baseline value from the value at 15-minutes.",
+          "timeFrame": "Baseline (0-minutes pre-dose) and 15-minutes post-dose on Day 1"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Male and female participants with age 18-60 years (both inclusive).\n* Participants newly experiencing symptom/s of Ajeerna vyadhi for not more than 10 days.\n* Participants with at least one symptom of Ajeerna vyadhi (according to Charak Samhita and Madhav Nidan) that is acidity (heartburn), acid indigestion (epigastric pain), indigestion (abdominal discomfort), or associated nausea.\n* Participants with VAS score greater than or equal to (\\>=) 40-mm and less than or equal to (\\<=) 80-mm Ajeerna vyadhi (acidity, acid indigestion, indigestion, or associated nausea) at the Baseline visit.\n* Participants are able to read, understand, and provide written informed consent.\n* Participants who can understand and complete the VAS.\n\nExclusion Criteria:\n\n* Participants with chronic and recurrent cases of Ajeerna vyadhi.\n* Participants with Updrava of Ajeerna vyadhi (Complications of indigestion).\n* Pregnant women (self-reported) and breastfeeding females or females intending to become pregnant during the study.\n* Participant had surgery in the last 14 days.\n* Participant has been exposed to barium meal 3 days before screening.\n* Participants already on any indigestion or acidity medication.\n* Participants taking any medicinal/over-the-counter (OTC)/ herbal medicine from the past 3 days.\n* Participants on medications that could interact with ENO Lime (example, antacids, proton pump inhibitors, or H2 blockers) as per the judgment of the Investigator/designee.\n* Participants with known hypersensitivity to any of the components of ENO Lime (Svarjiksara \\[Shudh\\], Nimbu Rasa \\[Citrus limon, Fruit Juice Powder\\]).\n* Participants with a history of gastrointestinal (GI) disorders such as peptic ulcers, gastritis, irritable bowel syndrome (IBS), or other serious GI diseases.\n* Participants with serious renal, hepatic, or cardiovascular diseases.\n* Participants on a sodium restricted diet example, those suffering from hypertension or congestive heart failure.\n* Participants who have participated in another clinical trial within the last 30 days.\n* Any participant who, in the opinion of the investigator, should not participate in the study."
+    }
+  }
+}

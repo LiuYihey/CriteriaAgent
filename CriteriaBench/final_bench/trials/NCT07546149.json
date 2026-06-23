@@ -1,0 +1,55 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07546149",
+      "officialTitle": "A Phase I Study to Evaluate the Safety, Tolerability, and Pharmacokinetics of LW402 Tablets Following Multiple Doses in Healthy Volunteers"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-04",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-10-15"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-12-09"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Safety Evaluation of Escalating Doses"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Experimental",
+          "description": "LW402 Tablets"
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "LW402 Placebo Tablets"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Safety and Tolerability Assessment",
+          "description": "Safety and Tolerability Assessment: Incidence and severity of adverse events (AEs) and serious adverse events (SAEs), along with abnormal clinical laboratory parameters, vital signs, physical examination findings, and 12-lead electrocardiogram (ECG) results.",
+          "timeFrame": "up to 9 days"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Healthy male and female subjects of non-child bearing potential as determined by medical history, physical exam and vial sign measurements\n* Body Mass Index of 18-26 kg/m2 inclusive with body weight males ≥ 50 kg, females ≥ 45 kg\n\nExclusion Criteria:\n\n* Clinically significant disease that requires a physician's care and/or would interfere with study evaluations\n* History of drug or alcohol abuse, consumption of alcohol within 48 hours prior to randomization, or a positive test for alcohol or drugs with a high potential for abuse prior to randomization\n* Other exclusion criteria apply"
+    }
+  }
+}

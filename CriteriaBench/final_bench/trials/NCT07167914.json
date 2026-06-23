@@ -1,0 +1,79 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07167914",
+      "officialTitle": "A Phase 1 Study to Assess Safety, Tolerability and Pharmacokinetics of Single and Multiple Transdermal Doses of SFG-02 in Japanese and White Healthy Adult Participants"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-04",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-09-09"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-04-27"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Health Participants"
+      ],
+      "keywords": [
+        "White Healthy Participants",
+        "Japanese Healthy Participants"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "SFG-02",
+          "description": "Transdermal Formulation (SFG-02)"
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Transdermal Formulation (Placebo)"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Safety and Tolerability",
+          "description": "Incidence of Treatment-Emergent Adverse Events in Healthy Adult Subjects",
+          "timeFrame": "From the first application to the 14th day after the final application"
+        },
+        {
+          "measure": "Pharmacokinetics (PK): Maximum concentration (Cmax) of SFG-02",
+          "description": "Blood samples will be collected at multiple timepoints to estimate Cmax of SFG-02",
+          "timeFrame": "At designated timepoints (up to 7 days after the final application)"
+        },
+        {
+          "measure": "PK: Area under the concentration versus time curve (AUC) of SFG-02",
+          "description": "Blood samples will be collected at multiple timepoints to estimate Tmax of SFG-02",
+          "timeFrame": "At designated timepoints (up to 7 days after the final application)"
+        },
+        {
+          "measure": "PK: Time to maximum concentration (Tmax) of SFG-02",
+          "description": "Blood samples will be collected at multiple timepoints to estimate Tmax of SFG-02",
+          "timeFrame": "At designated timepoints (up to 7 days after the final application)"
+        },
+        {
+          "measure": "PK: Time to decrease the concentration by half (T1/2) of SFG-02",
+          "description": "Blood samples will be collected at multiple timepoints to estimate T1/2 of SFG-02",
+          "timeFrame": "At designated timepoints (up to 7 days after the final application)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Healthy Japanese or white male and female participants aged between 18 and 45 years at the time of consent.\n2. Participants who agree to use contraception during a specified period.\n3. Participants with a Body Mass Index (BMI) of at least 18.0 kg/m2 and less than 32.0 kg/m2.\n4. Participants who are judged to be healthy by the principal (or sub-) investigator.\n5. Participants must understand the methods and compliance requirements of this study and must give his/her free and voluntary written consent to participate in this study.\n\nExclusion Criteria:\n\n1. Participants with clinically relevant symptoms, diseases, or pre-existing conditions.\n2. Participants with extensive skin findings on the abdomen.\n3. Participant who has used or will use prescription drugs, non-prescription drugs or products containing herbal medicines within a specified period\n4. Participants whose normal weekly alcohol intake exceeds 150 g.\n5. Habitual consumers of caffeine-containing beverages who are likely to experience symptoms if they stop.\n6. Smokers or those who have smoked or used other nicotine-containing products within 6 months.\n7. Participants who participated in a clinical trial and took a new active pharmacological ingredient within a specified period.\n8. Participants who have undergone surgery within 4 weeks.\n9. Pregnant or lactating women."
+    }
+  }
+}

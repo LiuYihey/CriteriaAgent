@@ -1,0 +1,3147 @@
+{
+  "schema": "trial_knowledge_graph_v4",
+  "source_profile": "trial_profile_A_Randomized__Double_Blind__Parallel_group_Study_t.json",
+  "pipeline": {
+    "chunk_batch_size": 10,
+    "steps": [
+      "A_short_chunks_dedup_sequential_ids",
+      "B_llm_line_format_tags_no_carry_forward_chunk_batches",
+      "C_merge_synonym_relation_frequency_stable_node_ids_drop_selfloops",
+      "D_embed_chunks_db_embed_node_queries_query_cosine_top1_chunk_ref"
+    ],
+    "similarity": {
+      "metric": "cosine_similarity",
+      "vector_normalize": "l2_rowwise_before_dot_product",
+      "selection": "argmax_strict_top1_no_threshold"
+    }
+  },
+  "models": {
+    "llm": {
+      "sdk": "anthropic",
+      "base_url": "https://api.minimaxi.com/anthropic",
+      "model": "MiniMax-M2.7",
+      "structured_output": "plain_text_line_format_with_evidence_tags"
+    },
+    "embedding": {
+      "backend": "sentence_transformers",
+      "model": "D:\\___Desktop___\\.cache\\huggingface\\hub\\models--BAAI--bge-base-en-v1.5\\snapshots\\a5beb1e3e68b9ab74eb54cfd186867f64f240e1a",
+      "chunk_embed_type": "db",
+      "query_embed_type": "query"
+    }
+  },
+  "notes": {
+    "nodes": "Concept-oriented for eligibility-criteria writing. `category` holds the parenthetical short phrase from line-format extraction. No case identifiers (NCT/PMID).",
+    "edges": "Free-form relations with kind from line suffix <Extracted>/<Inferred>. frequency counts occurrences across batches (synonymous relations merged). kind aggregates to extracted if any occurrence was extracted.",
+    "chunk_ref": "Top-1 cosine chunk per node using query = name | category | 1-hop edge phrases."
+  },
+  "chunks": {
+    "c0000": "* Information for 'alopecia':\n* Mondo Definition: Hair loss usually from the scalp. It may result in bald spots or spread to the entire scalp or the entire epidermis. It may be androgenetic or caused by chemotherapeutic agents, compulsive hair pulling, autoimmune disorders or congenital conditions.",
+    "c0001": "* Umls Description: Absence of hair from areas where it is normally present., baldness; absence of hair from skin areas where it is normally present., The lack or loss of hair from areas of the body where hair is usually found.\nAlopecia can be a side effect of some cancer treatments., Hair loss usually from the scalp.\nIt may result in bald spots or spread to the entire scalp or the entire epidermis.",
+    "c0002": "It may be androgenetic or caused by chemotherapeutic agents, compulsive hair pulling, autoimmune disorders or congenital conditions., A disorder characterized by a decrease in density of hair compared to normal for a given individual at a given age and body location., Hair loss usually from the scalp., Loss of hair usually from the scalp that may result in bald spots or spread to the entire scalp or epidermis., You",
+    "c0003": "lose up to 100 hairs from your scalp every day.\nThat's normal, and in most people, those hairs grow back.\nBut many men -- and some women -- lose hair as they grow older.\nYou can also lose your hair if you have certain diseases, such as thyroid problems, diabetes, or lupus.\nIf you take certain medicines or have chemotherapy for cancer, you may also lose your hair.",
+    "c0004": "Other causes are stress, a low protein diet, a family history, or poor nutrition.\nTreatment for hair loss depends on the cause.\nIn some cases, treating the underlying cause will correct the problem.\nOther treatments include medicines and hair restoration., A noncongenital process of hair loss, which may progress to partial or complete baldness., Baldness or the loss of hair.",
+    "c0005": "* Mayo Symptoms: Hair loss can appear in many different ways, depending on what's causing it.\nIt can come on suddenly or gradually and affect just your scalp or your whole body.\nSigns and symptoms of hair loss may include: Gradual thinning on top of head.\nThis is the most common type of hair loss, affecting people as they age.\nIn men, hair often begins to recede at the hairline on the forehead.",
+    "c0006": "Women typically have a broadening of the part in their hair.\nAn increasingly common hair loss pattern in older women is a receding hairline .\nCircular or patchy bald spots.\nSome people lose hair in circular or patchy bald spots on the scalp, beard or eyebrows.\nYour skin may become itchy or painful before the hair falls out.\nSudden loosening of hair.\nA physical or emotional shock can cause hair to loosen.",
+    "c0007": "Handfuls of hair may come out when combing or washing your hair or even after gentle tugging.\nThis type of hair loss usually causes overall hair thinning but is temporary.\nFull-body hair loss.\nSome conditions and medical treatments, such as chemotherapy for cancer, can result in the loss of hair all over your body.\nThe hair usually grows back.\nPatches of scaling that spread over the scalp.\nThis is a sign of ringworm.\nIt may be accompanied by broken hair, redness, swelling and, at times, oozing.",
+    "c0008": "* Mayo Causes: People typically lose 50 to 100 hairs a day.\nThis usually isn't noticeable because new hair is growing in at the same time.\nHair loss occurs when new hair doesn't replace the hair that has fallen out.\nHair loss is typically related to one or more of the following factors: Family history .\nThe most common cause of hair loss is a hereditary condition that happens with aging.",
+    "c0009": "This condition is called androgenic alopecia, male-pattern baldness and female-pattern baldness.\nIt usually occurs gradually and in predictable patterns — a receding hairline and bald spots in men and thinning hair along the crown of the scalp in women.\nHormonal changes and medical conditions.",
+    "c0010": "A variety of conditions can cause permanent or temporary hair loss, including hormonal changes due to pregnancy, childbirth, menopause and thyroid problems.\nMedical conditions include alopecia areata, which is immune system related and causes patchy hair loss, scalp infections such as ringworm, and a hair-pulling disorder called trichotillomania .\nMedications and supplements.",
+    "c0011": "Hair loss can be a side effect of certain drugs, such as those used for cancer, arthritis, depression, heart problems, gout and high blood pressure.\nRadiation therapy to the head.\nThe hair may not grow back the same as it was before.\nA very stressful event.\nMany people experience a general thinning of hair several months after a physical or emotional shock.\nThis type of hair loss is temporary.",
+    "c0012": "Hairstyles and treatments.\nExcessive hairstyling or hairstyles that pull your hair tight, such as pigtails or cornrows, can cause a type of hair loss called traction alopecia.\nHot-oil hair treatments and permanents also can cause hair to fall out.\nIf scarring occurs, hair loss could be permanent.",
+    "c0013": "* Mayo Risk Factors: A number of factors can increase your risk of hair loss, including: A family history of balding on your mother's or father's side, Age, Significant weight loss, Certain medical conditions, such as diabetes and lupus, Stress, Poor nutrition",
+    "c0014": "* Mayo Complications: Most baldness is caused by genetics .\nThis type of hair loss is not preventable.\nThese tips may help you avoid preventable types of hair loss: Be gentle with your hair.\nUse a detangler and avoid tugging when brushing and combing, especially when your hair is wet.\nA wide-toothed comb might help prevent pulling out hair.",
+    "c0015": "Avoid harsh treatments such as hot rollers, curling irons, hot-oil treatments and permanents.\nLimit the tension on hair from styles that use rubber bands, barrettes and braids.\nAsk your doctor about medications and supplements you take that might cause hair loss.\nProtect your hair from sunlight and other sources of ultraviolet light.\nStop smoking.\nSome studies show an association between smoking and baldness in men.",
+    "c0016": "If you're being treated with chemotherapy, ask your doctor about a cooling cap.\nThis cap can reduce your risk of losing hair during chemotherapy.",
+    "c0017": "* Name: Minoxidil\n* SMILES: C1CCN(CC1)C2=NC(=N)N(C(=C2)N)O\n* Molecular Formula: C9H15N5O\n* Indication: For the topical treatment of androgenic alopecia in males (study-specific indication)",
+    "c0018": "* Mechanism of Action: Minoxidil is thought to promote the survival of human dermal papillary cells (DPCs) or hair cells by activating both extracellular signal-regulated kinase (ERK) and Akt and by preventing cell death by increasing the ratio of BCl<sup>-</sup>2/Bax. Minoxidil may stimulate the growth of human hairs by prolonging anagen through these proliferative and anti-apoptotic effects on DPCs.",
+    "c0019": "* Pharmacodynamics: Minoxidil is used topically to treat androgenetic alopecia. The predominant site of minoxidil action is arterial. The activity of minoxidil is due to its sulphate metabolite, minoxidil sulfate.\n* Absorption: Topical absorption characteristics from preclinical studies",
+    "c0020": "* Metabolism: Approximately 90% of the administered drug is metabolized, predominantly by conjugation with glucuronic acid at the N-oxide position in the pyrimidine ring. Known metabolites exert much less pharmacologic effect than minoxidil itself.\n* Half-life: 4.2 hours (from early phase studies)\n* Protein Binding: Minoxidil does not bind to plasma proteins.",
+    "c0021": "* Toxicity: Side effects include cardiovascular effects associated with hypotension such as sudden weight gain, rapid heart beat, faintness or dizziness (based on earlier phase safety data).",
+    "c0022": "* PMID 40208341 Title: Randomized controlled trial on the efficacy and safety of the combination therapy of topical 0.1% finasteride - 5% Minoxidil in male androgenetic alopecia.\nAbstract: Current FDA-approved treatments for androgenetic alopecia (AGA) are oral finasteride and topical minoxidil.\nTopical finasteride offers a potential alternative with similar efficacy and fewer systemic side effects.",
+    "c0023": "This study evaluated the effectiveness and safety of combining topical finasteride and minoxidil for male AGA.\nThis 12-week randomized controlled trial divided subjects into two groups which are topical finasteride 0.1%-minoxidil 5% (treatment) and topical minoxidil 5% (control) (NCT05990400, registered 2023-08-04).",
+    "c0024": "Hair density, hair diameter, terminal hair rate, and vellus hair rate (assessed using phototrichogram), and the occurrence of side effects (SE) was monitored at four-week intervals.\nOut of 40 subjects, 2 dropped out in the treatment group.",
+    "c0025": "Significant increases in hair density, diameter, and terminal hair rate; and decrease of vellus hair rate were observed at each visit compared to baseline, yet no differences between groups.\nSystemic SEs included libido reduction (control), mild erectile dysfunction, and chest pain (treatment).\nCommon local SEs (itching, shedding, and dandruff) were similar between groups.",
+    "c0026": "One patient (treatment) experienced contact dermatitis.\nCombining topical finasteride 0.1% with topical minoxidil 5% has similar safety and effectiveness for increasing hair density and diameter in male AGA patients compared to topical minoxidil 5% after 12 weeks of observation.",
+    "c0027": "* PMID 40122142 Title: Whether the transient hair shedding phase exist after minoxidil treatment and does it predict treatment efficacy?\nA retrospective study in androgenetic alopecia patients.\nAbstract: Minoxidil is a routinely used drug in treating multiple hair disorders.\nThis study aimed to investigate the facticity of the temporal increase in the hair shedding amount after topical use of minoxidil.",
+    "c0028": "We selected 49 patients who used 2% or 5% minoxidil topically to treat androgenetic alopecia for 24 weeks.\nThe amount of hair shedding was recorded every four weeks before and after the treatment.\nThe BASP classification and trichoscopy test results were also recorded before and after the treatment.\nThe relative amount of hair shedding (RAHS) was defined as the recorded number of hair shedding after normalization.",
+    "c0029": "The correlation between the maximum RAHS (MRAHS) and the sulfotransferase activity as well as the therapeutic effect was calculated.\nA temporary increase in the amount of hair shedding was detected in the first 12 weeks.\nThis increase has a longer duration in patients treated with 2% minoxidil compared to 5%.",
+    "c0030": "Its severity was correlated with the improvement of trichoscopy tests only in patients with 5% minoxidil but not in 2%.\nHowever, both patients in the 2% and 5% minoxidil groups had a significant association between the MRAHS and the improvement in BASP classification.\nThe amount of hair shedding increases temporarily after the topical minoxidil use, the level of which is a potential treatment efficacy.",
+    "c0031": "* PMID 39954111 Title: Clinical efficacy of microneedle combined with 5% Minoxidil solution and finasteride in the treatment of androgenetic alopecia in males.\nAbstract: Androgenetic alopecia in males is associated with genetic predisposition and increased androgen secretion.",
+    "c0032": "This work was to investigate the clinical therapeutic effects of microneedling plus5% Minoxidil and Finasteride in treating male androgenetic alopecia.",
+    "c0033": "45 male patients with androgenetic alopecia were recruited and rolled into control group 1 (Group A) received monotherapy with 5% Minoxidil; control group 2 (Group B) received 5% Minoxidil and Finasteride; and the experimental group (Group C) received combination therapy with microneedling, 5% Minoxidil, and Finasteride.\nEach group consisted of 15 patients.",
+    "c0034": "Comparison was made on trace element levels, testosterone levels, hair microscopy indicators, Norwood Hamilton hair loss (HL) classification, self-rating of hair growth and Ars (ARs).\nAfter treatment, the contents of trace elements and hormone levels in the three groups did not change considerably(P > 0.05).\nAfter treatment, the ratio of villi to single hair follicle in the three groups decreased markedly.",
+    "c0035": "The decline degree of group B and group C was superior to group A (P < 0.05), while that of group C was superior to group B (P > 0.05).\nAfter treatment, the hair density and hair shaft diameter of the three groups of patients increased markedly.\nThe increase of group B and group C was superior to group A (P < 0.05), while that of group C was superior to group B (P > 0.05).",
+    "c0036": "After treatment, the Norwood-Hamilton alopecia scale in group C was better than that in group A (P < 0.01).\nA total of 80% patients in group C scored ≥ 3, which was better than the other two groups in general.\nThe incidence of ARs differed slightly among the three groups (P > 0.05).",
+    "c0037": "Relative to the use of Minoxidil or combination therapy with Finasteride alone, microneedling combined therapy greatly improved hair loss in patients, promoted new hair growth, and holds clinical value.",
+    "c0038": "1. Similar Trial 1 NCT ID: NCT00151515\nTitle: A Double-Blind, Randomized, Placebo-Controlled Trial of the Efficacy and Safety of 5 Percent Minoxidil Foam in the Treatment of Androgenetic Alopecia in Males",
+    "c0039": "Description: The primary purpose of the study is to evaluate the efficacy of a topical 5% minoxidil formulation in males for the treatment of pattern hair loss. The secondary purpose is to evaluate the safety of a topical 5% minoxidil formulation in males when used twice daily for the treatment of pattern hair loss and to obtain the safety data on the investigational product when used twice daily for up to one year.",
+    "c0040": "Disease: Androgenetic Alopecia\nKeyword: Alopecia, Balding\nCriteria: Inclusion Criteria:\n* presence of androgenetic alopecia with vertex pattern IIIv, IV, or V on the Norwood Hamilton Scale\n* Male sex, age 15 to 49, good health\n* Willingness to have a dot tattoo placed in the target area of the scalp during the study\n* Willingness to maintain normal shampooing habits and products during the study",
+    "c0041": "* Willingness to maintain the same hair style, approximate length, and hair color throughout the study\nExclusion Criteria:\n* Known sensitivity to the investigational product\n* Intervention Name: minoxidil\n* Outcome Measure: 1. Mean change in non-vellus hair count in the target region as determined by validated computer-assisted dot-mapping technique and subject ratings.",
+    "c0042": "2. Similar Trial 2 NCT ID: NCT05989165\n* Title: Effectiveness of Combination Therapy of Microneedling and Minoxidil in Androgenetic Alopecia of Indonesian Men\n* Description: The goal of this clinical trial is to compare the effectiveness of combination therapy of microneedling and minoxidil in androgenetic alopecia of Indonesian men. The main questions it aims to answer are:",
+    "c0043": "* Is there an increase in hair density with combination therapy of microneedling and minoxidil versus minoxidil monotherapy?\n* Is there an increase in hair diameter with combination therapy of microneedling and minoxidil versus minoxidil monotherapy?",
+    "c0044": "Participants will be divided into 2 groups. The first one will receive minoxidil monotherapy, and the second one will receive a combination therapy of microneedling and minoxidil. Researchers will compare those 2 groups to see if there is a difference of effectiveness based on hair density and diameter.\n* Disease: Androgenetic Alopecia\n* Criteria: Inclusion Criteria:\n* Male\n* Indonesian\n* Age 18-59 years",
+    "c0045": "* Diagnosis of androgenetic alopecia\n* Hamilton-Norwood type III-IV\nExclusion Criteria:\n* Use of minoxidil or finasteride topical 1 month prior\n* Use of minoxidil or finasteride oral 1 month prior\n* Skin infection in the treatment area\n* Cosmetic procedures for the treatment of alopecia androgenetic such as platelet rich plasma, laser therapy,or microneedling 3 months prior\n* History of keloid",
+    "c0046": "3. Similar Trial 3 NCT ID: NCT03651752\nTitle: An Open-Label Study to Evaluate DPCP Ointment for the Treatment of Alopecia Areata\nDescription: This is an open labeled study to determine the response and characteristics, safety and efficacy, of the proprietary DPCP ointment composition as a topical immunotherapeutic agent for the treatment of extensive alopecia areata.\nDisease: Alopecia Areata",
+    "c0047": "Criteria: Inclusion Criteria:\n1. Subject has clinical diagnosis of extensive alopecia areata (76%-99% involvement as determined by SALT score, Appendix B, Part I).\n2. Written informed consent and HIPAA authorization have been obtained.\n3. Subject is > 18 to years of age.",
+    "c0048": "4. Female subjects of childbearing potential have a negative pregnancy test and agree to use an acceptable, highly effective method of birth control (i.e., failure rate of less than 1% per year) to prevent pregnancy.\n5. Subject agrees to comply with protocol requirements and attend all required study visits and is considered to be a good study subject.",
+    "c0049": "6. Subject meets concomitant medication washout requirements\n          -\nExclusion Criteria:\n1. Subject has <76 or greater than 99% hair loss.\n2. Subject is pregnant or lactating.\n3. Subject has current controlled or uncontrolled bacterial, viral (with the exception of herpes simplex), fungal, atypical, or opportunistic infection(s).\n4. Subject has a history of substance abuse within the past five years.",
+    "c0050": "5. Immunosuppression (history of transplantation, chemotherapy, splenectomy, HIV).\n6. Administration of systemic treatment (e.g., Imuran, biologics) that have an immunomodulatory mechanism of action in the preceding 3 months.\n7. Previous treatment with DPCP.\n8. Application of topical immunomodulating agent in the preceding 6 weeks.\n9. Application of topical or intralesional corticosteroids within the past 6 weeks.",
+    "c0051": "10. Systemic (oral, inhaled, or intravenous) administration of corticosteroid or other systemic treatment (i.e., prednisone) with an immunosuppressive mechanism of action within the past 3 months.\n11. Use of light treatments (e.g., PUVA, narrow band UVB) in the preceding 6 weeks.\n12. Use of Anthralin in preceding 6 weeks.\n13. Use of minoxidil, topical or oral, in the preceding 4 weeks.",
+    "c0052": "14. Subject is currently or has undergone systemic therapy for malignancy within the past five years except for adequately treated Squamous Cell Carcinoma (SCC) or Basal Cell Carcinoma (BCC) of the skin.\n15. Clinical evidence of secondary skin infection (i.e., folliculitis).\n16. Participation in other therapeutic investigational clinical trials within 4 weeks of enrollment.",
+    "c0053": "17. Evidence of anemia, thyroid disease, sarcoidosis or other medical condition that could be adversely affected by participating in the study.",
+    "c0054": "18. Subject has any medical condition that, in the judgment of the Investigator, would jeopardize the subject's safety following exposure to the administered medications.\n          -\n* Intervention Name: Diphenylcyclopropenone\n* Outcome Measure: 1. Number of participants with Alopecia Areata that have increased hair growth as assessed by SALT score.",
+    "c0055": "4. Similar Trial 4 NCT ID: NCT01145625\nTitle: A Phase 3 Multi-Center Parallel Design Clinical Trial to Compare the Efficacy and Safety of 5 % Minoxidil Foam vs. 2 % Minoxidil Solution in Females for the Treatment of Female Pattern Hair Loss - Androgenetic Alopecia (MINALO3004, NCT01145625)",
+    "c0056": "Description: This is a year-long clinical trial to evaluate the effectiveness and safety in women with Female Pattern Hair Loss (FPHL), comparing a new 5% minoxidil topical foam (MTF) formulation applied once a day versus the 2% minoxidil topical solution (MTS) applied twice a day.",
+    "c0057": "This clinical trial uses an objective measurement called Target Area Hair Count (TAHC) to evaluate if there is a change in the number of hairs in the area being examined after using the product for 24 weeks (and also after using the product for 12 Weeks and for 52 weeks).",
+    "c0058": "This trial will determine if the benefit of using either study product outweighs the risks.\n* Disease: Alopecia\n* Keyword: Female Pattern Baldness\n* Criteria: Inclusion Criteria:\n* females, age 18 or older in general good health\n* exhibits female pattern hair loss\n* signs and dates an informed consent document\n* agrees to use an adequate method of birth control; if of childbearing potential",
+    "c0059": "* shows a negative urine pregnancy test at Screening Visit\n* is willing to maintain the same hair style, hair color, and hair regimen throughout the study\n* is willing and able to comply with scheduled visits, treatment plan, laboratory tests and other trial procedures\nExclusion Criteria:\n* hypersensitivity to the study product, or any ingredients of the study product",
+    "c0060": "* known allergy to hair dye, or hair dye components\n* clinically relevant history of hypotension\n* untreated or uncontrolled hypertension\n* pregnant, planning a pregnancy or nursing a child\n* history of hair transplants\n* currently use hair weaves or non-breathable wigs\n* dermatologic disorders of the scalp that require chronic use of medication for control\n* other types or history of hair loss",
+    "c0061": "* enrolled in any other investigational medication (drug) study currently, or within the last 6 months\n* Intervention Name: Minoxidil, Minoxidil\n* Outcome Measure: 1. Target Area Hair Count (TAHC).",
+    "c0062": "5. Similar Trial 5 NCT ID: NCT02557074\n* Title: TREg Activation in the Treatment of the PELADE (Alopecia Areata). Double Blind Randomized Placebo Controlled Comparative Study Using Low Doses of IL2\n* Description: In a prospective pilot study the investigators showed that low doses of IL2 could be beneficial for severe AA inducing a long lasting regrowth in 4 out of the 5 patients treated.",
+    "c0063": "The objective of this study is to compare the long term efficacy of low doses of IL2 versus placebo in a multicenter prospective randomized double blind study.\n* Disease: Alopecia Areata\n* Criteria: Inclusion Criteria:\n* Of more than 18 years old,\n* Affiliated to the social security system,\n* Clinical diagnosis of alopecia areata,\n* 50 % of the surface of the scalp affected\n* Last flaire started less than one year",
+    "c0064": "* Alopecia areata resisting to at least 1 systematic treatment including phototherapy (UVB or PUVA), general corticosteroid therapy or methotrexate\n* Signature of the informed consent\nExclusion Criteria:\n* Pregnancy or refusal of contraception at the women old enough to procreate,\n* Refusal of contraception at the men",
+    "c0065": "* Local treatment (dermocorticoïdes, minoxidil) or systematism (oral corticosteroid therapy, méthotrexate or the other immunosuppresseur) since less than 2 less,\n* Evolutionary autoimmune cancer or disease or in forgiveness\n* Excessive grip(taking) of alcohol (upper to 3 glasses of wine a day or one pre-lunch drink a day)\n* Seropositivity VHC, VHB, or HIV",
+    "c0066": "* Patient presenting a severe renal and/or hepatic insufficiency,\n* Presenting patient one zoned, the chicken pox, the herpes, the tuberculosis, an evolutionary infectious disease, a respiratory failure ...\n* Vulnerable person (nobody under guardianship minor(miner), adults, deprived of freedom)\n* IC in the treatment(processing) by IL-2R\n* Presenting a contraindication to ProleukinR\n* Intervention Name: IL2\n* Outcome Measure: 1. Score Salt."
+  },
+  "nodes": [
+    {
+      "id": "n0000",
+      "name": "Alopecia",
+      "category": "hair loss condition",
+      "chunk_ref": "c0002"
+    },
+    {
+      "id": "n0001",
+      "name": "Chemotherapeutic agents",
+      "category": "cancer drugs",
+      "chunk_ref": "c0000"
+    },
+    {
+      "id": "n0002",
+      "name": "Compulsive hair pulling",
+      "category": "trichotillomania behavior",
+      "chunk_ref": "c0002"
+    },
+    {
+      "id": "n0003",
+      "name": "Autoimmune disorders",
+      "category": "immune system dysfunction",
+      "chunk_ref": "c0002"
+    },
+    {
+      "id": "n0004",
+      "name": "Congenital conditions",
+      "category": "birth defects",
+      "chunk_ref": "c0010"
+    },
+    {
+      "id": "n0005",
+      "name": "Thyroid problems",
+      "category": "thyroid dysfunction",
+      "chunk_ref": "c0010"
+    },
+    {
+      "id": "n0006",
+      "name": "Diabetes mellitus",
+      "category": "blood sugar disorder",
+      "chunk_ref": "c0013"
+    },
+    {
+      "id": "n0007",
+      "name": "Lupus",
+      "category": "autoimmune disease",
+      "chunk_ref": "c0000"
+    },
+    {
+      "id": "n0008",
+      "name": "Chemotherapy for cancer",
+      "category": "cancer treatment",
+      "chunk_ref": "c0002"
+    },
+    {
+      "id": "n0009",
+      "name": "Stress",
+      "category": "psychological strain",
+      "chunk_ref": "c0004"
+    },
+    {
+      "id": "n0010",
+      "name": "Low protein diet",
+      "category": "protein deficiency",
+      "chunk_ref": "c0004"
+    },
+    {
+      "id": "n0011",
+      "name": "Poor nutrition",
+      "category": "dietary insufficiency",
+      "chunk_ref": "c0013"
+    },
+    {
+      "id": "n0012",
+      "name": "Family history",
+      "category": "hereditary predisposition",
+      "chunk_ref": "c0013"
+    },
+    {
+      "id": "n0013",
+      "name": "Aging",
+      "category": "natural aging process",
+      "chunk_ref": "c0013"
+    },
+    {
+      "id": "n0014",
+      "name": "Androgenetic alopecia",
+      "category": "hereditary hair loss",
+      "chunk_ref": "c0044"
+    },
+    {
+      "id": "n0015",
+      "name": "Hair loss",
+      "category": "loss of hair",
+      "chunk_ref": "c0010"
+    },
+    {
+      "id": "n0016",
+      "name": "Bald spots",
+      "category": "localized hair absence",
+      "chunk_ref": "c0001"
+    },
+    {
+      "id": "n0017",
+      "name": "Complete baldness",
+      "category": "total hair loss",
+      "chunk_ref": "c0001"
+    },
+    {
+      "id": "n0018",
+      "name": "Hormonal changes",
+      "category": "endocrine alterations",
+      "chunk_ref": "c0010"
+    },
+    {
+      "id": "n0019",
+      "name": "Ringworm",
+      "category": "fungal scalp infection",
+      "chunk_ref": "c0010"
+    },
+    {
+      "id": "n0020",
+      "name": "Scalp",
+      "category": "head skin",
+      "chunk_ref": "c0002"
+    },
+    {
+      "id": "n0021",
+      "name": "Entire body",
+      "category": "whole organism",
+      "chunk_ref": "c0000"
+    },
+    {
+      "id": "n0022",
+      "name": "100 hairs per day",
+      "category": "daily hair shedding",
+      "chunk_ref": "c0003"
+    },
+    {
+      "id": "n0023",
+      "name": "Alopecia Areata",
+      "category": "immune-mediated patchy hair loss",
+      "chunk_ref": "c0062"
+    },
+    {
+      "id": "n0024",
+      "name": "Trichotillomania",
+      "category": "hair-pulling disorder",
+      "chunk_ref": "c0010"
+    },
+    {
+      "id": "n0025",
+      "name": "Traction Alopecia",
+      "category": "tight hairstyle-induced hair loss",
+      "chunk_ref": "c0012"
+    },
+    {
+      "id": "n0026",
+      "name": "Pregnancy",
+      "category": "hormonal change state",
+      "chunk_ref": "c0010"
+    },
+    {
+      "id": "n0027",
+      "name": "Childbirth",
+      "category": "postpartum hormonal shift",
+      "chunk_ref": "c0010"
+    },
+    {
+      "id": "n0028",
+      "name": "Menopause",
+      "category": "hormonal change state",
+      "chunk_ref": "c0010"
+    },
+    {
+      "id": "n0029",
+      "name": "Scalp Infections",
+      "category": "fungal/bacterial",
+      "chunk_ref": "c0010"
+    },
+    {
+      "id": "n0030",
+      "name": "Cancer Medications",
+      "category": "chemotherapy agents",
+      "chunk_ref": "c0011"
+    },
+    {
+      "id": "n0031",
+      "name": "Arthritis Medications",
+      "category": "anti-inflammatory drugs",
+      "chunk_ref": "c0011"
+    },
+    {
+      "id": "n0032",
+      "name": "Depression Medications",
+      "category": "psychotropic drugs",
+      "chunk_ref": "c0011"
+    },
+    {
+      "id": "n0033",
+      "name": "Heart Medications",
+      "category": "cardiovascular drugs",
+      "chunk_ref": "c0011"
+    },
+    {
+      "id": "n0034",
+      "name": "Gout Medications",
+      "category": "urate-lowering drugs",
+      "chunk_ref": "c0011"
+    },
+    {
+      "id": "n0035",
+      "name": "High Blood Pressure Medications",
+      "category": "antihypertensives",
+      "chunk_ref": "c0011"
+    },
+    {
+      "id": "n0036",
+      "name": "Radiation Therapy to Head",
+      "category": "localized radiation",
+      "chunk_ref": "c0011"
+    },
+    {
+      "id": "n0037",
+      "name": "Physical Shock",
+      "category": "acute physiological stressor",
+      "chunk_ref": "c0011"
+    },
+    {
+      "id": "n0038",
+      "name": "Emotional Shock",
+      "category": "acute psychological stressor",
+      "chunk_ref": "c0011"
+    },
+    {
+      "id": "n0039",
+      "name": "Tight Hairstyles",
+      "category": "pigtails/cornrows",
+      "chunk_ref": "c0012"
+    },
+    {
+      "id": "n0040",
+      "name": "Hot-Oil Hair Treatments",
+      "category": "thermal chemical treatment",
+      "chunk_ref": "c0015"
+    },
+    {
+      "id": "n0041",
+      "name": "Permanent Wave Treatments",
+      "category": "chemical processing",
+      "chunk_ref": "c0004"
+    },
+    {
+      "id": "n0042",
+      "name": "Family History of Balding",
+      "category": "maternal/paternal genetic",
+      "chunk_ref": "c0013"
+    },
+    {
+      "id": "n0043",
+      "name": "Advanced Age",
+      "category": "elderly population",
+      "chunk_ref": "c0013"
+    },
+    {
+      "id": "n0044",
+      "name": "Significant Weight Loss",
+      "category": "acute reduction",
+      "chunk_ref": "c0013"
+    },
+    {
+      "id": "n0045",
+      "name": "Lupus Erythematosus",
+      "category": "autoimmune disorder",
+      "chunk_ref": "c0013"
+    },
+    {
+      "id": "n0046",
+      "name": "Chronic Stress",
+      "category": "prolonged psychological strain",
+      "chunk_ref": "c0013"
+    },
+    {
+      "id": "n0047",
+      "name": "Genetics",
+      "category": "hereditary factors",
+      "chunk_ref": "c0013"
+    },
+    {
+      "id": "n0048",
+      "name": "Baldness",
+      "category": "androgenetic alopecia",
+      "chunk_ref": "c0002"
+    },
+    {
+      "id": "n0049",
+      "name": "Minoxidil",
+      "category": "topical vasodilator",
+      "chunk_ref": "c0019"
+    },
+    {
+      "id": "n0050",
+      "name": "Androgenic Alopecia",
+      "category": "male-pattern hair loss",
+      "chunk_ref": "c0022"
+    },
+    {
+      "id": "n0051",
+      "name": "Dermal Papillary Cells",
+      "category": "hair follicle cells",
+      "chunk_ref": "c0018"
+    },
+    {
+      "id": "n0052",
+      "name": "Minoxidil Sulfate",
+      "category": "active metabolite",
+      "chunk_ref": "c0019"
+    },
+    {
+      "id": "n0053",
+      "name": "Cooling Cap",
+      "category": "scalp hypothermia device",
+      "chunk_ref": "c0016"
+    },
+    {
+      "id": "n0054",
+      "name": "Smoking",
+      "category": "tobacco use",
+      "chunk_ref": "c0015"
+    },
+    {
+      "id": "n0055",
+      "name": "Drug",
+      "category": "medication",
+      "chunk_ref": "c0020"
+    },
+    {
+      "id": "n0056",
+      "name": "Glucuronic Acid Conjugation",
+      "category": "conjugation pathway",
+      "chunk_ref": "c0020"
+    },
+    {
+      "id": "n0057",
+      "name": "N-oxide Position",
+      "category": "pyrimidine ring site",
+      "chunk_ref": "c0020"
+    },
+    {
+      "id": "n0058",
+      "name": "Half-life 4.2 hours",
+      "category": "elimination half-life",
+      "chunk_ref": "c0020"
+    },
+    {
+      "id": "n0059",
+      "name": "No Plasma Protein Binding",
+      "category": "unbound state",
+      "chunk_ref": "c0020"
+    },
+    {
+      "id": "n0060",
+      "name": "Cardiovascular Effects",
+      "category": "adverse reactions",
+      "chunk_ref": "c0021"
+    },
+    {
+      "id": "n0061",
+      "name": "Hypotension",
+      "category": "low blood pressure",
+      "chunk_ref": "c0021"
+    },
+    {
+      "id": "n0062",
+      "name": "Weight Gain",
+      "category": "adverse effect",
+      "chunk_ref": "c0021"
+    },
+    {
+      "id": "n0063",
+      "name": "Rapid Heartbeat",
+      "category": "adverse effect",
+      "chunk_ref": "c0018"
+    },
+    {
+      "id": "n0064",
+      "name": "Faintness",
+      "category": "adverse effect",
+      "chunk_ref": "c0030"
+    },
+    {
+      "id": "n0065",
+      "name": "Dizziness",
+      "category": "adverse effect",
+      "chunk_ref": "c0018"
+    },
+    {
+      "id": "n0066",
+      "name": "Oral Finasteride",
+      "category": "5-alpha reductase inhibitor",
+      "chunk_ref": "c0022"
+    },
+    {
+      "id": "n0067",
+      "name": "FDA-approved for Androgenetic Alopecia",
+      "category": "registered indication",
+      "chunk_ref": "c0022"
+    },
+    {
+      "id": "n0068",
+      "name": "Topical Minoxidil",
+      "category": "vasodilator agent",
+      "chunk_ref": "c0028"
+    },
+    {
+      "id": "n0069",
+      "name": "Topical Finasteride",
+      "category": "topical agent",
+      "chunk_ref": "c0022"
+    },
+    {
+      "id": "n0070",
+      "name": "Alternative to Oral Finasteride",
+      "category": "treatment option",
+      "chunk_ref": "c0022"
+    },
+    {
+      "id": "n0071",
+      "name": "Male Androgenetic Alopecia",
+      "category": "male pattern hair loss",
+      "chunk_ref": "c0022"
+    },
+    {
+      "id": "n0072",
+      "name": "Topical Minoxidil 5%",
+      "category": "5% concentration formulation",
+      "chunk_ref": "c0039"
+    },
+    {
+      "id": "n0073",
+      "name": "Topical Finasteride 0.1%",
+      "category": "0.1% concentration formulation",
+      "chunk_ref": "c0025"
+    },
+    {
+      "id": "n0074",
+      "name": "Hair Density",
+      "category": "therapeutic outcome",
+      "chunk_ref": "c0043"
+    },
+    {
+      "id": "n0075",
+      "name": "Hair Diameter",
+      "category": "therapeutic outcome",
+      "chunk_ref": "c0030"
+    },
+    {
+      "id": "n0076",
+      "name": "Terminal Hair Rate",
+      "category": "therapeutic outcome",
+      "chunk_ref": "c0024"
+    },
+    {
+      "id": "n0077",
+      "name": "Vellus Hair Rate",
+      "category": "therapeutic outcome",
+      "chunk_ref": "c0024"
+    },
+    {
+      "id": "n0078",
+      "name": "Phototrichogram",
+      "category": "trichoscopic imaging",
+      "chunk_ref": "c0024"
+    },
+    {
+      "id": "n0079",
+      "name": "Erectile Dysfunction",
+      "category": "systemic adverse effect",
+      "chunk_ref": "c0025"
+    },
+    {
+      "id": "n0080",
+      "name": "Chest Pain",
+      "category": "systemic adverse effect",
+      "chunk_ref": "c0025"
+    },
+    {
+      "id": "n0081",
+      "name": "Contact Dermatitis",
+      "category": "local adverse effect",
+      "chunk_ref": "c0026"
+    },
+    {
+      "id": "n0082",
+      "name": "Itching",
+      "category": "local adverse effect",
+      "chunk_ref": "c0025"
+    },
+    {
+      "id": "n0083",
+      "name": "Shedding",
+      "category": "local adverse effect",
+      "chunk_ref": "c0030"
+    },
+    {
+      "id": "n0084",
+      "name": "Dandruff",
+      "category": "local adverse effect",
+      "chunk_ref": "c0026"
+    },
+    {
+      "id": "n0085",
+      "name": "Clinical Trial NCT05990400",
+      "category": "male AGA combination study",
+      "chunk_ref": "c0038"
+    },
+    {
+      "id": "n0086",
+      "name": "40 subjects",
+      "category": "sample size",
+      "chunk_ref": "c0055"
+    },
+    {
+      "id": "n0087",
+      "name": "2 dropouts",
+      "category": "attrition",
+      "chunk_ref": "c0042"
+    },
+    {
+      "id": "n0088",
+      "name": "Side Effects",
+      "category": "safety endpoint",
+      "chunk_ref": "c0021"
+    },
+    {
+      "id": "n0089",
+      "name": "12 weeks",
+      "category": "treatment duration",
+      "chunk_ref": "c0057"
+    },
+    {
+      "id": "n0090",
+      "name": "Minoxidil 2%",
+      "category": "2% concentration formulation",
+      "chunk_ref": "c0033"
+    },
+    {
+      "id": "n0091",
+      "name": "Minoxidil 5%",
+      "category": "5% concentration formulation",
+      "chunk_ref": "c0033"
+    },
+    {
+      "id": "n0092",
+      "name": "Retrospective Study",
+      "category": "hair shedding analysis",
+      "chunk_ref": "c0028"
+    },
+    {
+      "id": "n0093",
+      "name": "49 patients",
+      "category": "sample size",
+      "chunk_ref": "c0052"
+    },
+    {
+      "id": "n0094",
+      "name": "24 weeks",
+      "category": "treatment duration",
+      "chunk_ref": "c0057"
+    },
+    {
+      "id": "n0095",
+      "name": "Hair Shedding",
+      "category": "outcome measure",
+      "chunk_ref": "c0028"
+    },
+    {
+      "id": "n0096",
+      "name": "4 week intervals",
+      "category": "assessment frequency",
+      "chunk_ref": "c0024"
+    },
+    {
+      "id": "n0097",
+      "name": "Relative Amount of Hair Shedding",
+      "category": "normalized shedding metric",
+      "chunk_ref": "c0028"
+    },
+    {
+      "id": "n0098",
+      "name": "Maximum Relative Amount of Hair Shedding",
+      "category": "peak shedding value",
+      "chunk_ref": "c0029"
+    },
+    {
+      "id": "n0099",
+      "name": "Sulfotransferase Activity",
+      "category": "enzyme level",
+      "chunk_ref": "c0029"
+    },
+    {
+      "id": "n0100",
+      "name": "Therapeutic Effect",
+      "category": "treatment outcome",
+      "chunk_ref": "c0028"
+    },
+    {
+      "id": "n0101",
+      "name": "Transient Hair Shedding Phase",
+      "category": "temporary shedding increase",
+      "chunk_ref": "c0027"
+    },
+    {
+      "id": "n0102",
+      "name": "Finasteride",
+      "category": "oral 5-alpha reductase inhibitor",
+      "chunk_ref": "c0022"
+    },
+    {
+      "id": "n0103",
+      "name": "Microneedling",
+      "category": "percutaneous collagen induction",
+      "chunk_ref": "c0033"
+    },
+    {
+      "id": "n0104",
+      "name": "Combination therapy",
+      "category": "minoxidil + finasteride",
+      "chunk_ref": "c0033"
+    },
+    {
+      "id": "n0105",
+      "name": "Microneedling combined therapy",
+      "category": "with minoxidil",
+      "chunk_ref": "c0037"
+    },
+    {
+      "id": "n0106",
+      "name": "Hair growth",
+      "category": "new, patient-reported outcome",
+      "chunk_ref": "c0037"
+    },
+    {
+      "id": "n0107",
+      "name": "Dual therapy",
+      "category": "minoxidil + finasteride",
+      "chunk_ref": "c0026"
+    },
+    {
+      "id": "n0108",
+      "name": "Treatment efficacy",
+      "category": "topical minoxidil response",
+      "chunk_ref": "c0030"
+    },
+    {
+      "id": "n0109",
+      "name": "Norwood-Hamilton Alopecia Scale",
+      "category": "clinical assessment tool",
+      "chunk_ref": "c0040"
+    },
+    {
+      "id": "n0110",
+      "name": "Androgenetic Alopecia severity",
+      "category": "clinical measurement",
+      "chunk_ref": "c0040"
+    },
+    {
+      "id": "n0111",
+      "name": "Norwood-Hamilton Alopecia Scale score",
+      "category": "clinical outcome",
+      "chunk_ref": "c0036"
+    },
+    {
+      "id": "n0112",
+      "name": "Minoxidil monotherapy",
+      "category": "5% topical",
+      "chunk_ref": "c0036"
+    },
+    {
+      "id": "n0113",
+      "name": "BASP classification",
+      "category": "clinical alopecia staging",
+      "chunk_ref": "c0030"
+    },
+    {
+      "id": "n0114",
+      "name": "MRAHS scale",
+      "category": "alopecia assessment",
+      "chunk_ref": "c0030"
+    },
+    {
+      "id": "n0115",
+      "name": "Trichoscopy tests",
+      "category": "hair and scalp evaluation",
+      "chunk_ref": "c0030"
+    },
+    {
+      "id": "n0116",
+      "name": "Treatment response",
+      "category": "topical minoxidil",
+      "chunk_ref": "c0030"
+    },
+    {
+      "id": "n0117",
+      "name": "Hair microscopy indicators",
+      "category": "villous to single follicle ratio",
+      "chunk_ref": "c0034"
+    },
+    {
+      "id": "n0118",
+      "name": "50% Minoxidil concentration",
+      "category": "higher dose",
+      "chunk_ref": "c0030"
+    },
+    {
+      "id": "n0119",
+      "name": "Trichoscopy test improvement",
+      "category": "diagnostic outcome",
+      "chunk_ref": "c0030"
+    },
+    {
+      "id": "n0120",
+      "name": "Trace element levels",
+      "category": "serum measurement",
+      "chunk_ref": "c0034"
+    },
+    {
+      "id": "n0121",
+      "name": "Testosterone levels",
+      "category": "serum hormone",
+      "chunk_ref": "c0034"
+    },
+    {
+      "id": "n0122",
+      "name": "Male patients",
+      "category": "adult with androgenetic alopecia",
+      "chunk_ref": "c0033"
+    },
+    {
+      "id": "n0123",
+      "name": "Microneedling (percutaneous intervention)",
+      "category": "",
+      "chunk_ref": "c0032"
+    },
+    {
+      "id": "n0124",
+      "name": "Minoxidil (5% topical agent) efficacy",
+      "category": "",
+      "chunk_ref": "c0032"
+    },
+    {
+      "id": "n0125",
+      "name": "Norwood Hamilton Scale",
+      "category": "severity classification tool",
+      "chunk_ref": "c0040"
+    },
+    {
+      "id": "n0126",
+      "name": "vertex pattern IIIv, IV, V",
+      "category": "scale grades",
+      "chunk_ref": "c0036"
+    },
+    {
+      "id": "n0127",
+      "name": "Non-vellus hair count",
+      "category": "hair measurement",
+      "chunk_ref": "c0041"
+    },
+    {
+      "id": "n0128",
+      "name": "Indonesian men",
+      "category": "male ethnicity group",
+      "chunk_ref": "c0044"
+    },
+    {
+      "id": "n0129",
+      "name": "18 to 59 years",
+      "category": "adult span",
+      "chunk_ref": "c0044"
+    },
+    {
+      "id": "n0130",
+      "name": "Hamilton-Norwood Scale",
+      "category": "severity classification tool",
+      "chunk_ref": "c0045"
+    },
+    {
+      "id": "n0131",
+      "name": "type III-IV androgenetic alopecia",
+      "category": "moderate severity",
+      "chunk_ref": "c0040"
+    },
+    {
+      "id": "n0132",
+      "name": "Prior minoxidil use",
+      "category": "previous drug exposure",
+      "chunk_ref": "c0038"
+    },
+    {
+      "id": "n0133",
+      "name": "Androgenetic Alopecia trial enrollment",
+      "category": "study participation",
+      "chunk_ref": "c0045"
+    },
+    {
+      "id": "n0134",
+      "name": "Prior finasteride topical use",
+      "category": "previous drug exposure",
+      "chunk_ref": "c0045"
+    },
+    {
+      "id": "n0135",
+      "name": "Prior finasteride oral use",
+      "category": "previous drug exposure",
+      "chunk_ref": "c0045"
+    },
+    {
+      "id": "n0136",
+      "name": "Skin infection in treatment area",
+      "category": "local infection",
+      "chunk_ref": "c0064"
+    },
+    {
+      "id": "n0137",
+      "name": "Cosmetic procedures",
+      "category": "alopecia treatment",
+      "chunk_ref": "c0045"
+    },
+    {
+      "id": "n0138",
+      "name": "Keloid history",
+      "category": "scarring condition",
+      "chunk_ref": "c0045"
+    },
+    {
+      "id": "n0139",
+      "name": "Topical minoxidil washout",
+      "category": "1 month period",
+      "chunk_ref": "c0058"
+    },
+    {
+      "id": "n0140",
+      "name": "Androgenetic Alopecia study participation",
+      "category": "trial entry",
+      "chunk_ref": "c0058"
+    },
+    {
+      "id": "n0141",
+      "name": "Oral minoxidil washout",
+      "category": "1 month period",
+      "chunk_ref": "c0058"
+    },
+    {
+      "id": "n0142",
+      "name": "Cosmetic procedure washout",
+      "category": "3 months period",
+      "chunk_ref": "c0058"
+    },
+    {
+      "id": "n0143",
+      "name": "DPCP ointment",
+      "category": "topical immunotherapeutic",
+      "chunk_ref": "c0046"
+    },
+    {
+      "id": "n0144",
+      "name": "SALT score",
+      "category": "severity assessment tool",
+      "chunk_ref": "c0066"
+    },
+    {
+      "id": "n0145",
+      "name": "Alopecia Areata severity",
+      "category": "disease extent",
+      "chunk_ref": "c0047"
+    },
+    {
+      "id": "n0146",
+      "name": "76%-99% involvement",
+      "category": "extensive loss",
+      "chunk_ref": "c0047"
+    },
+    {
+      "id": "n0147",
+      "name": "Hair loss under 76%",
+      "category": "mild loss",
+      "chunk_ref": "c0058"
+    },
+    {
+      "id": "n0148",
+      "name": "Alopecia Areata study enrollment",
+      "category": "trial entry",
+      "chunk_ref": "c0058"
+    },
+    {
+      "id": "n0149",
+      "name": "Hair loss over 99%",
+      "category": "near total loss",
+      "chunk_ref": "c0058"
+    },
+    {
+      "id": "n0150",
+      "name": "Pregnancy or lactation",
+      "category": "reproductive state",
+      "chunk_ref": "c0058"
+    },
+    {
+      "id": "n0151",
+      "name": "Alopecia Areata trial enrollment",
+      "category": "study participation",
+      "chunk_ref": "c0058"
+    },
+    {
+      "id": "n0152",
+      "name": "Active infection",
+      "category": "bacterial viral fungal",
+      "chunk_ref": "c0064"
+    },
+    {
+      "id": "n0153",
+      "name": "Substance abuse within 5 years",
+      "category": "recent addiction",
+      "chunk_ref": "c0063"
+    },
+    {
+      "id": "n0154",
+      "name": "Female participants",
+      "category": "childbearing potential",
+      "chunk_ref": "c0048"
+    },
+    {
+      "id": "n0155",
+      "name": "negative pregnancy test",
+      "category": "diagnostic requirement",
+      "chunk_ref": "c0048"
+    },
+    {
+      "id": "n0156",
+      "name": "highly effective birth control",
+      "category": "contraception requirement",
+      "chunk_ref": "c0048"
+    },
+    {
+      "id": "n0157",
+      "name": "Immunosuppression",
+      "category": "immune deficiency state",
+      "chunk_ref": "c0050"
+    },
+    {
+      "id": "n0158",
+      "name": "HIV",
+      "category": "human immunodeficiency virus",
+      "chunk_ref": "c0066"
+    },
+    {
+      "id": "n0159",
+      "name": "Chemotherapy",
+      "category": "cancer drug treatment",
+      "chunk_ref": "c0050"
+    },
+    {
+      "id": "n0160",
+      "name": "Splenectomy",
+      "category": "spleen removal surgery",
+      "chunk_ref": "c0050"
+    },
+    {
+      "id": "n0161",
+      "name": "Transplantation",
+      "category": "organ transplant procedure",
+      "chunk_ref": "c0050"
+    },
+    {
+      "id": "n0162",
+      "name": "Diphenylcyclopropenone",
+      "category": "topical immunotherapy",
+      "chunk_ref": "c0054"
+    },
+    {
+      "id": "n0163",
+      "name": "Systemic corticosteroid",
+      "category": "immunosuppressive drug",
+      "chunk_ref": "c0051"
+    },
+    {
+      "id": "n0164",
+      "name": "Imuran",
+      "category": "azathioprine immunosuppressant",
+      "chunk_ref": "c0050"
+    },
+    {
+      "id": "n0165",
+      "name": "Biologic agent",
+      "category": "immunomodulatory drug",
+      "chunk_ref": "c0050"
+    },
+    {
+      "id": "n0166",
+      "name": "3-month washout period",
+      "category": "12-week exclusion",
+      "chunk_ref": "c0051"
+    },
+    {
+      "id": "n0167",
+      "name": "Topical immunomodulating agent",
+      "category": "skin treatment",
+      "chunk_ref": "c0051"
+    },
+    {
+      "id": "n0168",
+      "name": "6-week washout period",
+      "category": "1.5-month exclusion",
+      "chunk_ref": "c0051"
+    },
+    {
+      "id": "n0169",
+      "name": "Topical corticosteroid",
+      "category": "skin anti-inflammatory",
+      "chunk_ref": "c0051"
+    },
+    {
+      "id": "n0170",
+      "name": "Intralesional corticosteroid",
+      "category": "injected anti-inflammatory",
+      "chunk_ref": "c0051"
+    },
+    {
+      "id": "n0171",
+      "name": "PUVA therapy",
+      "category": "psoralen UV treatment",
+      "chunk_ref": "c0051"
+    },
+    {
+      "id": "n0172",
+      "name": "Narrow band UVB",
+      "category": "UVB light therapy",
+      "chunk_ref": "c0051"
+    },
+    {
+      "id": "n0173",
+      "name": "Anthralin",
+      "category": "topical psoriasis drug",
+      "chunk_ref": "c0051"
+    },
+    {
+      "id": "n0174",
+      "name": "4-week washout period",
+      "category": "1-month exclusion",
+      "chunk_ref": "c0049"
+    },
+    {
+      "id": "n0175",
+      "name": "Oral minoxidil",
+      "category": "hair growth drug",
+      "chunk_ref": "c0028"
+    },
+    {
+      "id": "n0176",
+      "name": "Systemic malignancy therapy",
+      "category": "cancer treatment",
+      "chunk_ref": "c0052"
+    },
+    {
+      "id": "n0177",
+      "name": "5-year exclusion period",
+      "category": "past cancer treatment",
+      "chunk_ref": "c0052"
+    },
+    {
+      "id": "n0178",
+      "name": "Folliculitis",
+      "category": "hair follicle infection",
+      "chunk_ref": "c0052"
+    },
+    {
+      "id": "n0179",
+      "name": "Secondary skin infection",
+      "category": "skin pathogen presence",
+      "chunk_ref": "c0052"
+    },
+    {
+      "id": "n0180",
+      "name": "Other investigational trial",
+      "category": "experimental treatment",
+      "chunk_ref": "c0052"
+    },
+    {
+      "id": "n0181",
+      "name": "4-week exclusion period",
+      "category": "1-month washout",
+      "chunk_ref": "c0049"
+    },
+    {
+      "id": "n0182",
+      "name": "Anemia",
+      "category": "low blood cell count",
+      "chunk_ref": "c0053"
+    },
+    {
+      "id": "n0183",
+      "name": "Medical condition affecting study safety",
+      "category": "health risk",
+      "chunk_ref": "c0053"
+    },
+    {
+      "id": "n0184",
+      "name": "Thyroid disease",
+      "category": "hormone disorder",
+      "chunk_ref": "c0053"
+    },
+    {
+      "id": "n0185",
+      "name": "Sarcoidosis",
+      "category": "inflammatory disease",
+      "chunk_ref": "c0053"
+    },
+    {
+      "id": "n0186",
+      "name": "Investigator judgment",
+      "category": "clinical discretion",
+      "chunk_ref": "c0053"
+    },
+    {
+      "id": "n0187",
+      "name": "Hair growth increase",
+      "category": "treatment response",
+      "chunk_ref": "c0029"
+    },
+    {
+      "id": "n0188",
+      "name": "5% Minoxidil foam",
+      "category": "topical hair growth",
+      "chunk_ref": "c0056"
+    },
+    {
+      "id": "n0189",
+      "name": "Female pattern hair loss",
+      "category": "androgenetic alopecia",
+      "chunk_ref": "c0055"
+    },
+    {
+      "id": "n0190",
+      "name": "2% Minoxidil solution",
+      "category": "topical hair growth",
+      "chunk_ref": "c0039"
+    },
+    {
+      "id": "n0191",
+      "name": "Target area hair count",
+      "category": "follicle measurement",
+      "chunk_ref": "c0041"
+    },
+    {
+      "id": "n0192",
+      "name": "Hair growth change",
+      "category": "treatment effect",
+      "chunk_ref": "c0057"
+    },
+    {
+      "id": "n0193",
+      "name": "Urine pregnancy test",
+      "category": "hormone screening",
+      "chunk_ref": "c0059"
+    },
+    {
+      "id": "n0194",
+      "name": "Female pattern hair loss study",
+      "category": "FPHL trial",
+      "chunk_ref": "c0058"
+    },
+    {
+      "id": "n0195",
+      "name": "Hypersensitivity",
+      "category": "allergic reaction",
+      "chunk_ref": "c0030"
+    },
+    {
+      "id": "n0196",
+      "name": "Minoxidil product",
+      "category": "topical formulation",
+      "chunk_ref": "c0041"
+    },
+    {
+      "id": "n0197",
+      "name": "Hair Dye Allergy",
+      "category": "Contraindication",
+      "chunk_ref": "c0041"
+    },
+    {
+      "id": "n0198",
+      "name": "Minoxidil Clinical Trial",
+      "category": "Intervention",
+      "chunk_ref": "c0060"
+    },
+    {
+      "id": "n0199",
+      "name": "Hypertension",
+      "category": "Untreated/Uncontrolled",
+      "chunk_ref": "c0041"
+    },
+    {
+      "id": "n0200",
+      "name": "Hair Transplant",
+      "category": "History",
+      "chunk_ref": "c0038"
+    },
+    {
+      "id": "n0201",
+      "name": "Hair Weaves/Wigs",
+      "category": "Current use",
+      "chunk_ref": "c0055"
+    },
+    {
+      "id": "n0202",
+      "name": "Non-Breathable Wigs",
+      "category": "Current use",
+      "chunk_ref": "c0055"
+    },
+    {
+      "id": "n0203",
+      "name": "Scalp Dermatologic Disorders",
+      "category": "Chronic medication",
+      "chunk_ref": "c0041"
+    },
+    {
+      "id": "n0204",
+      "name": "Other Hair Loss",
+      "category": "History",
+      "chunk_ref": "c0055"
+    },
+    {
+      "id": "n0205",
+      "name": "Investigational Drug Study",
+      "category": "Recent enrollment",
+      "chunk_ref": "c0041"
+    },
+    {
+      "id": "n0206",
+      "name": "IL-2 Low Dose",
+      "category": "Intervention",
+      "chunk_ref": "c0063"
+    },
+    {
+      "id": "n0207",
+      "name": "Local Treatment",
+      "category": "Topical",
+      "chunk_ref": "c0062"
+    },
+    {
+      "id": "n0208",
+      "name": "IL-2 Clinical Trial",
+      "category": "Intervention",
+      "chunk_ref": "c0063"
+    },
+    {
+      "id": "n0209",
+      "name": "Systemic Treatment",
+      "category": "Immunosuppressant",
+      "chunk_ref": "c0050"
+    },
+    {
+      "id": "n0210",
+      "name": "Phototherapy",
+      "category": "Prior treatment",
+      "chunk_ref": "c0064"
+    },
+    {
+      "id": "n0211",
+      "name": "Corticosteroid Therapy",
+      "category": "Prior treatment",
+      "chunk_ref": "c0051"
+    },
+    {
+      "id": "n0212",
+      "name": "Oral Corticosteroid Therapy",
+      "category": "Prior treatment",
+      "chunk_ref": "c0051"
+    },
+    {
+      "id": "n0213",
+      "name": "Methotrexate",
+      "category": "Prior treatment",
+      "chunk_ref": "c0064"
+    },
+    {
+      "id": "n0214",
+      "name": "Autoimmune Disease",
+      "category": "Evolutionary",
+      "chunk_ref": "c0063"
+    },
+    {
+      "id": "n0215",
+      "name": "Cancer",
+      "category": "Evolutionary",
+      "chunk_ref": "c0063"
+    },
+    {
+      "id": "n0216",
+      "name": "Alcohol Use",
+      "category": "Excessive",
+      "chunk_ref": "c0065"
+    },
+    {
+      "id": "n0217",
+      "name": "VHC",
+      "category": "Infection",
+      "chunk_ref": "c0066"
+    },
+    {
+      "id": "n0218",
+      "name": "VHB",
+      "category": "Infection",
+      "chunk_ref": "c0066"
+    },
+    {
+      "id": "n0219",
+      "name": "Renal Insufficiency",
+      "category": "Severe",
+      "chunk_ref": "c0066"
+    },
+    {
+      "id": "n0220",
+      "name": "Hepatic Insufficiency",
+      "category": "Severe",
+      "chunk_ref": "c0066"
+    },
+    {
+      "id": "n0221",
+      "name": "Infectious Disease",
+      "category": "Active",
+      "chunk_ref": "c0066"
+    },
+    {
+      "id": "n0222",
+      "name": "Tuberculosis",
+      "category": "Infection",
+      "chunk_ref": "c0066"
+    },
+    {
+      "id": "n0223",
+      "name": "Chickenpox",
+      "category": "Infection",
+      "chunk_ref": "c0066"
+    },
+    {
+      "id": "n0224",
+      "name": "Herpes",
+      "category": "Infection",
+      "chunk_ref": "c0066"
+    },
+    {
+      "id": "n0225",
+      "name": "Respiratory Failure",
+      "category": "Condition",
+      "chunk_ref": "c0066"
+    },
+    {
+      "id": "n0226",
+      "name": "Vulnerable Population",
+      "category": "Enrollment rule",
+      "chunk_ref": "c0063"
+    },
+    {
+      "id": "n0227",
+      "name": "Proleukin",
+      "category": "Medication",
+      "chunk_ref": "c0066"
+    },
+    {
+      "id": "n0228",
+      "name": "Contraception Refusal",
+      "category": "Enrollment rule",
+      "chunk_ref": "c0064"
+    },
+    {
+      "id": "n0229",
+      "name": "Minimum Age 18",
+      "category": "Enrollment rule",
+      "chunk_ref": "c0063"
+    },
+    {
+      "id": "n0230",
+      "name": "Social Security Affiliation",
+      "category": "Enrollment rule",
+      "chunk_ref": "c0063"
+    },
+    {
+      "id": "n0231",
+      "name": "Informed Consent",
+      "category": "Enrollment rule",
+      "chunk_ref": "c0058"
+    }
+  ],
+  "edges": [
+    {
+      "src": "n0000",
+      "dst": "n0001",
+      "relation": "caused by",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0000",
+      "dst": "n0002",
+      "relation": "caused by",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0000",
+      "dst": "n0003",
+      "relation": "caused by",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0000",
+      "dst": "n0004",
+      "relation": "caused by",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0000",
+      "dst": "n0005",
+      "relation": "caused by",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0000",
+      "dst": "n0006",
+      "relation": "caused by",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0000",
+      "dst": "n0007",
+      "relation": "caused by",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0000",
+      "dst": "n0008",
+      "relation": "caused by",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0000",
+      "dst": "n0009",
+      "relation": "caused by",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0000",
+      "dst": "n0010",
+      "relation": "caused by",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0000",
+      "dst": "n0011",
+      "relation": "caused by",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0000",
+      "dst": "n0012",
+      "relation": "risk factor",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0000",
+      "dst": "n0013",
+      "relation": "risk factor",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0000",
+      "dst": "n0016",
+      "relation": "manifests as",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0000",
+      "dst": "n0017",
+      "relation": "may progress to",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0000",
+      "dst": "n0018",
+      "relation": "caused by",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0000",
+      "dst": "n0019",
+      "relation": "associated with",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0000",
+      "dst": "n0021",
+      "relation": "may affect",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0005",
+      "dst": "n0015",
+      "relation": "causes",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0006",
+      "dst": "n0015",
+      "relation": "increases risk of",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0011",
+      "dst": "n0015",
+      "relation": "increases risk of",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0014",
+      "dst": "n0015",
+      "relation": "manifests as",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0014",
+      "dst": "n0068",
+      "relation": "treated using",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0014",
+      "dst": "n0090",
+      "relation": "treated using",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0014",
+      "dst": "n0091",
+      "relation": "treated using",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0014",
+      "dst": "n0125",
+      "relation": "diagnosed_by",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0014",
+      "dst": "n0128",
+      "relation": "population_includes",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0014",
+      "dst": "n0129",
+      "relation": "age_range",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0015",
+      "dst": "n0020",
+      "relation": "occurs in",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0015",
+      "dst": "n0022",
+      "relation": "normal amount",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0023",
+      "dst": "n0015",
+      "relation": "associated with",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0023",
+      "dst": "n0015",
+      "relation": "causes",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0023",
+      "dst": "n0049",
+      "relation": "contraindicated-for",
+      "kind": "inferred",
+      "frequency": 1
+    },
+    {
+      "src": "n0023",
+      "dst": "n0049",
+      "relation": "treated-by",
+      "kind": "inferred",
+      "frequency": 1
+    },
+    {
+      "src": "n0023",
+      "dst": "n0146",
+      "relation": "severity_range",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0023",
+      "dst": "n0206",
+      "relation": "treated-by",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0023",
+      "dst": "n0208",
+      "relation": "indication-for",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0024",
+      "dst": "n0015",
+      "relation": "associated with",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0024",
+      "dst": "n0015",
+      "relation": "causes",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0025",
+      "dst": "n0015",
+      "relation": "associated with",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0026",
+      "dst": "n0015",
+      "relation": "causes",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0026",
+      "dst": "n0198",
+      "relation": "exclusion-for",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0027",
+      "dst": "n0015",
+      "relation": "causes",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0028",
+      "dst": "n0015",
+      "relation": "causes",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0029",
+      "dst": "n0015",
+      "relation": "causes",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0030",
+      "dst": "n0015",
+      "relation": "causes",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0031",
+      "dst": "n0015",
+      "relation": "causes",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0032",
+      "dst": "n0015",
+      "relation": "causes",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0033",
+      "dst": "n0015",
+      "relation": "causes",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0034",
+      "dst": "n0015",
+      "relation": "causes",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0035",
+      "dst": "n0015",
+      "relation": "causes",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0036",
+      "dst": "n0015",
+      "relation": "causes",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0037",
+      "dst": "n0015",
+      "relation": "causes",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0038",
+      "dst": "n0015",
+      "relation": "causes",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0039",
+      "dst": "n0025",
+      "relation": "causes",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0040",
+      "dst": "n0015",
+      "relation": "causes",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0041",
+      "dst": "n0015",
+      "relation": "causes",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0042",
+      "dst": "n0015",
+      "relation": "increases risk of",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0043",
+      "dst": "n0015",
+      "relation": "increases risk of",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0044",
+      "dst": "n0015",
+      "relation": "increases risk of",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0045",
+      "dst": "n0015",
+      "relation": "increases risk of",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0046",
+      "dst": "n0015",
+      "relation": "increases risk of",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0047",
+      "dst": "n0048",
+      "relation": "causes",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0049",
+      "dst": "n0014",
+      "relation": "indicated_for",
+      "kind": "inferred",
+      "frequency": 1
+    },
+    {
+      "src": "n0049",
+      "dst": "n0014",
+      "relation": "treats",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0049",
+      "dst": "n0050",
+      "relation": "indicated for",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0049",
+      "dst": "n0051",
+      "relation": "promotes survival of",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0049",
+      "dst": "n0057",
+      "relation": "metabolized at",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0049",
+      "dst": "n0058",
+      "relation": "has",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0049",
+      "dst": "n0059",
+      "relation": "exhibits",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0049",
+      "dst": "n0062",
+      "relation": "causes",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0049",
+      "dst": "n0063",
+      "relation": "causes",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0049",
+      "dst": "n0064",
+      "relation": "causes",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0049",
+      "dst": "n0065",
+      "relation": "causes",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0049",
+      "dst": "n0101",
+      "relation": "causes",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0049",
+      "dst": "n0191",
+      "relation": "outcome-measured-by",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0052",
+      "dst": "n0049",
+      "relation": "mediates therapeutic effect of",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0053",
+      "dst": "n0015",
+      "relation": "reduces risk of",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0054",
+      "dst": "n0048",
+      "relation": "associated with",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0055",
+      "dst": "n0056",
+      "relation": "metabolized via",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0060",
+      "dst": "n0061",
+      "relation": "associated with",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0061",
+      "dst": "n0198",
+      "relation": "exclusion-for",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0066",
+      "dst": "n0067",
+      "relation": "is",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0068",
+      "dst": "n0067",
+      "relation": "is",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0068",
+      "dst": "n0095",
+      "relation": "temporarily increases",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0068",
+      "dst": "n0174",
+      "relation": "requires",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0069",
+      "dst": "n0070",
+      "relation": "is",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0071",
+      "dst": "n0072",
+      "relation": "treated using",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0072",
+      "dst": "n0071",
+      "relation": "treats",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0072",
+      "dst": "n0074",
+      "relation": "increases",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0072",
+      "dst": "n0075",
+      "relation": "increases",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0072",
+      "dst": "n0076",
+      "relation": "increases",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0072",
+      "dst": "n0077",
+      "relation": "decreases",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0072",
+      "dst": "n0082",
+      "relation": "causes",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0072",
+      "dst": "n0083",
+      "relation": "causes",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0072",
+      "dst": "n0084",
+      "relation": "causes",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0073",
+      "dst": "n0071",
+      "relation": "treats",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0073",
+      "dst": "n0074",
+      "relation": "increases",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0073",
+      "dst": "n0075",
+      "relation": "increases",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0073",
+      "dst": "n0076",
+      "relation": "increases",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0073",
+      "dst": "n0077",
+      "relation": "decreases",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0073",
+      "dst": "n0079",
+      "relation": "causes",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0073",
+      "dst": "n0080",
+      "relation": "causes",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0073",
+      "dst": "n0081",
+      "relation": "causes",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0073",
+      "dst": "n0082",
+      "relation": "causes",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0073",
+      "dst": "n0083",
+      "relation": "causes",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0073",
+      "dst": "n0084",
+      "relation": "causes",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0074",
+      "dst": "n0078",
+      "relation": "assessed using",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0074",
+      "dst": "n0104",
+      "relation": "evaluates_outcome",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0075",
+      "dst": "n0078",
+      "relation": "assessed using",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0075",
+      "dst": "n0104",
+      "relation": "evaluates_outcome",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0076",
+      "dst": "n0078",
+      "relation": "assessed using",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0077",
+      "dst": "n0078",
+      "relation": "assessed using",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0085",
+      "dst": "n0071",
+      "relation": "treats",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0085",
+      "dst": "n0074",
+      "relation": "evaluates",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0085",
+      "dst": "n0075",
+      "relation": "evaluates",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0085",
+      "dst": "n0086",
+      "relation": "has",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0085",
+      "dst": "n0087",
+      "relation": "has",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0085",
+      "dst": "n0088",
+      "relation": "monitors",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0085",
+      "dst": "n0089",
+      "relation": "conducted over",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0092",
+      "dst": "n0093",
+      "relation": "has",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0092",
+      "dst": "n0094",
+      "relation": "conducted over",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0092",
+      "dst": "n0097",
+      "relation": "measures",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0095",
+      "dst": "n0096",
+      "relation": "recorded at",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0095",
+      "dst": "n0108",
+      "relation": "indicates",
+      "kind": "inferred",
+      "frequency": 1
+    },
+    {
+      "src": "n0098",
+      "dst": "n0099",
+      "relation": "correlates with",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0098",
+      "dst": "n0100",
+      "relation": "correlates with",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0101",
+      "dst": "n0089",
+      "relation": "peaks at",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0102",
+      "dst": "n0014",
+      "relation": "treats",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0103",
+      "dst": "n0014",
+      "relation": "treats",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0103",
+      "dst": "n0049",
+      "relation": "combined_with",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0103",
+      "dst": "n0112",
+      "relation": "intervention_comparison",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0104",
+      "dst": "n0014",
+      "relation": "treats",
+      "kind": "extracted",
+      "frequency": 2
+    },
+    {
+      "src": "n0104",
+      "dst": "n0074",
+      "relation": "improves",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0104",
+      "dst": "n0111",
+      "relation": "improves",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0105",
+      "dst": "n0106",
+      "relation": "improves",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0107",
+      "dst": "n0074",
+      "relation": "improves",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0109",
+      "dst": "n0110",
+      "relation": "measures",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0112",
+      "dst": "n0111",
+      "relation": "improves",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0113",
+      "dst": "n0114",
+      "relation": "correlates with",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0115",
+      "dst": "n0116",
+      "relation": "assesses",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0117",
+      "dst": "n0116",
+      "relation": "measure",
+      "kind": "inferred",
+      "frequency": 1
+    },
+    {
+      "src": "n0118",
+      "dst": "n0119",
+      "relation": "correlates with",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0120",
+      "dst": "n0104",
+      "relation": "unchanged after",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0121",
+      "dst": "n0104",
+      "relation": "unchanged after",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0122",
+      "dst": "n0104",
+      "relation": "eligible for",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0123",
+      "dst": "n0124",
+      "relation": "enhances",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0125",
+      "dst": "n0126",
+      "relation": "has_category",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0127",
+      "dst": "n0049",
+      "relation": "evaluates_outcome",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0130",
+      "dst": "n0131",
+      "relation": "assesses_severity",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0132",
+      "dst": "n0133",
+      "relation": "contraindicated_for",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0134",
+      "dst": "n0133",
+      "relation": "contraindicated_for",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0135",
+      "dst": "n0133",
+      "relation": "contraindicated_for",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0136",
+      "dst": "n0133",
+      "relation": "contraindicated_for",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0137",
+      "dst": "n0133",
+      "relation": "contraindicated_for",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0138",
+      "dst": "n0133",
+      "relation": "contraindicated_for",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0139",
+      "dst": "n0140",
+      "relation": "required_before",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0141",
+      "dst": "n0140",
+      "relation": "required_before",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0142",
+      "dst": "n0140",
+      "relation": "required_before",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0143",
+      "dst": "n0023",
+      "relation": "indicated_for",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0144",
+      "dst": "n0145",
+      "relation": "measures",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0144",
+      "dst": "n0187",
+      "relation": "measures",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0147",
+      "dst": "n0148",
+      "relation": "excluded_from",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0149",
+      "dst": "n0148",
+      "relation": "excluded_from",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0150",
+      "dst": "n0151",
+      "relation": "contraindicated_for",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0152",
+      "dst": "n0151",
+      "relation": "contraindicated_for",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0153",
+      "dst": "n0151",
+      "relation": "contraindicated_for",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0154",
+      "dst": "n0155",
+      "relation": "requires",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0154",
+      "dst": "n0156",
+      "relation": "requires",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0157",
+      "dst": "n0158",
+      "relation": "may be caused by",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0157",
+      "dst": "n0159",
+      "relation": "may be caused by",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0157",
+      "dst": "n0160",
+      "relation": "may be caused by",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0157",
+      "dst": "n0161",
+      "relation": "may be caused by",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0158",
+      "dst": "n0208",
+      "relation": "exclusion-for",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0162",
+      "dst": "n0023",
+      "relation": "treats",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0162",
+      "dst": "n0157",
+      "relation": "is excluded by",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0162",
+      "dst": "n0163",
+      "relation": "is excluded by",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0163",
+      "dst": "n0157",
+      "relation": "is excluded by",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0163",
+      "dst": "n0166",
+      "relation": "requires",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0164",
+      "dst": "n0157",
+      "relation": "is excluded by",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0164",
+      "dst": "n0166",
+      "relation": "requires",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0165",
+      "dst": "n0157",
+      "relation": "is excluded by",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0165",
+      "dst": "n0166",
+      "relation": "requires",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0167",
+      "dst": "n0168",
+      "relation": "requires",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0169",
+      "dst": "n0168",
+      "relation": "requires",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0170",
+      "dst": "n0168",
+      "relation": "requires",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0171",
+      "dst": "n0168",
+      "relation": "requires",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0172",
+      "dst": "n0168",
+      "relation": "requires",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0173",
+      "dst": "n0168",
+      "relation": "requires",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0175",
+      "dst": "n0174",
+      "relation": "requires",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0176",
+      "dst": "n0177",
+      "relation": "requires",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0178",
+      "dst": "n0179",
+      "relation": "is excluded by",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0180",
+      "dst": "n0181",
+      "relation": "requires",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0182",
+      "dst": "n0183",
+      "relation": "is excluded by",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0184",
+      "dst": "n0183",
+      "relation": "is excluded by",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0185",
+      "dst": "n0183",
+      "relation": "is excluded by",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0186",
+      "dst": "n0183",
+      "relation": "determines",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0188",
+      "dst": "n0189",
+      "relation": "treats",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0190",
+      "dst": "n0189",
+      "relation": "treats",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0191",
+      "dst": "n0192",
+      "relation": "measures",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0193",
+      "dst": "n0194",
+      "relation": "is required for",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0195",
+      "dst": "n0196",
+      "relation": "is excluded by",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0197",
+      "dst": "n0198",
+      "relation": "exclusion-for",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0199",
+      "dst": "n0198",
+      "relation": "exclusion-for",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0200",
+      "dst": "n0198",
+      "relation": "exclusion-for",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0201",
+      "dst": "n0198",
+      "relation": "exclusion-for",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0202",
+      "dst": "n0198",
+      "relation": "exclusion-for",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0203",
+      "dst": "n0198",
+      "relation": "exclusion-for",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0204",
+      "dst": "n0198",
+      "relation": "exclusion-for",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0205",
+      "dst": "n0198",
+      "relation": "exclusion-for",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0206",
+      "dst": "n0144",
+      "relation": "outcome-measured-by",
+      "kind": "inferred",
+      "frequency": 1
+    },
+    {
+      "src": "n0207",
+      "dst": "n0208",
+      "relation": "washout-period-for",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0209",
+      "dst": "n0208",
+      "relation": "washout-period-for",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0210",
+      "dst": "n0023",
+      "relation": "prior-treatment-for",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0211",
+      "dst": "n0023",
+      "relation": "prior-treatment-for",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0212",
+      "dst": "n0023",
+      "relation": "prior-treatment-for",
+      "kind": "inferred",
+      "frequency": 1
+    },
+    {
+      "src": "n0213",
+      "dst": "n0023",
+      "relation": "prior-treatment-for",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0214",
+      "dst": "n0208",
+      "relation": "exclusion-for",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0215",
+      "dst": "n0208",
+      "relation": "exclusion-for",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0216",
+      "dst": "n0208",
+      "relation": "exclusion-for",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0217",
+      "dst": "n0208",
+      "relation": "exclusion-for",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0218",
+      "dst": "n0208",
+      "relation": "exclusion-for",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0219",
+      "dst": "n0208",
+      "relation": "exclusion-for",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0220",
+      "dst": "n0208",
+      "relation": "exclusion-for",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0221",
+      "dst": "n0208",
+      "relation": "exclusion-for",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0222",
+      "dst": "n0208",
+      "relation": "exclusion-for",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0223",
+      "dst": "n0208",
+      "relation": "exclusion-for",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0224",
+      "dst": "n0208",
+      "relation": "exclusion-for",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0225",
+      "dst": "n0208",
+      "relation": "exclusion-for",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0226",
+      "dst": "n0208",
+      "relation": "exclusion-for",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0227",
+      "dst": "n0208",
+      "relation": "contraindicated-for",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0228",
+      "dst": "n0208",
+      "relation": "exclusion-for",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0229",
+      "dst": "n0208",
+      "relation": "inclusion-criterion-for",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0230",
+      "dst": "n0208",
+      "relation": "inclusion-criterion-for",
+      "kind": "extracted",
+      "frequency": 1
+    },
+    {
+      "src": "n0231",
+      "dst": "n0208",
+      "relation": "inclusion-criterion-for",
+      "kind": "extracted",
+      "frequency": 1
+    }
+  ]
+}

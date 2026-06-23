@@ -1,0 +1,60 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07210138",
+      "officialTitle": "The Clinical Investigation of PerioGard (Test) Regimen Compared to Control Regimen in Reducing Plaque and Gingivitis - a Three-month Study in Thailand"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-01",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-08-18"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-12-30"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Gingivitis"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "PeriGuard regimen",
+          "description": "0.45% Stannous Fluoride Toothpaste, CPC-Zinc Fluoride Mouthwash, Gummy Toothbrush"
+        },
+        {
+          "type": "DRUG",
+          "name": "Colgate Dental Cream regimen",
+          "description": "Colgate Cavity Protection Toothpaste, Fluoride Mouthwash,Colgate Extra Clean Soft-Bristled Toothbrush"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Measurement of Loe-Silness Gingival Index score",
+          "description": "Loe-Silness Gingival Index score from 0 to 3 will be assigned by the examining dentist to all scoreable surfaces of the maxillary and mandibular teeth using a dental light and dental mirror. A whole mouth mean score for each subject will be determined by adding the values given by the examining dentist to each scoreable surface and dividing that number by the total number of surfaces scored.",
+          "timeFrame": "baseline, 1 week, 4 week and 3 month"
+        },
+        {
+          "measure": "Measurement of Quigley-Hein Plaque Index score",
+          "description": "First using a red dye solution to disclose the plaque, a Quigley-Hein Plaque Index score of 0 to 5 will be assigned to all scoreable disclosed surfaces of the maxillary and mandibular teeth using a dental light and dental mirror. A whole mouth score for each subject will be determined by adding the values given by the dental examiner to each scoreable surface and dividing that number by the total number of surfaces scored.",
+          "timeFrame": "baseline, 1 week, 4 week and 3 month"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Subjects, ages 18-70, inclusive.\n* Availability for the three-month duration of the clinical research study.\n* Good general health.\n* Minimum of 20 uncrowned permanent natural teeth (excluding third molars).\n* Initial gingivitis index of at least 1.0 as determined by the use of the Loe and Silness Gingival Index.\n* Initial plaque index of at least 1.5 as determined by the use of the Quigley and Hein Plaque Index (Turesky Modification).\n* Signed Informed Consent Form.\n\nExclusion Criteria:\n\n* Presence of orthodontic bands.\n* Presence of partial removable dentures.\n* Tumor(s) of the soft or hard tissues of the oral cavity.\n* Advanced periodontal disease (purulent exudate, tooth mobility, and/or extensive loss of periodontal attachment or alveolar bone).\n* Five or more carious lesions requiring immediate restorative treatment.\n* Antibiotic use any time during the one-month period prior to entry into the study.\n* Participation in any other clinical study or test panel within the one month prior to entry into the study.\n* Dental prophylaxis during the past two weeks prior to baseline examinations.\n* History of allergies to oral care/personal care consumer products or their ingredients.\n* On any prescription medicines that might interfere with the study outcome.\n* An existing medical condition that prohibits eating or drinking for periods up to 4 hours.\n* History of alcohol or drug abuse.\n* Pregnant or lactating subjects."
+    }
+  }
+}

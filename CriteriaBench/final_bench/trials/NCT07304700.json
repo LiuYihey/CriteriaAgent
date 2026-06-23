@@ -1,0 +1,60 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07304700",
+      "officialTitle": "An Open-label, Randomized, Single-dose, 2-sequence, 2-period, Crossover Study to Evaluate the Pharmacokinetics and Safety Between the Administration of CKD-383 and Co-administration of CKD-501, D744 and D150 for Healthy Adult Volunteers in Fasting State"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-12",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-10-28"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-11-07"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Type 2 Diabetes"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "CKD-383 0.5/10/1000mg",
+          "description": "QD, PO"
+        },
+        {
+          "type": "DRUG",
+          "name": "CKD-501, D744, D150",
+          "description": "QD, PO"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Cmax of CKD-383",
+          "description": "The maximum CKD-383 concentration in blood sampling time t",
+          "timeFrame": "0, 0.25, 0.5, 0.75, 1, 1.5, 2, 2.5, 3, 3.5, 4, 5, 6, 8, 12, 24, 48 hours"
+        },
+        {
+          "measure": "AUCt of CKD-383",
+          "description": "Area under the CKD-383 concentration in blood-time curve from 0 to t",
+          "timeFrame": "0, 0.25, 0.5, 0.75, 1, 1.5, 2, 2.5, 3, 3.5, 4, 5, 6, 8, 12, 24, 48 hours"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Individuals who is 19 years of age or older at the time of the screening visit\n2. Individuals who had 18.0 kg/m2 ≤ Body Mass Index(BMI) \\< 30.0 kg/m2 and total body weight ≥ 50 kg BMI = Weight(kg)/ Height(m)2\n3. Individuals who do not have clinically meaningful congenital or chronic diseases and who do not have medical examination results (such as electroencephalogram, electrocardiogram, chest and gastroscopy or gastrointestinal radiography, if necessary) during screening visits\n4. Individuals determined by investigators to be suitable for testing as a result of diagnostic tests and electrocardiogram tests, such as hematology tests, blood chemistry tests, serum tests, urine tests, etc\n5. Individuals who agreed proper contraception during the study and did consent to not donation of sperm or eggs 7 days after the last dose of study drug\n6. Individuals who signed an informed consent form after being fully informed of the study prior to participation, including the objective and content\n\nExclusion Criteria:\n\n1. Individuals who has a history of gastrointestinal surgery (excluding simple appendectomy or hernia surgery) that may affect the absorption of drugs or has a gastrointestinal disease\n2. Individuals who has used a drug metabolase-inducing and inhibiting drug such as barbitals within one month prior to the first dosing date or a drug that may interfere with this test within 10 days prior to the first administration of investigational product\n3. Individuals who had been administered investigational product from other clinical study or bioequivalence study within the 6 months prior to the first administration of investigational product\n4. Individuals who donated whole blood within the 8 weeks, or blood components within 2 weeks or had a blood transfusion within 4 weeks prior to the first administration of investigational product\n5. Individuals who meets the following conditions within one month prior to the first administration of investigational product\n\n   * Man: average alcohol consumption \\> 21 cups/weeks\n   * Woman: average alcohol consumption \\> 14 cups/weeks\n   * Smoking \\> 20 cigarettes\n6. Patients with the following conditions\n\n   * Patients with hypersensitivity to investigational product or biguanide drugs\n   * Patients with acute or chronic metabolic acidosis including type 1 diabetes, lactic acidosis, comatose or not diabetic ketoacidosis, and patients with a history of ketoacidosis\n   * Acute conditions that can affect renal functions such as moderate (stage3b) and severe renal impairment (glomerular filtration rate \\<45ml/min/1.73m2), dehydration, severe infection, cardiovascular despondency (shock), acute myocardial infarction, sepsis, etc\n   * Patients with acute and unstable heart failure or severe heart failure or a history of heart failure\n   * Patients undergoing tests for intravenous administration of radioiodine contrast agents (e.g., intravenous urinary tract, intravenous cholangiography, angiography, computed tomography with contrast agents, etc.)\n   * Diabetic coma and pre-coma\n   * Patients with severe infections or severe traumatic systemic disorders\n   * Patients scheduled for surgery\n   * Patients with malnutrition, starvation, weakness, pituitary dysfunction or adrenal insufficiency\n   * Acute or chronic patients who can cause liver dysfunction, respiratory failure, and tissue hypoxia\n   * Patients with genetic problems such as galactose intolerance, Lap lactase deficiency, or glucose-galactose malabsorption\n7. Individuals with a clinically significant history of mental illness\n8. Those who are deemed insufficient to participate in this clinical study by investigators\n9. Pregnant women, women who may be pregnant, nursing women"
+    }
+  }
+}

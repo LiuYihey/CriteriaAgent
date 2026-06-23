@@ -1,0 +1,14 @@
+# CriteriaAgent + trial graph + CriteriaBench
+anthropic>=0.40.0
+openai>=1.0.0
+numpy>=1.26.0
+matplotlib>=3.8.0
+tqdm>=4.66.0
+sentence-transformers>=2.6.0
+
+# Optional offline embeddings (trial_graph/embeddings.py):
+# torch
+
+# Optional graph HTML visualization (scripts/visualize_graph.py):
+# pyvis>=0.3
+# networkx>=3.0

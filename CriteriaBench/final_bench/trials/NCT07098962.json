@@ -1,0 +1,57 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07098962",
+      "officialTitle": "Effect of KinesioTaping on Pain at Mediastinal-Thoracic Tube Sites After Cardiac Surgery: A Randomized Prospective Study"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-12",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-08-15"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-12-12"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Primary Condition: Pain, Postoperative",
+        "Associated Conditions: Cardiac Surgical Procedures, Thoracic Surgery"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Kinesiotaping",
+          "description": "In this group, KinesioTaping will be applied around the thoracic drain sites alongside standard analgesic therapy. This physical therapy technique uses elastic tapes placed on the skin to support healing, reduce pain, and improve patient comfort. The tapes will remain in place for 2-3 days and will be removed together with the drains."
+        },
+        {
+          "type": "DRUG",
+          "name": "Dexketoprofen, tramadol",
+          "description": "Patients in this group will be treated with painkillers consisting of tramadol and dexketoprofen."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Day 3 Visual Analogue Scale Pain Score",
+          "description": "Visual analog scale pain score on the 3th day after cardiac surgery. Pain is defined as no pain (0) or unbearable pain (10).\n\n0 = No pain, 1-3 = Mild pain, 4-6 = Moderate pain, 7-10 = Severe pain",
+          "timeFrame": "3 day"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Elective cardiac surgery cases\n* Patients who are stable until the removal of the chest drain\n* Patients who do not experience serious complications such as bleeding or neurological problems\n\nExclusion Criteria:\n\n* Patients undergoing emergency cardiac surgery,\n* Patients with early post-cardiac surgery mortality,\n* Patients with conditions requiring reoperation, such as bleeding,\n* Patients for whom a pain score cannot be measured, such as neurological complications"
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07131657",
+      "officialTitle": "A Phase II, Single Arm, Open-label, Three-dose Group Study to Evaluate the Efficacy and Safety of Ropivacaine-betamethasone-clonidine (Ropiclobet) Injectable Solution for Regional Anesthesia and Post-operative Pain Control in Patients Undergoing Upper Extremity Surgery Below Shoulder"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-01",
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {
+        "date": "2025-09-02"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-12-03"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Nerve Block",
+        "Upper Extremity Surgery"
+      ],
+      "keywords": [
+        "ropivacaine",
+        "clonidine",
+        "betamethasone",
+        "supraclavicular brachial nerve block"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Ropivacaine + Clonidine + Betamethasone",
+          "description": "Ropivacaine HCl - Betamethasone Sodium Phosphate - Clonidine HCl 5.0/0.4\\*/0.015 mg/mL (The solution contains 0.53 mg of betamethasone sodium phosphate, equivalent to 0.4 mg of betamethasone)\n\nGroup I: A total of 20 mL will be injected: 10 mL Ropiclobet (1 ampoule) + 10 mL of 0.9% isotonic saline"
+        },
+        {
+          "type": "DRUG",
+          "name": "Ropivacaine + Clonidine + Betamethasone",
+          "description": "Ropivacaine HCl - Betamethasone Sodium Phosphate - Clonidine HCl 5.0/0.4\\*/0.015 mg/mL (The solution contains 0.53 mg of betamethasone sodium phosphate, equivalent to 0.4 mg of betamethasone)\n\nGroup II: A total of 20 mL will be injected: 15 mL Ropiclobet (1.5 ampoules) + 5 mL of 0.9% isotonic saline"
+        },
+        {
+          "type": "DRUG",
+          "name": "Ropivacaine + Clonidine + Betamethasone",
+          "description": "Ropivacaine HCl - Betamethasone Sodium Phosphate - Clonidine HCl 5.0/0.4\\*/0.015 mg/mL (The solution contains 0.53 mg of betamethasone sodium phosphate, equivalent to 0.4 mg of betamethasone)\n\nGroup III: A total of 20 mL will be injected: 20 mL Ropiclobet (2 ampoules)"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Duration of analgesia",
+          "timeFrame": "From end of Ropiclobet injection to the first sensation of pain at surgical site (minutes/hours), up to 48 hours"
+        },
+        {
+          "measure": "Number of treatment-related adverse events assessed by NCI-CTCAE",
+          "timeFrame": "From the beginning of the nerve block procedure to the end of study visit at 30 days"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Male and female patients with age of ≥18 years and ≤ 65 years at the time of consent.\n* Ability and willingness to provide informed consent or consent from their legal representative and willingness to comply with all planned visits and study procedures.\n* American Society of Anesthesiologists (ASA) physical status class of I-III\n* BMI ≤ 30 kg/m2\n* An ECG within normal values or clinically insignificant findings.\n* Patients undergoing upper extremity procedures suitable for SCB anesthesia, including arm, elbow, forearm, and hand surgeries.\n* Emergency and/or elective surgeries\n* Women of childbearing potential (WOCBP) must have a negative urine pregnancy testing at screening visit.\n\nExclusion Criteria:\n\n* An inability to cooperate during the block placement.\n* Patients undergoing shoulder procedures.\n* History of allergy to active ingredients (including their derivatives) of the study medication.\n* History of allergy to analgesics (e.g. acetaminophen, non-steroidal anti-inflammatory medications, oral opioid analgesics)\n* History of shoulder or clavicular surgery.\n* Known bronchopulmonary or phrenic pathology compromising respiratory function.\n* Existing chronic pain disorders or history of use of ≥ 30mg oxycodone or equivalent per day\n* Pre-existing neurological deficits or peripheral neuropathy involving the operative upper extremity\n* Infection at the puncture site for the block.\n* History of coagulopathy disorders and/or bleeding diathesis.\n* Pregnant or breastfeeding.\n* History of any documented medical condition considered to be clinically significant and could potentially affect patient safety or study outcome, in the opinion of the investigator: uncontrolled diabetes, uncontrolled hypertension, cardiovascular diseases, acute or chronic kidney diseases, liver diseases, psychiatric disorders, malignancy, systemic infection.\n* Any clinically significant abnormal findings in physical examination, vital signs, hematology, clinical chemistry, or urinalysis during screening which, in the opinion of the investigator, may put the patient at risk because of his/her participation in the study, or might influence the results of the study, or the patient's ability to complete the entire duration of the study.\n* Participation in a clinical trial involving current or another investigational product in the previous 3 months.\n* Currently taking long-term systemic steroids (excluding inhaled medication for asthma treatment)"
+    }
+  }
+}
