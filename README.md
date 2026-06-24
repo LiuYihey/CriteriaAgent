@@ -2,43 +2,77 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-Graph-augmented multi-agent framework for **clinical trial eligibility criteria** generation, with **[CriteriaBench](CriteriaBench/)** (78-trial benchmark) and progressive subgraph disclosure.
+**Graph-augmented multi-agent reasoning for clinical trial eligibility criteria** — with **[CriteriaBench](CriteriaBench/)** (78 trials) and progressive subgraph disclosure.
+
+---
+
+## Contents
+
+- [Overview](#overview)
+- [Knowledge graph & subgraph extraction](#knowledge-graph--subgraph-extraction)
+- [Getting started](#getting-started)
+- [CriteriaBench](#criteriabench)
+- [Project structure](#project-structure)
+- [Documentation](#documentation)
+- [Citation & license](#citation--license)
+
+---
 
 ## Overview
 
-Given a sparse trial stub (title, arms/interventions, primary endpoint, phase, and study type), CriteriaAgent:
+Eligibility criteria sit at the intersection of **safety**, **efficacy signal**, and **recruitment feasibility** — yet they must be drafted from a sparse protocol stub. CriteriaAgent treats this as a structured reasoning problem rather than one-shot text generation.
 
-1. **Retrieves** multi-domain evidence (disease, drug, literature, precedent trials)
-2. **Builds** a trial-specific relation graph with passage-anchored nodes
-3. **Decomposes** eligibility design into safety, efficacy, and recruitment subtasks
-4. **Routes** each expert to task-relevant subgraphs via progressive disclosure (L0–L2)
-5. **Writes** registry-style inclusion/exclusion criteria under regulatory guidelines
-6. **Evaluates** drafts with a pairwise LLM judge and Consistency Index (CI)
-
-<p align="center">
-  <img src="figures/Overview.png" alt="CriteriaAgent system overview" width="96%" />
-  <br />
-  <sub><b>Figure 1.</b> System overview — retrieval, graph-augmented experts, criteria writer, and evaluation.</sub>
-</p>
+| Stage | Module | Role |
+|-------|--------|------|
+| Input | Trial configuration | Title, arms/interventions, primary endpoint, phase, study type |
+| Retrieve | Multi-domain RAG | Disease, drug, literature, and precedent-trial evidence |
+| Plan | Task planner | Non-overlapping safety / efficacy / recruitment subtasks |
+| Reason | Expert subagents | Graph-routed answers per subtask |
+| Write | Criteria writer | Registry-style inclusion & exclusion lists |
+| Evaluate | LLM judge + CI | Pairwise quality scoring and expert-criteria agreement |
 
 <p align="center">
-  <img src="figures/graph_subgraph_extraction.png" alt="Graph construction and agentic subgraph extraction" width="96%" />
-  <br />
-  <sub><b>Figure 2.</b> Trial-specific graph construction and agentic subgraph extraction for each expert subtask.</sub>
+  <img src="figures/Overview.png" alt="CriteriaAgent system overview" width="92%" />
 </p>
 
-## Installation
+<p align="center"><sub><b>Figure 1.</b> End-to-end pipeline — from trial configuration and multi-domain retrieval, through graph-augmented expert subagents and criteria writing, to post-hoc evaluation.</sub></p>
+
+Each expert subagent does **not** receive the full retrieval dump. Instead, a trial-specific relation graph is built first; experts then query only the subgraph and passages relevant to their subtask (see next section).
+
+---
+
+## Knowledge graph & subgraph extraction
+
+Retrieved evidence is compiled into a **trial-specific relation graph**: every node is anchored to a source passage, and every edge is labeled as textually *extracted* or clinically *inferred*. For each subtask, agentic progressive disclosure proceeds in three layers:
+
+| Layer | What the expert sees |
+|-------|----------------------|
+| **L0** | Compact node catalog (names + metadata) |
+| **L1** | Induced one-hop subgraph around agent-selected seeds |
+| **L2** | Deduplicated source passages linked to active nodes |
+
+<p align="center">
+  <img src="figures/graph_subgraph_extraction.png" alt="Trial-specific graph construction and agentic subgraph extraction" width="92%" />
+</p>
+
+<p align="center"><sub><b>Figure 2.</b> Graph construction (chunk index → LLM extraction → merge → passage anchoring) and per-subtask subgraph disclosure (L0 → L1 → L2).</sub></p>
+
+> Deeper design notes: [Multi-dimensional graph & subgraph extraction](docs/Multi_Dimensional_Graph_and_Subgraph_Extraction.md)
+
+---
+
+## Getting started
+
+### 1 · Install
 
 ```bash
 pip install -r requirements.txt
-cp .env.example .env   # Windows: copy .env.example .env
+cp .env.example .env        # Windows: copy .env.example .env
 ```
 
-Edit `.env` with your API key and embedding model (see [Environment variables](#environment-variables)).
+Configure `ANTHROPIC_API_KEY` and `ST_EMBED_MODEL` in `.env` before running.
 
-## Usage
-
-### Smoke test
+### 2 · Run a smoke test
 
 ```bash
 python scripts/run_criteria_agent.py \
@@ -47,70 +81,87 @@ python scripts/run_criteria_agent.py \
   -o outputs/smoke_minoxidil
 ```
 
-### Build a trial graph
+### 3 · Build a graph or run the benchmark
 
 ```bash
+# Graph from a pre-built RAG profile
 python scripts/build_graph.py bench_profiles/<nct_id>.json -o outputs/my_graph.json
+
+# CriteriaBench — direct baseline
+python CriteriaBench/run_direct_gen_with_phase.py
+
+# CriteriaBench — full CriteriaAgent pipeline
+CRITERIA_BENCH_GEN_MODE=criteria_agent python CriteriaBench/run_criteria_bench_minimax.py
 ```
 
-### CriteriaBench
-
-| Mode | Command |
-|------|---------|
-| Direct generation | `python CriteriaBench/run_direct_gen_with_phase.py` |
-| Full pipeline | `CRITERIA_BENCH_GEN_MODE=criteria_agent python CriteriaBench/run_criteria_bench_minimax.py` |
-| Pairwise LLM judge | `python scripts/run_llm_judge_pairwise_with_phase.py` |
-| Consistency Index | `python scripts/run_consistency_eval.py` |
-
-Set `CRITERIA_BENCH_GEN_MODE` to `direct`, `vanilla_rag`, or `criteria_agent`.
-
-## Repository layout
-
-```
-criteria_agent/          Multi-agent pipeline (planner → experts → writer)
-trial_graph/             Graph build, subgraph extraction, embeddings
-shared/                  LLM client, trial config, CT.gov formatting
-scripts/                 CLI entry points
-baselines/vanilla_rag/   Single-pass RAG baseline
-CriteriaBench/           78-trial benchmark corpus + eval runners
-bench_profiles/          Pre-built four-domain RAG profiles (78 trials)
-examples/minoxidil/      End-to-end smoke test
-figures/                 Paper figures
-docs/                    Method notes
-```
-
-## CriteriaBench
-
-**78** completed interventional drug trials from ClinicalTrials.gov (post–training-cutoff start dates). Generation inputs are public protocol metadata; registry expert criteria are withheld until evaluation.
-
-| Resource | Path |
-|----------|------|
-| Trial corpus | `CriteriaBench/final_bench/trials/*.json` |
-| Summary | `CriteriaBench/final_bench/summary.json` |
-| Construction script | `CriteriaBench/create_new_bench.py` *(requires local CT.gov snapshot)* |
-| Evaluation docs | [benchmark_evaluation_methodology.md](CriteriaBench/docs/benchmark_evaluation_methodology.md) |
-
-## Environment variables
+### Environment variables
 
 | Variable | Purpose |
 |----------|---------|
 | `ANTHROPIC_API_KEY` | API key for generation / judging |
 | `ANTHROPIC_BASE_URL` | Anthropic-compatible endpoint (optional) |
 | `GRAPH_MODEL` | LLM for graph extraction and agents |
-| `ST_EMBED_MODEL` | Embedding model for graph routing & CI metric |
+| `ST_EMBED_MODEL` | Embedding model for routing & CI metric |
 | `CRITERIA_BENCH_GEN_MODE` | `direct` · `vanilla_rag` · `criteria_agent` |
 
-Full list in [`.env.example`](.env.example).
+See [`.env.example`](.env.example) for the full list.
+
+---
+
+## CriteriaBench
+
+A benchmark of **78** completed interventional drug trials from ClinicalTrials.gov (start dates after base-model training cutoffs). Models receive public protocol metadata only; registry expert criteria are withheld until evaluation.
+
+**Evaluation metrics**
+
+| Metric | What it measures |
+|--------|------------------|
+| Pairwise LLM judge | Safety, efficacy, recruitment (1–10) |
+| Consistency Index (CI) | Bullet-level precision × document-level alignment with expert criteria |
+
+**Key paths**
+
+| Resource | Location |
+|----------|----------|
+| Trial corpus | `CriteriaBench/final_bench/trials/*.json` |
+| Corpus summary | `CriteriaBench/final_bench/summary.json` |
+| Eval methodology | [benchmark_evaluation_methodology.md](CriteriaBench/docs/benchmark_evaluation_methodology.md) |
+
+```bash
+# Scoring scripts
+python scripts/run_llm_judge_pairwise_with_phase.py
+python scripts/run_consistency_eval.py
+```
+
+---
+
+## Project structure
+
+```
+criteria_agent/          Planner → expert subagents → criteria writer
+trial_graph/             Graph build, subgraph extraction, embeddings
+shared/                  LLM client, trial config, CT.gov formatting
+scripts/                 CLI entry points
+baselines/vanilla_rag/   Single-pass RAG baseline
+CriteriaBench/           Benchmark corpus + evaluation runners
+bench_profiles/          Pre-built four-domain RAG profiles (78 trials)
+examples/minoxidil/      End-to-end smoke test
+figures/                 Paper figures (Fig. 1 & 2)
+docs/                    Method notes
+```
+
+---
 
 ## Documentation
 
 - [Method overview](docs/Method%20Overview.md)
 - [Multi-dimensional graph & subgraph extraction](docs/Multi_Dimensional_Graph_and_Subgraph_Extraction.md)
+- [CriteriaBench evaluation methodology](CriteriaBench/docs/benchmark_evaluation_methodology.md)
 
-## Citation
+---
+
+## Citation & license
 
 If you use this code or CriteriaBench, please cite our paper (forthcoming).
 
-## License
-
-This project is released under the [MIT License](LICENSE).
+Released under the [MIT License](LICENSE).
