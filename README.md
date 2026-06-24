@@ -1,6 +1,6 @@
 # CriteriaAgent
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[License: MIT](LICENSE)
 
 **Graph-augmented multi-agent reasoning for clinical trial eligibility criteria** — with **[CriteriaBench](CriteriaBench/)** (78 trials) and progressive subgraph disclosure.
 
@@ -22,20 +22,20 @@
 
 Eligibility criteria sit at the intersection of **safety**, **efficacy signal**, and **recruitment feasibility** — yet they must be drafted from a sparse protocol stub. CriteriaAgent treats this as a structured reasoning problem rather than one-shot text generation.
 
-| Stage | Module | Role |
-|-------|--------|------|
-| Input | Trial configuration | Title, arms/interventions, primary endpoint, phase, study type |
-| Retrieve | Multi-domain RAG | Disease, drug, literature, and precedent-trial evidence |
-| Plan | Task planner | Non-overlapping safety / efficacy / recruitment subtasks |
-| Reason | Expert subagents | Graph-routed answers per subtask |
-| Write | Criteria writer | Registry-style inclusion & exclusion lists |
-| Evaluate | LLM judge + CI | Pairwise quality scoring and expert-criteria agreement |
 
-<p align="center">
-  <img src="figures/Overview.png" alt="CriteriaAgent system overview" width="92%" />
-</p>
+| Stage    | Module              | Role                                                           |
+| -------- | ------------------- | -------------------------------------------------------------- |
+| Input    | Trial configuration | Title, arms/interventions, primary endpoint, phase, study type |
+| Retrieve | Multi-domain RAG    | Disease, drug, literature, and precedent-trial evidence        |
+| Plan     | Task planner        | Non-overlapping safety / efficacy / recruitment subtasks       |
+| Reason   | Expert subagents    | Graph-routed answers per subtask                               |
+| Write    | Criteria writer     | Registry-style inclusion & exclusion lists                     |
+| Evaluate | LLM judge + CI      | Pairwise quality scoring and expert-criteria agreement         |
 
-<p align="center"><sub><b>Figure 1.</b> End-to-end pipeline — from trial configuration and multi-domain retrieval, through graph-augmented expert subagents and criteria writing, to post-hoc evaluation.</sub></p>
+
+
+
+**Figure 1.** End-to-end pipeline — from trial configuration and multi-domain retrieval, through graph-augmented expert subagents and criteria writing, to post-hoc evaluation.
 
 Each expert subagent does **not** receive the full retrieval dump. Instead, a trial-specific relation graph is built first; experts then query only the subgraph and passages relevant to their subtask (see next section).
 
@@ -45,17 +45,17 @@ Each expert subagent does **not** receive the full retrieval dump. Instead, a tr
 
 Retrieved evidence is compiled into a **trial-specific relation graph**: every node is anchored to a source passage, and every edge is labeled as textually *extracted* or clinically *inferred*. For each subtask, agentic progressive disclosure proceeds in three layers:
 
-| Layer | What the expert sees |
-|-------|----------------------|
-| **L0** | Compact node catalog (names + metadata) |
+
+| Layer  | What the expert sees                                 |
+| ------ | ---------------------------------------------------- |
+| **L0** | Compact node catalog (names + metadata)              |
 | **L1** | Induced one-hop subgraph around agent-selected seeds |
-| **L2** | Deduplicated source passages linked to active nodes |
+| **L2** | Deduplicated source passages linked to active nodes  |
 
-<p align="center">
-  <img src="figures/graph_subgraph_extraction.png" alt="Trial-specific graph construction and agentic subgraph extraction" width="92%" />
-</p>
 
-<p align="center"><sub><b>Figure 2.</b> Graph construction (chunk index → LLM extraction → merge → passage anchoring) and per-subtask subgraph disclosure (L0 → L1 → L2).</sub></p>
+
+
+**Figure 2.** Graph construction (chunk index → LLM extraction → merge → passage anchoring) and per-subtask subgraph disclosure (L0 → L1 → L2).
 
 > Deeper design notes: [Multi-dimensional graph & subgraph extraction](docs/Multi_Dimensional_Graph_and_Subgraph_Extraction.md)
 
@@ -70,7 +70,7 @@ pip install -r requirements.txt
 cp .env.example .env        # Windows: copy .env.example .env
 ```
 
-Configure `ANTHROPIC_API_KEY` and `ST_EMBED_MODEL` in `.env` before running.
+Configure API keys in `.env` before running (`ANTHROPIC_API_KEY` for the graph agent; `REVIEWER_API_KEY` / `SCORER_API_KEY` for judge scripts). See `.env.example`. **Never commit real keys** — local `scorer_api.md` / `reviewer_api.md` are gitignored; use the `*.example.md` templates if you prefer file-based config.
 
 ### 2 · Run a smoke test
 
@@ -96,15 +96,17 @@ CRITERIA_BENCH_GEN_MODE=criteria_agent python CriteriaBench/run_criteria_bench_m
 
 ### Environment variables
 
-| Variable | Purpose |
-|----------|---------|
-| `ANTHROPIC_API_KEY` | API key for generation / judging |
-| `ANTHROPIC_BASE_URL` | Anthropic-compatible endpoint (optional) |
-| `GRAPH_MODEL` | LLM for graph extraction and agents |
-| `ST_EMBED_MODEL` | Embedding model for routing & CI metric |
+
+| Variable                  | Purpose                                     |
+| ------------------------- | ------------------------------------------- |
+| `ANTHROPIC_API_KEY`       | API key for generation / judging            |
+| `ANTHROPIC_BASE_URL`      | Anthropic-compatible endpoint (optional)    |
+| `GRAPH_MODEL`             | LLM for graph extraction and agents         |
+| `ST_EMBED_MODEL`          | Embedding model for routing & CI metric     |
 | `CRITERIA_BENCH_GEN_MODE` | `direct` · `vanilla_rag` · `criteria_agent` |
 
-See [`.env.example`](.env.example) for the full list.
+
+See `[.env.example](.env.example)` for the full list.
 
 ---
 
@@ -114,18 +116,22 @@ A benchmark of **78** completed interventional drug trials from ClinicalTrials.g
 
 **Evaluation metrics**
 
-| Metric | What it measures |
-|--------|------------------|
-| Pairwise LLM judge | Safety, efficacy, recruitment (1–10) |
+
+| Metric                 | What it measures                                                       |
+| ---------------------- | ---------------------------------------------------------------------- |
+| Pairwise LLM judge     | Safety, efficacy, recruitment (1–10)                                   |
 | Consistency Index (CI) | Bullet-level precision × document-level alignment with expert criteria |
+
 
 **Key paths**
 
-| Resource | Location |
-|----------|----------|
-| Trial corpus | `CriteriaBench/final_bench/trials/*.json` |
-| Corpus summary | `CriteriaBench/final_bench/summary.json` |
+
+| Resource         | Location                                                                                      |
+| ---------------- | --------------------------------------------------------------------------------------------- |
+| Trial corpus     | `CriteriaBench/final_bench/trials/*.json`                                                     |
+| Corpus summary   | `CriteriaBench/final_bench/summary.json`                                                      |
 | Eval methodology | [benchmark_evaluation_methodology.md](CriteriaBench/docs/benchmark_evaluation_methodology.md) |
+
 
 ```bash
 # Scoring scripts

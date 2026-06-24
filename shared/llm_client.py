@@ -78,32 +78,63 @@ def parse_api_key_file(path: Path) -> tuple[str, str, str]:
     return base.group(1).rstrip("/"), key_m.group(1).strip(), model_m.group(1).strip()
 
 
-def resolve_reviewer_llm_config() -> tuple[str, str, str]:
-    """Parse reviewer_api.md → (base_url_openai, api_key, model_name)."""
-    path = ROOT / "reviewer_api.md"
+def _parse_openai_compat_md(path: Path) -> tuple[str, str, str] | None:
     if not path.is_file():
-        raise RuntimeError("reviewer_api.md not found at project root")
+        return None
     text = path.read_text(encoding="utf-8", errors="replace")
     base_m = re.search(r"base_url\s*\(OpenAI\)\s*=\s*(\S+)", text)
     key_m = re.search(r"api\s*key\s*=\s*(\S+)", text, re.I)
     model_m = re.search(r"model_name\s*=\s*(\S+)", text, re.I)
     if not base_m or not key_m or not model_m:
-        raise RuntimeError(f"Could not parse base_url/api key/model_name from {path}")
-    return base_m.group(1).rstrip("/"), key_m.group(1).strip(), model_m.group(1).strip()
+        return None
+    key = key_m.group(1).strip()
+    if key in {"", "your_api_key_here", "YOUR_API_KEY_HERE"}:
+        return None
+    return base_m.group(1).rstrip("/"), key, model_m.group(1).strip()
+
+
+def _resolve_openai_compat_config(
+    *,
+    env_base: str,
+    env_key: str,
+    env_model: str,
+    md_name: str,
+) -> tuple[str, str, str]:
+    """Resolve OpenAI-compatible endpoint config from .env or a local md file."""
+    load_dotenv_simple()
+    base = os.environ.get(env_base, "").strip()
+    key = os.environ.get(env_key, "").strip()
+    model = os.environ.get(env_model, "").strip()
+    if base and key and model:
+        return base.rstrip("/"), key, model
+    parsed = _parse_openai_compat_md(ROOT / md_name)
+    if parsed:
+        return parsed
+    example = md_name.replace(".md", ".example.md")
+    raise RuntimeError(
+        f"Set {env_base}, {env_key}, {env_model} in .env "
+        f"or create {md_name} from {example}"
+    )
+
+
+def resolve_reviewer_llm_config() -> tuple[str, str, str]:
+    """Resolve reviewer LLM config from env or reviewer_api.md."""
+    return _resolve_openai_compat_config(
+        env_base="REVIEWER_BASE_URL",
+        env_key="REVIEWER_API_KEY",
+        env_model="REVIEWER_MODEL",
+        md_name="reviewer_api.md",
+    )
 
 
 def resolve_scorer_llm_config() -> tuple[str, str, str]:
-    """Parse scorer_api.md → (base_url_openai, api_key, model_name)."""
-    path = ROOT / "scorer_api.md"
-    if not path.is_file():
-        raise RuntimeError("scorer_api.md not found at project root")
-    text = path.read_text(encoding="utf-8", errors="replace")
-    base_m = re.search(r"base_url\s*\(OpenAI\)\s*=\s*(\S+)", text)
-    key_m = re.search(r"api\s*key\s*=\s*(\S+)", text, re.I)
-    model_m = re.search(r"model_name\s*=\s*(\S+)", text, re.I)
-    if not base_m or not key_m or not model_m:
-        raise RuntimeError(f"Could not parse base_url/api key/model_name from {path}")
-    return base_m.group(1).rstrip("/"), key_m.group(1).strip(), model_m.group(1).strip()
+    """Resolve scorer LLM config from env or scorer_api.md."""
+    return _resolve_openai_compat_config(
+        env_base="SCORER_BASE_URL",
+        env_key="SCORER_API_KEY",
+        env_model="SCORER_MODEL",
+        md_name="scorer_api.md",
+    )
 
 
 def resolve_llm_config() -> tuple[str, str, str]:
@@ -127,7 +158,7 @@ def new_client() -> Any:
 
 
 def new_openai_client() -> Any:
-    """Return an OpenAI client configured from reviewer_api.md."""
+    """Return an OpenAI client configured from REVIEWER_* env or reviewer_api.md."""
     from openai import OpenAI
 
     base_url, api_key, _ = resolve_reviewer_llm_config()

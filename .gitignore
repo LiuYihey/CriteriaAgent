@@ -32,6 +32,8 @@ Thumbs.db
 .env
 **/api_key.md
 **/*_key.md
+scorer_api.md
+reviewer_api.md
 
 # Paper (not released with code)
 CriteriaAgent_EMNLP2026/
