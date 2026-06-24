@@ -1,6 +1,6 @@
 # CriteriaAgent
 
-[License: MIT](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 **Graph-augmented multi-agent reasoning for clinical trial eligibility criteria** — with **[CriteriaBench](CriteriaBench/)** (78 trials) and progressive subgraph disclosure.
 
@@ -32,10 +32,11 @@ Eligibility criteria sit at the intersection of **safety**, **efficacy signal**,
 | Write    | Criteria writer     | Registry-style inclusion & exclusion lists                     |
 | Evaluate | LLM judge + CI      | Pairwise quality scoring and expert-criteria agreement         |
 
+<p align="center">
+  <img src="figures/Overview.png" alt="CriteriaAgent system overview" width="92%" />
+</p>
 
-
-
-**Figure 1.** End-to-end pipeline — from trial configuration and multi-domain retrieval, through graph-augmented expert subagents and criteria writing, to post-hoc evaluation.
+<p align="center"><sub><b>Figure 1.</b> End-to-end pipeline — from trial configuration and multi-domain retrieval, through graph-augmented expert subagents and criteria writing, to post-hoc evaluation.</sub></p>
 
 Each expert subagent does **not** receive the full retrieval dump. Instead, a trial-specific relation graph is built first; experts then query only the subgraph and passages relevant to their subtask (see next section).
 
@@ -52,10 +53,11 @@ Retrieved evidence is compiled into a **trial-specific relation graph**: every n
 | **L1** | Induced one-hop subgraph around agent-selected seeds |
 | **L2** | Deduplicated source passages linked to active nodes  |
 
+<p align="center">
+  <img src="figures/graph_subgraph_extraction.png" alt="Graph construction and agentic subgraph extraction" width="92%" />
+</p>
 
-
-
-**Figure 2.** Graph construction (chunk index → LLM extraction → merge → passage anchoring) and per-subtask subgraph disclosure (L0 → L1 → L2).
+<p align="center"><sub><b>Figure 2.</b> Graph construction (chunk index → LLM extraction → merge → passage anchoring) and per-subtask subgraph disclosure (L0 → L1 → L2).</sub></p>
 
 > Deeper design notes: [Multi-dimensional graph & subgraph extraction](docs/Multi_Dimensional_Graph_and_Subgraph_Extraction.md)
 

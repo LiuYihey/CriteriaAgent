@@ -37,6 +37,13 @@ reviewer_api.md
 
 # Paper (not released with code)
 CriteriaAgent_EMNLP2026/
+*_overleaf.zip
+*.zip
+
+# Internal workflow notes (local only)
+docs/AI_Figure_Prompts_MultiDimensional_Graph.md
+docs/set_matching_evaluation_plan.md
+examples/trial_config_minoxidil.json
 
 # Large / local-only raw data
 bench超集.json
