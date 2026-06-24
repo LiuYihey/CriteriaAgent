@@ -1,0 +1,1 @@
+Graph-augmented multi-agent framework for clinical trial eligibility criteria generation, with CriteriaBench (78-trial benchmark) and progressive subgraph disclosure.
